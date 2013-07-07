@@ -1,6 +1,5 @@
-/* -*- mode: C; c-basic-offset: 4 -*-
- * Null Applet - The Applet Deprecation Applet
- * Copyright (c) 2004, Davyd Madeley
+/* Mate Runner Applet
+ * Copyright (c) 2004, HJ Muller
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public
@@ -31,7 +30,8 @@
 #include <mate-panel-applet.h>
 
 
-// void mate_runner_keypress_cb (GtkWidget *widget, gpointer data);
+void mate_runner_activate_cb(GtkWidget *widget, gpointer data);
+void mate_runner_insert_text_handler_cb(GtkEntry *entry, const gchar *text, gint length, gint position, gpointer data);
 
 static const char factory_iid[] = "MateRunnerAppletFactory";
 static const char applet_iid[] = "MateRunnerApplet";
@@ -67,30 +67,27 @@ mate_runner_applet_fill(MatePanelApplet *applet) {
 	    return FALSE;
 	}
 	
-	
-	event_box = gtk_event_box_new ();
-	gtk_container_add (GTK_CONTAINER (applet), event_box);
-	
 	cmdline = gtk_entry_new();
-	gtk_container_add (GTK_CONTAINER (event_box), GTK_ENTRY(cmdline));
+	event_box = gtk_hbox_new(FALSE,1);
+	gtk_container_add (GTK_CONTAINER(applet), GTK_HBOX(event_box));
+	gtk_container_add (GTK_CONTAINER(event_box), GTK_ENTRY(cmdline));
+
 	gtk_entry_set_editable(GTK_ENTRY(cmdline), TRUE);
-	gtk_entry_set_text(GTK_ENTRY(cmdline), "MateRunner Applet"); 
+	gtk_entry_set_text(GTK_ENTRY(cmdline), ""); 
 	
-//	g_signal_connect (cmdline, "key-press-event", G_CALLBACK (mate_runner_keypress_cb), NULL);
-	 
+	g_signal_connect(G_OBJECT(cmdline), "activate",G_CALLBACK(mate_runner_activate_cb),NULL); 
+		     
 	gtk_entry_set_max_length (GTK_ENTRY(cmdline), 50);
 	gtk_widget_show_all (GTK_WIDGET (applet));
 	
-
 	already_running = TRUE;
 		
 	return TRUE;
 }
 
-//void mate_runner_keypress_cb (GtkWidget *widget, gpointer data) {
-//
-//		gtk_entry_append_text(GTK_ENTRY(widget), data);
-//}
+void mate_runner_activate_cb(GtkWidget *widget, gpointer data) {
+	
+}
 
 MATE_PANEL_APPLET_OUT_PROCESS_FACTORY (factory_iid,
 				  PANEL_TYPE_APPLET,
