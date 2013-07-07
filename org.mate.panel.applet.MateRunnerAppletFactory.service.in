@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.mate.panel.applet.MateRunnerAppletFactory
+Exec=@BINDIR@/mate-runner-applet

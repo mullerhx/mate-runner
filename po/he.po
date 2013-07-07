@@ -1,0 +1,3351 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2002, 2003.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-13 00:13+0200\n"
+"PO-Revision-Date: 2012-06-12 22:14+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Hebrew (http://www.transifex.com/projects/p/MATE/language/he/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../accessx-status/applet.c:136
+msgid "Shows the state of AccessX features such as latched modifiers"
+msgstr "הצג את מצב תכונות AccessX כמו משנים נעולים"
+
+#. about.set_artists([])
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#. "documenters",        documenters,
+#: ../accessx-status/applet.c:140 ../battstat/battstat_applet.c:1263
+#: ../charpick/charpick.c:610 ../cpufreq/src/cpufreq-applet.c:613
+#: ../drivemount/drivemount.c:117 ../geyes/geyes.c:196
+#: ../mateweather/mateweather-about.c:52 ../invest-applet/invest/about.py:29
+#: ../mini-commander/src/about.c:53 ../mixer/applet.c:1467
+#: ../modemlights/modem-applet.c:1023 ../multiload/main.c:61
+#: ../stickynotes/stickynotes_applet_callbacks.c:425
+#: ../trashapplet/src/trashapplet.c:432
+msgid "translator-credits"
+msgstr "גיל אשר <dolfin@rpg.org.il>\nיאיר הרשקוביץ <yairhr@gmail.com>\nירון שהרבני <sh.yaron@gmail.com>\n\nפרוייקט תרגום MATE לעברית:\n‏http://mate-il.berlios.de"
+
+#: ../accessx-status/applet.c:156
+#, c-format
+msgid "There was an error launching the help viewer: %s"
+msgstr "ארעה שגיאה בהפעלת מציג העזרה: %s"
+
+#: ../accessx-status/applet.c:195
+#, c-format
+msgid "There was an error launching the keyboard preferences dialog: %s"
+msgstr "ארעה שגיאה בהפעלת תיבת דו-שיח אפשרויות המקלדת: %s"
+
+#: ../accessx-status/applet.c:208
+msgid "_Keyboard Accessibility Preferences"
+msgstr "העדפות מחליף פריסות לוח־_מקשים"
+
+#: ../accessx-status/applet.c:209 ../battstat/battstat_applet.c:64
+#: ../charpick/charpick.c:717 ../cpufreq/src/cpufreq-applet.c:125
+#: ../drivemount/drivemount.c:153 ../geyes/geyes.c:361
+#: ../mateweather/mateweather-applet.c:124
+#: ../invest-applet/data/Invest_Applet.xml.h:3
+#: ../mini-commander/src/mini-commander_applet.c:56 ../mixer/applet.c:387
+#: ../modemlights/modem-applet.c:151 ../multiload/main.c:439
+#: ../stickynotes/stickynotes_applet.c:45 ../trashapplet/src/trashapplet.c:75
+msgid "_Help"
+msgstr "ע_זרה"
+
+#: ../accessx-status/applet.c:210 ../battstat/battstat_applet.c:67
+#: ../charpick/charpick.c:720 ../cpufreq/src/cpufreq-applet.c:128
+#: ../drivemount/drivemount.c:156 ../geyes/geyes.c:364
+#: ../mateweather/mateweather-applet.c:127
+#: ../invest-applet/data/Invest_Applet.xml.h:4
+#: ../mini-commander/src/mini-commander_applet.c:59 ../mixer/applet.c:390
+#: ../modemlights/modem-applet.c:154 ../multiload/main.c:442
+#: ../stickynotes/stickynotes_applet.c:48
+#: ../timer-applet/data/TimerApplet.xml.h:9
+#: ../trashapplet/src/trashapplet.c:78
+msgid "_About"
+msgstr "על _אודות"
+
+#. Note to translators: the first letter of the alphabet, not the indefinite
+#. article
+#: ../accessx-status/applet.c:480 ../accessx-status/applet.c:514
+msgid "a"
+msgstr "א"
+
+#: ../accessx-status/applet.c:997 ../accessx-status/applet.c:1063
+#: ../accessx-status/applet.c:1133 ../accessx-status/applet.c:1344
+msgid "AccessX Status"
+msgstr "מצב AccessX"
+
+#: ../accessx-status/applet.c:998 ../accessx-status/applet.c:1134
+msgid "Shows keyboard status when accessibility features are used."
+msgstr "מציג את מצב המקלדת כאשר אפשרויות הנגישות מופעלות"
+
+#: ../accessx-status/applet.c:1033
+msgid "XKB Extension is not enabled"
+msgstr "תוסף XKB לא מופעל"
+
+#: ../accessx-status/applet.c:1038
+msgid "Unknown error"
+msgstr "שגיאה לא ידועה"
+
+#: ../accessx-status/applet.c:1042
+#, c-format
+msgid "Error: %s"
+msgstr "שגיאה: %s"
+
+#: ../accessx-status/applet.c:1341
+#: ../accessx-status/org.mate.applets.AccessxStatusApplet.mate-panel-applet.in.in.h:3
+msgid "Keyboard Accessibility Status"
+msgstr "מצב נגישות מקלדת"
+
+#: ../accessx-status/applet.c:1345
+msgid "Displays current state of keyboard accessibility features"
+msgstr "מציג את המצב הנוכחי של תכונות נגישות המקלדת"
+
+#: ../accessx-status/org.mate.applets.AccessxStatusApplet.mate-panel-applet.in.in.h:1
+msgid "AccessX Status Applet Factory"
+msgstr "יצרן יישומון מצב AccessX"
+
+#: ../accessx-status/org.mate.applets.AccessxStatusApplet.mate-panel-applet.in.in.h:2
+msgid "Keyboard Accessibility Status Applet Factory"
+msgstr "יצרן יישומון מצב נגישות מקלדת"
+
+#: ../accessx-status/org.mate.applets.AccessxStatusApplet.mate-panel-applet.in.in.h:4
+msgid "Shows the status of keyboard accessibility features"
+msgstr "מציג את המצב של תכונות נגישות המקלדת"
+
+#: ../battstat/battstat_applet.c:61 ../charpick/charpick.c:714
+#: ../cpufreq/src/cpufreq-applet.c:122 ../geyes/geyes.c:358
+#: ../mateweather/mateweather-applet.c:121
+#: ../invest-applet/data/Invest_Applet.xml.h:2
+#: ../mini-commander/src/mini-commander_applet.c:53 ../mixer/applet.c:393
+#: ../multiload/main.c:433 ../stickynotes/stickynotes_applet.c:42
+#: ../timer-applet/data/TimerApplet.xml.h:8
+msgid "_Preferences"
+msgstr "_העדפות"
+
+#: ../battstat/battstat_applet.c:72
+msgid "System is running on AC power"
+msgstr "המערכת פועלת על כוח חשמל"
+
+#: ../battstat/battstat_applet.c:73
+msgid "System is running on battery power"
+msgstr "המערכת פועלת על כוח סוללה"
+
+#: ../battstat/battstat_applet.c:375
+#, c-format
+msgid "Battery charged (%d%%)"
+msgstr "סוללה טעונה (%d%%)"
+
+#: ../battstat/battstat_applet.c:377
+#, c-format
+msgid "Unknown time (%d%%) remaining"
+msgstr "זמן לא ידוע (%d%%) נותר"
+
+#: ../battstat/battstat_applet.c:379
+#, c-format
+msgid "Unknown time (%d%%) until charged"
+msgstr "זמן לא ידוע (%d%%) עד לטעינה מלאה"
+
+#: ../battstat/battstat_applet.c:384
+#, c-format
+msgid "%d minute (%d%%) remaining"
+msgid_plural "%d minutes (%d%%) remaining"
+msgstr[0] "‏%d דקות (%d%%) נשארו"
+msgstr[1] "‏%d דקות (%d%%) נשארו"
+
+#: ../battstat/battstat_applet.c:389
+#, c-format
+msgid "%d minute until charged (%d%%)"
+msgid_plural "%d minutes until charged (%d%%)"
+msgstr[0] "דקה אחת עד לטעינה מלאה (%d%%)"
+msgstr[1] "נותרו עוד ‏%d דקות (%d%%) לטעינה מלאה"
+
+#: ../battstat/battstat_applet.c:395
+#, c-format
+msgid "%d hour (%d%%) remaining"
+msgid_plural "%d hours (%d%%) remaining"
+msgstr[0] "נותרה ‏שעה אחת (%d%%)"
+msgstr[1] "נותרו ‏%d שעות (%d%%)"
+
+#: ../battstat/battstat_applet.c:400
+#, c-format
+msgid "%d hour until charged (%d%%)"
+msgid_plural "%d hours until charged (%d%%)"
+msgstr[0] "שעה אחת עד לטעינה מלאה (%d%%)"
+msgstr[1] "‏%d שעות עד לטעינה מלאה (%d%%)"
+
+#. TRANSLATOR: "%d %s %d %s" are "%d hours %d minutes"
+#. * Swap order with "%2$s %2$d %1$s %1$d if needed
+#: ../battstat/battstat_applet.c:407
+#, c-format
+msgid "%d %s %d %s (%d%%) remaining"
+msgstr "נותרו נותרו ‏‏%d %s ו־%d %s (%d%%) "
+
+#: ../battstat/battstat_applet.c:408 ../battstat/battstat_applet.c:415
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "שעה"
+msgstr[1] "שעות"
+
+#: ../battstat/battstat_applet.c:409 ../battstat/battstat_applet.c:416
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "דקה"
+msgstr[1] "דקות"
+
+#. TRANSLATOR: "%d %s %d %s" are "%d hours %d minutes"
+#. * Swap order with "%2$s %2$d %1$s %1$d if needed
+#: ../battstat/battstat_applet.c:414
+#, c-format
+msgid "%d %s %d %s until charged (%d%%)"
+msgstr "‏%d %s ו־%d %s עד לטעינה מלאה (%d%%)"
+
+#: ../battstat/battstat_applet.c:428
+msgid "Battery Monitor"
+msgstr "צג טעינת סוללה"
+
+#: ../battstat/battstat_applet.c:438 ../battstat/battstat_applet.c:498
+msgid "Your battery is now fully recharged"
+msgstr "הסוללה שלך כעת טעונה במלואה"
+
+#: ../battstat/battstat_applet.c:474 ../battstat/battstat_applet.c:630
+msgid "Battery Notice"
+msgstr "התרעת סוללה"
+
+#. we don't know the remaining time
+#: ../battstat/battstat_applet.c:575
+#, c-format
+msgid "You have %d%% of your total battery capacity remaining."
+msgstr "נותרו לך %d%% מסך כל קיבולת הסוללה."
+
+#: ../battstat/battstat_applet.c:581
+#, c-format
+msgid ""
+"You have %d minute of battery power remaining (%d%% of the total capacity)."
+msgid_plural ""
+"You have %d minutes of battery power remaining (%d%% of the total capacity)."
+msgstr[0] "נותרה דקה אחת של עצמת סוללה (%d%% מהקיבולת)."
+msgstr[1] "נותרו %d דקות של עצמת סוללה (%d%% מהקיבולת)."
+
+#. TRANSLATORS: this is a list, it is left as a single string
+#. * to allow you to make it appear like a list would in your
+#. * locale.  This is if the laptop does not support suspend.
+#: ../battstat/battstat_applet.c:593
+msgid ""
+"To avoid losing your work:\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr "על מנת שלא לאבד את העבודה שלך:\n • חבר את הנייד למקור עצמה חיצוני, או\n • שמור את המסמכים הפתוחים וכבה את הנייד."
+
+#. TRANSLATORS: this is a list, it is left as a single string
+#. * to allow you to make it appear like a list would in your
+#. * locale.  This is if the laptop supports suspend.
+#: ../battstat/battstat_applet.c:601
+msgid ""
+"To avoid losing your work:\n"
+" • suspend your laptop to save power,\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr "על מנת שלא לאבד את העבודה שלך:\n • השהה את הנייד שלך כדי לשמור על העצמה,\n • חבר את הנייד למקור עצמה חיצוני, או\n • שמור את המסמכים הפתוחים וכבה את הנייד."
+
+#: ../battstat/battstat_applet.c:609
+msgid "Your battery is running low"
+msgstr "הסוללה שלך כמעט ריקה"
+
+#: ../battstat/battstat_applet.c:706
+msgid "No battery present"
+msgstr "לא נמצאה סוללה"
+
+#: ../battstat/battstat_applet.c:709
+msgid "Battery status unknown"
+msgstr "מצב הסוללה לא ידוע"
+
+#: ../battstat/battstat_applet.c:868
+msgid "N/A"
+msgstr "לא זמין"
+
+#: ../battstat/battstat_applet.c:1208 ../drivemount/drivemount.c:141
+#: ../geyes/geyes.c:346 ../geyes/themes.c:248
+#: ../mateweather/mateweather-applet.c:70
+#: ../mateweather/mateweather-pref.c:816
+#: ../mini-commander/src/preferences.c:366
+#: ../stickynotes/stickynotes_applet_callbacks.c:391
+#: ../stickynotes/stickynotes_applet_callbacks.c:607
+#: ../trashapplet/src/trashapplet.c:399
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "ארעה שגיאה בהצגת העזרה: %s"
+
+#: ../battstat/battstat_applet.c:1248
+msgid "This utility shows the status of your laptop battery."
+msgstr "תוכנית שירות זו מציגה את מצב סוללת המחשב הנישא שלך."
+
+#. ture
+#: ../battstat/battstat_applet.c:1250
+msgid "upower backend enabled."
+msgstr ""
+
+#. true
+#: ../battstat/battstat_applet.c:1252
+msgid "HAL backend enabled."
+msgstr "תשתית HAL מופעלת."
+
+#. false
+#: ../battstat/battstat_applet.c:1253
+msgid "Legacy (non-HAL) backend enabled."
+msgstr "תשתית ישנה (שאינה HAL) מופעלת."
+
+#: ../battstat/battstat_applet.c:1629 ../battstat/battstat_applet.c:1683
+#: ../battstat/org.mate.applets.BattstatApplet.mate-panel-applet.in.in.h:2
+msgid "Battery Charge Monitor"
+msgstr "צג טעינת סוללה"
+
+#: ../battstat/battstat_applet.c:1684
+#: ../battstat/org.mate.applets.BattstatApplet.mate-panel-applet.in.in.h:3
+msgid "Monitor a laptop's remaining power"
+msgstr "מציג את העצמה הנותרת למחשב נישא"
+
+#: ../battstat/battstat_applet.ui.h:1
+msgid "Battery Charge Monitor Preferences"
+msgstr "העדפות צג טעינת סוללה"
+
+#: ../battstat/battstat_applet.ui.h:2
+msgid "Appearance"
+msgstr "מראה"
+
+#: ../battstat/battstat_applet.ui.h:3
+msgid "_Compact view"
+msgstr "תצוגה _קומפקטית"
+
+#: ../battstat/battstat_applet.ui.h:4
+msgid "(shows single image for status and charge)"
+msgstr "(הצגת סמל יחיד עבור מצב וטעינה)"
+
+#: ../battstat/battstat_applet.ui.h:5
+msgid "_Expanded view"
+msgstr "תצוגה _מורחבת"
+
+#: ../battstat/battstat_applet.ui.h:6
+msgid "(two images: one for status, one for charge)"
+msgstr "(שתי תמונות: אחת למצב, אחת לטעינה)"
+
+#: ../battstat/battstat_applet.ui.h:7
+msgid "_Show time/percentage:"
+msgstr "הצג _זמן/אחוזים:"
+
+#: ../battstat/battstat_applet.ui.h:8
+msgid "Show _time remaining"
+msgstr "הצג את ה_זמן שנותר"
+
+#: ../battstat/battstat_applet.ui.h:9
+msgid "Show _percentage remaining"
+msgstr "הצג את ה_אחוזים שנותרו"
+
+#: ../battstat/battstat_applet.ui.h:10
+msgid "Notifications"
+msgstr "הודעות"
+
+#. TRANSLATOR: This is the beginning of the sentence 'Warn when battery charge
+#. drops to: [XX] percent/minutes remaining'
+#: ../battstat/battstat_applet.ui.h:12
+msgid "_Warn when battery charge drops to:"
+msgstr "_הודע כאשר טעינת הסוללה יורדת מתחת ל:"
+
+#: ../battstat/battstat_applet.ui.h:13
+msgid "_Notify when battery is fully recharged"
+msgstr "הו_דע כאשר הסוללה טעונה במלואה"
+
+#: ../battstat/battstat-hal.c:343 ../battstat/battstat-hal.c:368
+msgid "HAL error"
+msgstr "שגיאת HAL"
+
+#: ../battstat/battstat-hal.c:343
+msgid "Could not create libhal_ctx"
+msgstr "Could not create libhal_ctx"
+
+#: ../battstat/battstat-hal.c:368
+msgid "No batteries found"
+msgstr "לא נמצאו סוללות"
+
+#: ../battstat/battstat-hal.c:417
+#, c-format
+msgid "Unable to initialise HAL: %s: %s"
+msgstr "Unable to initialise HAL: %s: %s"
+
+#: ../battstat/battstat.schemas.in.h:1
+msgid "Red value level"
+msgstr "Red value level"
+
+#: ../battstat/battstat.schemas.in.h:2
+msgid ""
+"The battery level below which the battery is displayed as red. Also the "
+"value at which the low battery warning is displayed."
+msgstr "The battery level below which the battery is displayed as red. Also the value at which the low battery warning is displayed."
+
+#: ../battstat/battstat.schemas.in.h:3
+msgid "Warn on low time rather than low percentage"
+msgstr "Warn on low time rather than low percentage"
+
+#: ../battstat/battstat.schemas.in.h:4
+msgid ""
+"Use the value defined in red_value as a time remaining to show the warning "
+"dialog rather than a percentage."
+msgstr "Use the value defined in red_value as a time remaining to show the warning dialog rather than a percentage."
+
+#: ../battstat/battstat.schemas.in.h:5
+msgid "Low Battery Notification"
+msgstr "Low Battery Notification"
+
+#: ../battstat/battstat.schemas.in.h:6
+msgid "Notify user when the battery is low."
+msgstr "Notify user when the battery is low."
+
+#: ../battstat/battstat.schemas.in.h:7
+msgid "Full Battery Notification"
+msgstr "Full Battery Notification"
+
+#: ../battstat/battstat.schemas.in.h:8
+msgid "Notify user when the battery is full."
+msgstr "Notify user when the battery is full."
+
+#: ../battstat/battstat.schemas.in.h:9
+msgid "Beep for warnings"
+msgstr "Beep for warnings"
+
+#: ../battstat/battstat.schemas.in.h:10
+msgid "Beep when displaying a warning."
+msgstr "Beep when displaying a warning."
+
+#: ../battstat/battstat.schemas.in.h:11
+msgid "Drain from top"
+msgstr "Drain from top"
+
+#: ../battstat/battstat.schemas.in.h:12
+msgid ""
+"Show the battery meter draining from the top of the battery. Only "
+"implemented for traditional battery view."
+msgstr "Show the battery meter draining from the top of the battery. Only implemented for traditional battery view."
+
+#: ../battstat/battstat.schemas.in.h:13
+msgid "Upright (small) battery"
+msgstr "Upright (small) battery"
+
+#: ../battstat/battstat.schemas.in.h:14
+msgid "Show the upright, smaller battery on the panel."
+msgstr "Show the upright, smaller battery on the panel."
+
+#: ../battstat/battstat.schemas.in.h:15
+msgid "Show the horizontal battery"
+msgstr "Show the horizontal battery"
+
+#: ../battstat/battstat.schemas.in.h:16
+msgid "Show the traditional, horizontal battery on the panel."
+msgstr "Show the traditional, horizontal battery on the panel."
+
+#: ../battstat/battstat.schemas.in.h:17
+msgid "Show the time/percent label"
+msgstr "Show the time/percent label"
+
+#: ../battstat/battstat.schemas.in.h:18
+msgid "0 for no label, 1 for percentage and 2 for time remaining."
+msgstr "0 for no label, 1 for percentage and 2 for time remaining."
+
+#: ../battstat/org.mate.applets.BattstatApplet.mate-panel-applet.in.in.h:1
+msgid "Battstat Factory"
+msgstr "יצרן מצב סוללה"
+
+#. TRANSLATOR: this is a selectable item in a drop-down menu to end
+#. * this sentence:
+#. *   "Warn when battery charge drops to: [XX] percent".
+#. 
+#: ../battstat/properties.c:314
+msgid "Percent"
+msgstr "אחוזים"
+
+#. TRANSLATOR: this is a selectable item in a drop-down menu to end
+#. * this sentence:
+#. *   "Warn when battery charge drops to: [XX] minutes remaining"
+#. 
+#: ../battstat/properties.c:320
+msgid "Minutes Remaining"
+msgstr "דקות שנותרו"
+
+#: ../battstat/sounds/mate-battstat_applet.soundlist.in.h:1
+msgid "Battery Status Utility"
+msgstr "תוכנית שירות מצב סוללה"
+
+#: ../battstat/sounds/mate-battstat_applet.soundlist.in.h:2
+msgid "Battery power low"
+msgstr "עצמת הסוללה נמוכה"
+
+#: ../battstat/sounds/mate-battstat_applet.soundlist.in.h:3
+msgid "Battery fully re-charged"
+msgstr "סוללה נטענה מחדש לגמרי"
+
+#: ../charpick/charpick.c:436
+msgid "Available palettes"
+msgstr "פלטות זמינות"
+
+#. TRANSLATOR: This sentance reads something like 'Insert "PILCROW SIGN"'
+#. *             hopefully, the name of the unicode character has already
+#. *             been translated.
+#. 
+#: ../charpick/charpick.c:483
+#, c-format
+msgid "Insert \"%s\""
+msgstr "הוספת \"%s\""
+
+#: ../charpick/charpick.c:486
+msgid "Insert special character"
+msgstr "הוספת תו מיוחד"
+
+#: ../charpick/charpick.c:490
+#, c-format
+msgid "insert special character %s"
+msgstr "הוספת תו מיוחד %s"
+
+#: ../charpick/charpick.c:605
+msgid ""
+"Mate Panel applet for selecting strange characters that are not on my "
+"keyboard. Released under GNU General Public Licence."
+msgstr "יישומון ללוח MATE לבחירת תווים מוזרים שאינם על המקלדת שלי. מופץ תחת הרישיון הציבורי הכללי של GNU."
+
+#: ../charpick/charpick.c:743 ../charpick/charpick.c:757
+#: ../charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.in.in.h:2
+#: ../charpick/properties.c:452
+msgid "Character Palette"
+msgstr "לוח תווים"
+
+#: ../charpick/charpick.c:743
+#: ../charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.in.in.h:3
+msgid "Insert characters"
+msgstr "הוספת תווים"
+
+#: ../charpick/charpick.schemas.in.h:1
+msgid "DEPRECATED - Characters shown on applet startup"
+msgstr "DEPRECATED - Characters shown on applet startup"
+
+#: ../charpick/charpick.schemas.in.h:2
+msgid "Characters shown on applet startup"
+msgstr "Characters shown on applet startup"
+
+#: ../charpick/charpick.schemas.in.h:3
+msgid ""
+"The string that the user had selected when the applet was last used. This "
+"string will be displayed when the user starts the applet."
+msgstr "The string that the user had selected when the applet was last used. This string will be displayed when the user starts the applet."
+
+#: ../charpick/charpick.schemas.in.h:4 ../charpick/properties.c:379
+msgid "List of available palettes"
+msgstr "List of available palettes"
+
+#: ../charpick/charpick.schemas.in.h:5
+msgid "List of strings containing the available palettes."
+msgstr "List of strings containing the available palettes."
+
+#: ../charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.in.in.h:1
+msgid "Charpicker Applet Factory"
+msgstr "יצרן יישומון בחירת תווים"
+
+#: ../charpick/properties.c:28
+msgid "_Edit"
+msgstr "_עריכה"
+
+#: ../charpick/properties.c:117
+msgid "_Palette:"
+msgstr "_פלטה:"
+
+#: ../charpick/properties.c:125
+msgid "Palette entry"
+msgstr "ערך פלטה"
+
+#: ../charpick/properties.c:126
+msgid "Modify a palette by adding or removing characters"
+msgstr "שנה פלטה באמצעות הוספת או הסרת תווים"
+
+#: ../charpick/properties.c:240
+msgid "Add Palette"
+msgstr "הוסף פלטה"
+
+#: ../charpick/properties.c:277
+msgid "Edit Palette"
+msgstr "ערוך פלטה"
+
+#: ../charpick/properties.c:378
+msgid "Palettes list"
+msgstr "רשימת פלטות"
+
+#: ../charpick/properties.c:457
+msgid "_Palettes:"
+msgstr "_פלטות:"
+
+#: ../charpick/properties.c:473
+msgid "Add button"
+msgstr "הוסף כפתור"
+
+#: ../charpick/properties.c:474
+msgid "Click to add a new palette"
+msgstr "לחץ כדי להוסיף פלטה חדשה"
+
+#: ../charpick/properties.c:481
+msgid "Edit button"
+msgstr "ערוך כפתור"
+
+#: ../charpick/properties.c:482
+msgid "Click to edit the selected palette"
+msgstr "לחץ כדי לערוך את הפלטה שנבחרה"
+
+#: ../charpick/properties.c:489
+msgid "Delete button"
+msgstr "מחק כפתור"
+
+#: ../charpick/properties.c:490
+msgid "Click to delete the selected palette"
+msgstr "לחץ כדי למחוק את הפלטה שנבחרה"
+
+#: ../charpick/properties.c:541
+msgid "Character Palette Preferences"
+msgstr "העדפות פלטת התווים"
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:1
+msgid "CPU to Monitor"
+msgstr "CPU to Monitor"
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:2
+msgid ""
+"Set the CPU to monitor. In a single processor system you don't have to "
+"change it."
+msgstr "Set the CPU to monitor. In a single processor system you don't have to change it."
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:3
+msgid "Mode to show cpu usage"
+msgstr "Mode to show cpu usage"
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:4
+msgid ""
+"A 0 value means to show the applet in graphic mode (pixmap only), 1 to show "
+"the applet in text mode (not to show the pixmap) and 2 to show the applet in"
+" graphic and text mode."
+msgstr "A 0 value means to show the applet in graphic mode (pixmap only), 1 to show the applet in text mode (not to show the pixmap) and 2 to show the applet in graphic and text mode."
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:5
+msgid "The type of text to display (if the text is enabled)."
+msgstr "The type of text to display (if the text is enabled)."
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:6
+msgid ""
+"A 0 value means to show cpu frequency, 1 to show frequency and units, and 2 "
+"to show percentage instead of frequency."
+msgstr "A 0 value means to show cpu frequency, 1 to show frequency and units, and 2 to show percentage instead of frequency."
+
+#: ../cpufreq/cpufreq-preferences.ui.h:1
+msgid "CPU Frequency Monitor Preferences"
+msgstr "העדפות ניטור תדר המעבד"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:2
+msgid "Monitor Settings"
+msgstr "הגדרות ניטור"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:3
+msgid "_Monitored CPU:"
+msgstr "מעבד מנו_טר:"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:4
+msgid "Display Settings"
+msgstr "הגדרות תצוגה"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:5
+msgid "_Appearance:"
+msgstr "_מראה:"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:6
+msgid "Show CPU frequency as _frequency"
+msgstr "הצג את תדר המעבד כ_תדר"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:7
+msgid "Show frequency _units"
+msgstr "הצ_גת יחידות תדירות"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:8
+msgid "Show CPU frequency as _percentage"
+msgstr "הצג את תדר המעבד כ_אחוזים"
+
+#: ../cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.in.in.h:1
+#: ../cpufreq/src/cpufreq-applet.c:946 ../cpufreq/src/cpufreq-applet.c:1005
+msgid "CPU Frequency Scaling Monitor"
+msgstr "מנטר התאמת תדירות המעבד"
+
+#: ../cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.in.in.h:2
+msgid "Monitor the CPU Frequency Scaling"
+msgstr "נטר את התאמת תדירות המעבד"
+
+#: ../cpufreq/src/cpufreq-applet.c:581 ../cpufreq/src/cpufreq-prefs.c:478
+msgid "Could not open help document"
+msgstr "לא ניתן לפתוח את מסמך העזרה"
+
+#: ../cpufreq/src/cpufreq-applet.c:608
+msgid "This utility shows the current CPU Frequency Scaling."
+msgstr "תוכנית שירות זו מציגה את תדירות המעבד הנוכחית."
+
+#: ../cpufreq/src/cpufreq-applet.c:1006
+msgid "This utility shows the current CPU Frequency"
+msgstr "תוכנית שירות זו מציגה את תדירות המעבד הנוכחית."
+
+#: ../cpufreq/src/cpufreq-prefs.c:613
+msgid "Graphic"
+msgstr "גרפי"
+
+#: ../cpufreq/src/cpufreq-prefs.c:618
+msgid "Text"
+msgstr "טקסט"
+
+#: ../cpufreq/src/cpufreq-prefs.c:623
+msgid "Graphic and Text"
+msgstr "גרפי וטקסט"
+
+#: ../cpufreq/src/cpufreq-monitor-cpuinfo.c:117
+msgid "Frequency Scaling Unsupported"
+msgstr "שינוי תדירות לא נתמך"
+
+#. If there is no cpufreq support it shows only the cpu frequency,
+#. * I think is better than do nothing. I have to notify it to the user,
+#. because
+#. * he could think that cpufreq is supported but it doesn't work succesfully
+#. 
+#: ../cpufreq/src/cpufreq-monitor-factory.c:59
+msgid "CPU frequency scaling unsupported"
+msgstr "שינוי תדירות המעבד לא נתמך"
+
+#: ../cpufreq/src/cpufreq-monitor-factory.c:60
+msgid ""
+"You will not be able to modify the frequency of your machine.  Your machine "
+"may be misconfigured or not have hardware support for CPU frequency scaling."
+msgstr "לא ניתן יהיה לשנות את התדירות למחשב זה. יתכן שמחשב זה אינו מוגדר כראוי או שאינו כולל תמיכת חומרה לשינוי תדירות מעבד."
+
+#: ../cpufreq/src/cpufreq-selector/org.mate.cpufreqselector.policy.in.h:1
+msgid "Change CPU Frequency scaling"
+msgstr "שנה את התאמת תדירות המעבד"
+
+#: ../cpufreq/src/cpufreq-selector/org.mate.cpufreqselector.policy.in.h:2
+msgid "Privileges are required to change the CPU Frequency scaling."
+msgstr "דרושות הרשאות כדי לשנות את התאמת תדירות המעבד"
+
+#: ../drivemount/drive-button.c:342 ../drivemount/drive-button.c:355
+msgid "(mounted)"
+msgstr "(מעוגן)"
+
+#: ../drivemount/drive-button.c:344
+msgid "(not mounted)"
+msgstr "(לא מעוגן)"
+
+#: ../drivemount/drive-button.c:556
+#, c-format
+msgid "Cannot execute '%s'"
+msgstr "אין אפשרות להריץ '%s'"
+
+#: ../drivemount/drive-button.c:879
+msgid "_Play DVD"
+msgstr "_נגן תקליטור"
+
+#: ../drivemount/drive-button.c:883
+msgid "_Play CD"
+msgstr "_נגן תקליטור"
+
+#: ../drivemount/drive-button.c:886
+#, c-format
+msgid "_Open %s"
+msgstr "_פתח %s"
+
+#: ../drivemount/drive-button.c:895
+#, c-format
+msgid "Un_mount %s"
+msgstr "_בטל עיגון %s"
+
+#: ../drivemount/drive-button.c:902
+#, c-format
+msgid "_Mount %s"
+msgstr "_עגן %s"
+
+#: ../drivemount/drive-button.c:910
+#, c-format
+msgid "_Eject %s"
+msgstr "_הוצא %s"
+
+#: ../drivemount/drivemount.c:114
+msgid "Applet for mounting and unmounting block volumes."
+msgstr "יישומון ללעיגון כרכים."
+
+#: ../drivemount/drivemount.c:173 ../drivemount/drivemount.c:210
+#: ../drivemount/org.mate.applets.DriveMountApplet.mate-panel-applet.in.in.h:3
+msgid "Disk Mounter"
+msgstr "מעגן דיסקים"
+
+#: ../drivemount/drivemount.schemas.in.h:1
+msgid "Interval timeout to check mount point status"
+msgstr "Interval timeout to check mount point status"
+
+#: ../drivemount/drivemount.schemas.in.h:2
+msgid "Time in seconds between status updates"
+msgstr "Time in seconds between status updates"
+
+#: ../drivemount/org.mate.applets.DriveMountApplet.mate-panel-applet.in.in.h:1
+msgid "Drive Mount Applet Factory"
+msgstr "יצרן יישומון מעגן דיסקים"
+
+#: ../drivemount/org.mate.applets.DriveMountApplet.mate-panel-applet.in.in.h:2
+msgid "Factory for drive mount applet"
+msgstr "יצרן ליישומון מעגן הדיסקים"
+
+#: ../drivemount/org.mate.applets.DriveMountApplet.mate-panel-applet.in.in.h:4
+msgid "Mount local disks and devices"
+msgstr "מעגן דיסקים מקומיים והתקנים"
+
+#: ../geyes/geyes.c:191
+msgid "A goofy set of eyes for the MATE panel. They follow your mouse."
+msgstr "זוג עיניים מצחיקות עבור הלוח של MATE. הם עוקבים אחרי העכבר שלך."
+
+#: ../geyes/geyes.c:391 ../geyes/geyes.c:422 ../geyes/geyes.c:424
+#: ../geyes/org.mate.applets.GeyesApplet.mate-panel-applet.in.in.h:2
+msgid "Eyes"
+msgstr "‏Eyes"
+
+#: ../geyes/geyes.c:425
+msgid "The eyes look in the direction of the mouse pointer"
+msgstr "העיניים מסתכלות על הכיוון של מצביע העכבר"
+
+#: ../geyes/geyes.schemas.in.h:1
+msgid "Directory in which the theme is located"
+msgstr "Directory in which the theme is located"
+
+#: ../geyes/org.mate.applets.GeyesApplet.mate-panel-applet.in.in.h:1
+msgid "Geyes Applet Factory"
+msgstr "יצרן יישומון Geyes"
+
+#: ../geyes/org.mate.applets.GeyesApplet.mate-panel-applet.in.in.h:3
+msgid "A set of eyeballs for your panel"
+msgstr "ערכת עיניים ללוח שלך"
+
+#: ../geyes/themes.c:131
+msgid "Can not launch the eyes applet."
+msgstr "לא ניתן להפעיל את יישומון העיניים"
+
+#: ../geyes/themes.c:132
+msgid "There was a fatal error while trying to load the theme."
+msgstr "ארעה שגיאה בזמן טעינת ערכת הנושא."
+
+#: ../geyes/themes.c:307
+msgid "Geyes Preferences"
+msgstr "העדפות Geyes"
+
+#: ../geyes/themes.c:341
+msgid "Themes"
+msgstr "ערכות נושא"
+
+#: ../geyes/themes.c:362
+msgid "_Select a theme:"
+msgstr "_בחר ערכת נושא:"
+
+#: ../mateweather/mateweather-about.c:48
+msgid "© 1999-2005 by S. Papadimitriou and others"
+msgstr "‏© 1999-2005 by S. Papadimitriou and others"
+
+#: ../mateweather/mateweather-about.c:49
+msgid "A panel application for monitoring local weather conditions."
+msgstr "ישומון לתצוגת תנאי מזג-אויר מקומיים."
+
+#: ../mateweather/mateweather-applet.c:115
+msgid "_Details"
+msgstr "_פרטים"
+
+#: ../mateweather/mateweather-applet.c:118
+#: ../mateweather/mateweather-dialog.c:198
+msgid "_Update"
+msgstr "_עדכן"
+
+#: ../mateweather/mateweather-applet.c:329
+#: ../mateweather/org.mate.applets.MateWeatherApplet.mate-panel-applet.in.in.h:3
+msgid "Weather Report"
+msgstr "דיווח מזג-אויר"
+
+#: ../mateweather/mateweather-applet.c:347
+#: ../mateweather/mateweather-applet.c:351
+msgid "MATE Weather"
+msgstr "מזג-האויר MATE"
+
+#: ../mateweather/mateweather-applet.c:453
+msgid "Weather Forecast"
+msgstr "תחזית מזג האויר"
+
+#: ../mateweather/mateweather-applet.c:465
+#, c-format
+msgid ""
+"City: %s\n"
+"Sky: %s\n"
+"Temperature: %s"
+msgstr "עיר: %s\nשמיים: %s\nטמפרטורה: %s"
+
+#: ../mateweather/mateweather-applet.c:515
+msgid "Updating..."
+msgstr "מעדכן..."
+
+#: ../mateweather/mateweather-dialog.c:196
+msgid "Details"
+msgstr "פרטים"
+
+#: ../mateweather/mateweather-dialog.c:239
+msgid "City:"
+msgstr "עיר:"
+
+#: ../mateweather/mateweather-dialog.c:247
+msgid "Last update:"
+msgstr "עדכון אחרון:"
+
+#: ../mateweather/mateweather-dialog.c:255
+msgid "Conditions:"
+msgstr "תנאים:"
+
+#: ../mateweather/mateweather-dialog.c:263
+msgid "Sky:"
+msgstr "שמיים:"
+
+#: ../mateweather/mateweather-dialog.c:271
+msgid "Temperature:"
+msgstr "טמפרטורה:"
+
+#: ../mateweather/mateweather-dialog.c:279
+msgid "Feels like:"
+msgstr "מרגיש כמו:"
+
+#: ../mateweather/mateweather-dialog.c:287
+msgid "Dew point:"
+msgstr "נקודת העיבוי:"
+
+#: ../mateweather/mateweather-dialog.c:295
+msgid "Relative humidity:"
+msgstr "לחות יחסית:"
+
+#: ../mateweather/mateweather-dialog.c:303
+msgid "Wind:"
+msgstr "רוח:"
+
+#: ../mateweather/mateweather-dialog.c:311
+msgid "Pressure:"
+msgstr "לחץ אויר:"
+
+#: ../mateweather/mateweather-dialog.c:319
+msgid "Visibility:"
+msgstr "ראות:"
+
+#: ../mateweather/mateweather-dialog.c:327
+msgid "Sunrise:"
+msgstr "זריחה:"
+
+#: ../mateweather/mateweather-dialog.c:335
+msgid "Sunset:"
+msgstr "שקיעה:"
+
+#: ../mateweather/mateweather-dialog.c:469
+msgid "Current Conditions"
+msgstr "תנאים נוכחיים"
+
+#: ../mateweather/mateweather-dialog.c:486
+msgid "Forecast Report"
+msgstr "דיווח תחזית"
+
+#: ../mateweather/mateweather-dialog.c:486
+msgid "See the ForeCast Details"
+msgstr "ראה את פרטי התחזית"
+
+#: ../mateweather/mateweather-dialog.c:496
+msgid "Forecast"
+msgstr "תחזית"
+
+#: ../mateweather/mateweather-dialog.c:504
+msgid "Radar Map"
+msgstr "מפת ראדר"
+
+#: ../mateweather/mateweather-dialog.c:535
+msgid "_Visit Weather.com"
+msgstr "_בקר ב־Weather.com"
+
+#: ../mateweather/mateweather-dialog.c:536
+msgid "Visit Weather.com"
+msgstr "בקר ב־Weather.com"
+
+#: ../mateweather/mateweather-dialog.c:536
+msgid "Click to Enter Weather.com"
+msgstr "לחץ כדי להכנס ל־Weather.com"
+
+#: ../mateweather/mateweather-dialog.c:621
+msgid "Forecast not currently available for this location."
+msgstr "אין תחזית עבור מיקום זה"
+
+#. Accessible Name and Description for the components in Preference Dialog
+#: ../mateweather/mateweather-pref.c:179
+msgid "Location view"
+msgstr "תצוגת מיקום"
+
+#: ../mateweather/mateweather-pref.c:179
+msgid "Select Location from the list"
+msgstr "בחר מיקום מהרשימה"
+
+#: ../mateweather/mateweather-pref.c:180
+msgid "Update spin button"
+msgstr "עדכן כפתור טווח"
+
+#: ../mateweather/mateweather-pref.c:180
+msgid "Spinbutton for updating"
+msgstr "כפתור טווח לעדכון"
+
+#: ../mateweather/mateweather-pref.c:181
+msgid "Address Entry"
+msgstr "ערך כתובת"
+
+#: ../mateweather/mateweather-pref.c:181
+msgid "Enter the URL"
+msgstr "הזן כתובת"
+
+#: ../mateweather/mateweather-pref.c:332
+msgid ""
+"Failed to load the Locations XML database.  Please report this as a bug."
+msgstr "נכשל בטעינת בסיס נתונים XML של המיקומים. אנא דווח זאת כבאג."
+
+#: ../mateweather/mateweather-pref.c:878
+msgid "Weather Preferences"
+msgstr "העדפות מזג־האויר"
+
+#: ../mateweather/mateweather-pref.c:906
+#: ../mateweather/mateweather-pref.c:1092
+msgid "_Automatically update every:"
+msgstr "עדכן _אוטומטית כל:"
+
+#. * Units settings page.
+#. 
+#. Temperature Unit
+#: ../mateweather/mateweather-pref.c:921
+msgid "_Temperature unit:"
+msgstr "יחידת _טמפרטורה:"
+
+#: ../mateweather/mateweather-pref.c:930 ../mateweather/mateweather-pref.c:952
+#: ../mateweather/mateweather-pref.c:979
+#: ../mateweather/mateweather-pref.c:1009
+msgid "Default"
+msgstr "ברירת המחדל"
+
+#: ../mateweather/mateweather-pref.c:931
+msgid "Kelvin"
+msgstr "קלוין"
+
+#. TRANSLATORS: Celsius is sometimes referred Centigrade
+#: ../mateweather/mateweather-pref.c:933
+msgid "Celsius"
+msgstr "צלזיוס"
+
+#: ../mateweather/mateweather-pref.c:934
+msgid "Fahrenheit"
+msgstr "פרנהייט"
+
+#. Speed Unit
+#: ../mateweather/mateweather-pref.c:943
+msgid "_Wind speed unit:"
+msgstr "יחידת מהירות ה_רוח:"
+
+#. TRANSLATOR: The wind speed unit "meters per second"
+#: ../mateweather/mateweather-pref.c:954
+msgid "m/s"
+msgstr "מטרים לשנייה"
+
+#. TRANSLATOR: The wind speed unit "kilometers per hour"
+#: ../mateweather/mateweather-pref.c:956
+msgid "km/h"
+msgstr "קילומטרים לשעה"
+
+#. TRANSLATOR: The wind speed unit "miles per hour"
+#: ../mateweather/mateweather-pref.c:958
+msgid "mph"
+msgstr "מיילים לשעה"
+
+#. TRANSLATOR: The wind speed unit "knots"
+#: ../mateweather/mateweather-pref.c:960
+msgid "knots"
+msgstr "קשר"
+
+#: ../mateweather/mateweather-pref.c:961
+msgid "Beaufort scale"
+msgstr "סולם ביופורט"
+
+#. Pressure Unit
+#: ../mateweather/mateweather-pref.c:970
+msgid "_Pressure unit:"
+msgstr "יחידת _לחץ אויר:"
+
+#. TRANSLATOR: The pressure unit "kiloPascals"
+#: ../mateweather/mateweather-pref.c:981
+msgid "kPa"
+msgstr "קילופסקל"
+
+#. TRANSLATOR: The pressure unit "hectoPascals"
+#: ../mateweather/mateweather-pref.c:983
+msgid "hPa"
+msgstr "הקטופסקל"
+
+#. TRANSLATOR: The pressure unit "millibars"
+#: ../mateweather/mateweather-pref.c:985
+msgid "mb"
+msgstr "מיליבר"
+
+#. TRANSLATOR: The pressure unit "millibars of mercury"
+#: ../mateweather/mateweather-pref.c:987
+msgid "mmHg"
+msgstr "מילימטר כספית"
+
+#. TRANSLATOR: The pressure unit "inches of mercury"
+#: ../mateweather/mateweather-pref.c:989
+msgid "inHg"
+msgstr "אינצ'ים כספית"
+
+#. TRANSLATOR: The pressure unit "atmospheres"
+#: ../mateweather/mateweather-pref.c:991
+msgid "atm"
+msgstr "אטמוספרות"
+
+#. Distance Unit
+#: ../mateweather/mateweather-pref.c:1000
+msgid "_Visibility unit:"
+msgstr "יחידת _ראות:"
+
+#. TRANSLATOR: The distance unit "meters"
+#: ../mateweather/mateweather-pref.c:1011
+msgid "meters"
+msgstr "מטרים"
+
+#. TRANSLATOR: The distance unit "kilometers"
+#: ../mateweather/mateweather-pref.c:1013
+msgid "km"
+msgstr "קילומטרים"
+
+#. TRANSLATOR: The distance unit "miles"
+#: ../mateweather/mateweather-pref.c:1015
+msgid "miles"
+msgstr "מיילים"
+
+#: ../mateweather/mateweather-pref.c:1041
+msgid "Enable _radar map"
+msgstr "אפשר מפת _ראדר"
+
+#: ../mateweather/mateweather-pref.c:1057
+msgid "Use _custom address for radar map"
+msgstr "השתמש בכתובת מו_תאמת אישית למפת הראדר"
+
+#: ../mateweather/mateweather-pref.c:1075
+msgid "A_ddress:"
+msgstr "_כתובת:"
+
+#: ../mateweather/mateweather-pref.c:1088
+msgid "Update"
+msgstr "עדכן"
+
+#: ../mateweather/mateweather-pref.c:1111
+msgid "minutes"
+msgstr "דקות"
+
+#: ../mateweather/mateweather-pref.c:1129
+msgid "Display"
+msgstr "תצוגה"
+
+#: ../mateweather/mateweather-pref.c:1143
+#: ../mini-commander/src/mini-commander.ui.h:12
+msgid "General"
+msgstr "כללי"
+
+#: ../mateweather/mateweather-pref.c:1154
+msgid "_Select a location:"
+msgstr "_בחר מיקום:"
+
+#: ../mateweather/mateweather-pref.c:1176
+msgid "_Find:"
+msgstr "_חפש:"
+
+#: ../mateweather/mateweather-pref.c:1182
+msgid "Find _Next"
+msgstr "ה_בא"
+
+#: ../mateweather/mateweather-pref.c:1203
+msgid "Location"
+msgstr "מיקום"
+
+#: ../mateweather/org.mate.applets.MateWeatherApplet.mate-panel-applet.in.in.h:1
+msgid "Mateweather Applet Factory"
+msgstr "מפעל יישומי מזג אוויר של Mate"
+
+#: ../mateweather/org.mate.applets.MateWeatherApplet.mate-panel-applet.in.in.h:2
+msgid "Factory for creating the weather applet."
+msgstr "יצרן ליצירת יישומון מזג-האויר."
+
+#: ../mateweather/org.mate.applets.MateWeatherApplet.mate-panel-applet.in.in.h:4
+msgid "Monitor the current weather conditions, and forecasts"
+msgstr "מציג את תנאי מזג-האויר הנוכחיים, ותחזיות"
+
+#: ../invest-applet/data/Invest_Applet.server.in.in.h:1
+#: ../invest-applet/invest/about.py:17
+msgid "Invest"
+msgstr "‏Invest"
+
+#: ../invest-applet/data/Invest_Applet.server.in.in.h:2
+#: ../invest-applet/invest/about.py:20
+msgid "Track your invested money."
+msgstr "מעקב אחרי כספך המושקע."
+
+#: ../invest-applet/data/Invest_Applet.xml.h:1
+msgid "_Refresh"
+msgstr "_רענן"
+
+#: ../invest-applet/data/financialchart.ui.h:1
+msgid "Today"
+msgstr "היום"
+
+#: ../invest-applet/data/financialchart.ui.h:2
+msgid "5 Days"
+msgstr "5 ימים"
+
+#: ../invest-applet/data/financialchart.ui.h:3
+msgid "3 Months"
+msgstr "3 חודשים"
+
+#: ../invest-applet/data/financialchart.ui.h:4
+msgid "6 Months"
+msgstr "6 חודשים"
+
+#: ../invest-applet/data/financialchart.ui.h:5
+msgid "1 Year"
+msgstr "שנה אחת"
+
+#: ../invest-applet/data/financialchart.ui.h:6
+msgid "5 Years"
+msgstr "5 שנים"
+
+#: ../invest-applet/data/financialchart.ui.h:7
+msgid "Maximum"
+msgstr "לכל היותר"
+
+#: ../invest-applet/data/financialchart.ui.h:8
+#: ../invest-applet/invest/chart.py:107
+msgid "Financial Chart"
+msgstr "תרשים פיננסי"
+
+#: ../invest-applet/data/financialchart.ui.h:9
+msgid "_Ticker symbol: "
+msgstr "_סימול הנייר:"
+
+#: ../invest-applet/data/financialchart.ui.h:10
+msgid "Auto _refresh"
+msgstr "_רענון אוטומטי"
+
+#: ../invest-applet/data/financialchart.ui.h:11
+msgid "_Graph style: "
+msgstr "_סגנון הגרף: "
+
+#. see http://biz.yahoo.com/charts/guide11.html and
+#. http://en.wikipedia.org/wiki/Moving_average
+#: ../invest-applet/data/financialchart.ui.h:13
+msgid "Moving average: "
+msgstr "ממוצע תנודה:"
+
+#. see http://biz.yahoo.com/charts/guide12.html and
+#. http://en.wikipedia.org/wiki/Moving_average#Exponential_moving_average
+#: ../invest-applet/data/financialchart.ui.h:15
+msgid "Exponential moving average: "
+msgstr "ממוצע תנודה מעריכי:"
+
+#: ../invest-applet/data/financialchart.ui.h:16
+msgid "5"
+msgstr "5"
+
+#: ../invest-applet/data/financialchart.ui.h:17
+msgid "10"
+msgstr "10"
+
+#: ../invest-applet/data/financialchart.ui.h:18
+msgid "20"
+msgstr "20"
+
+#: ../invest-applet/data/financialchart.ui.h:19
+msgid "50"
+msgstr "50"
+
+#: ../invest-applet/data/financialchart.ui.h:20
+msgid "100"
+msgstr "100"
+
+#: ../invest-applet/data/financialchart.ui.h:21
+msgid "200"
+msgstr "200"
+
+#. see http://en.wikipedia.org/wiki/Technical_analysis#Overlays
+#: ../invest-applet/data/financialchart.ui.h:23
+msgid "Overlays: "
+msgstr "שכבות תצוגה:"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide13.html and
+#. http://en.wikipedia.org/wiki/Bollinger_bands
+#: ../invest-applet/data/financialchart.ui.h:25
+msgid "Bollinger"
+msgstr "רצועות בולינגר"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide16.html and
+#. http://en.wikipedia.org/wiki/Parabolic_SAR
+#: ../invest-applet/data/financialchart.ui.h:27
+msgid "SAR"
+msgstr "SAR"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide6.html and
+#. http://en.wikipedia.org/wiki/Stock_split
+#: ../invest-applet/data/financialchart.ui.h:29
+msgid "Splits"
+msgstr "פיצולים"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide20.html and
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:31
+msgid "Volumes"
+msgstr "נפחים"
+
+#. see http://biz.yahoo.com/charts/guide10.html and
+#. http://en.wikipedia.org/wiki/Technical_indicator#Charting_terms_and_indicators
+#: ../invest-applet/data/financialchart.ui.h:33
+msgid "Indicators: "
+msgstr "מחוונים:"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Relative_Strength_Index
+#: ../invest-applet/data/financialchart.ui.h:35
+msgid "RSI"
+msgstr "RSI"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:37
+msgid "Vol"
+msgstr "Vol"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Money_flow_index
+#: ../invest-applet/data/financialchart.ui.h:39
+msgid "MFI"
+msgstr "MFI"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Stochastic_oscillator
+#: ../invest-applet/data/financialchart.ui.h:41
+msgid "Slow stoch"
+msgstr "Slow stoch"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:43
+msgid "Vol+MA"
+msgstr "Vol+MA"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Rate_of_change_%28technical_analysis%29
+#: ../invest-applet/data/financialchart.ui.h:45
+msgid "ROC"
+msgstr "ROC"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Stochastic_oscillator
+#: ../invest-applet/data/financialchart.ui.h:47
+msgid "Fast stoch"
+msgstr "סטוכסטי מהיר"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Williams_%25R
+#: ../invest-applet/data/financialchart.ui.h:50
+#, no-c-format
+msgid "W%R"
+msgstr "W%R"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/MACD
+#: ../invest-applet/data/financialchart.ui.h:52
+msgid "MACD"
+msgstr "MACD"
+
+#: ../invest-applet/data/financialchart.ui.h:53
+msgid "_Options"
+msgstr "אפשרויות_"
+
+#: ../invest-applet/data/financialchart.ui.h:54
+msgid "Downloading chart from <b>Yahoo!</b>"
+msgstr "מוריד טבלה מ־<b>Yahoo!</b>"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:1
+msgid "Invest Preferences"
+msgstr "העדפות Invest"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:2
+msgid "label"
+msgstr "תוית"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:3
+msgid "Stocks"
+msgstr "מניות"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:4
+msgid ""
+"<i><small><b>Note:</b> Quotes are delayed at least 15 minutes.\n"
+"<b>Source: </b> Yahoo!</small></i>"
+msgstr "<i><small><b>לתשומת לבך:</b> המניות מופיעות בהפרש של לפחות 15 דקות.\n<b>מקור: </b> Yahoo!</small></i>"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:6
+msgid "Currency"
+msgstr "מטבע"
+
+#. a) We aren't configured yet
+#: ../invest-applet/invest/applet.py:50
+msgid "<b>You have not entered any stock information yet</b>"
+msgstr "<b>לא הזנת נתוני מנייה עדיין</b>"
+
+#: ../invest-applet/invest/applet.py:55
+msgid "<b>No stock quotes are currently available</b>"
+msgstr "<b>אין סימולי מניות זמינים כרגע</b>"
+
+#: ../invest-applet/invest/applet.py:56
+msgid ""
+"The server could not be contacted. The computer is either offline or the "
+"servers are down. Try again later."
+msgstr "לא ניתן ליצור קשר עם השרת. או שהמחשב אינו מקוון או שהשרתים נפלו. נא לנסות מאוחר יותר."
+
+#: ../invest-applet/invest/chart.py:156
+#, python-format
+msgid "Financial Chart - %s"
+msgstr "תרשים פיננסי - %s"
+
+#: ../invest-applet/invest/chart.py:223
+msgid "Opening Chart"
+msgstr "פותח תרשים"
+
+#: ../invest-applet/invest/chart.py:238
+msgid "Chart downloaded"
+msgstr "התרשים התקבל"
+
+#: ../invest-applet/invest/chart.py:240
+msgid "Chart could not be downloaded"
+msgstr "לא ניתן להוריד את התרשים"
+
+#: ../invest-applet/invest/invest-applet.py:41
+msgid "Invest Applet"
+msgstr "יישומון Invest"
+
+#: ../invest-applet/invest/preferences.py:31
+msgid "Symbol"
+msgstr "סמל"
+
+#: ../invest-applet/invest/preferences.py:31
+msgid "Label"
+msgstr "תווית"
+
+#: ../invest-applet/invest/preferences.py:31
+msgid "Amount"
+msgstr "כמות"
+
+#: ../invest-applet/invest/preferences.py:31
+msgid "Price"
+msgstr "מחיר"
+
+#: ../invest-applet/invest/preferences.py:31
+msgid "Commission"
+msgstr "עמלה"
+
+#: ../invest-applet/invest/preferences.py:31
+msgid "Currency Rate"
+msgstr "שער המטבע"
+
+#: ../invest-applet/invest/quotes.py:131
+msgid "Invest could not connect to Yahoo! Finance"
+msgstr "Invest כשלה בעת נסיון ההתחברות אל Yahoo! Finance"
+
+#. Translators: %s is an hour (%H:%M)
+#: ../invest-applet/invest/quotes.py:134 ../invest-applet/invest/quotes.py:163
+#, python-format
+msgid "Updated at %s"
+msgstr "עדכן ב־%s"
+
+#. Translators: This is share-market jargon. It is the average percentage
+#. change of all stock prices. The %s gets replaced with the string value of
+#. the change (localized), including the percent sign.
+#: ../invest-applet/invest/quotes.py:153
+#, python-format
+msgid "Average change: %s"
+msgstr "שינוי ממוצע: %s"
+
+#. Translators: This is share-market jargon. It refers to the total difference
+#. between the current price and purchase price for all the shares put
+#. together for a particular currency. i.e. How much money would be earned if
+#. they were sold right now. The first string is the change value, the second
+#. the currency, and the third value is the percentage of the change,
+#. formatted using user's locale.
+#: ../invest-applet/invest/quotes.py:162
+#, python-format
+msgid "Positions balance: %s %s (%s)"
+msgstr "מאזן אחזקות: %s %s (%s)"
+
+#. model: SYMBOL, LABEL, TICKER_ONLY, BALANCE, BALANCE_PCT, VALUE,
+#. VARIATION_PCT, PB
+#. Translators: these words all refer to a stock. Last is short
+#. for "last price". Gain is referring to the gain since the
+#. stock was purchased.
+#: ../invest-applet/invest/widgets.py:51
+msgid "Ticker"
+msgstr "טיקר למניות"
+
+#: ../invest-applet/invest/widgets.py:51
+msgid "Last"
+msgstr "אחרון"
+
+#: ../invest-applet/invest/widgets.py:51
+msgid "Change %"
+msgstr "% שינוי"
+
+#: ../invest-applet/invest/widgets.py:51
+msgid "Chart"
+msgstr "טבלה"
+
+#: ../invest-applet/invest/widgets.py:51
+msgid "Gain"
+msgstr "רווח"
+
+#: ../invest-applet/invest/widgets.py:51
+msgid "Gain %"
+msgstr "% רווח"
+
+#: ../mini-commander/MATE_MiniCommanderApplet.server.in.h:1
+msgid "Deskbar (formerly Mini-Commander)"
+msgstr "‏Deskbar (לשעבר Mini-Commander)"
+
+#: ../mini-commander/MATE_MiniCommanderApplet.server.in.h:2
+msgid "Deskbar (transparent upgrade from Mini-Commander)"
+msgstr "‏Deskbar (עדכון שקוף מ־Mini Commander)"
+
+#: ../mini-commander/src/about.c:48
+msgid ""
+"This MATE applet adds a command line to the panel. It features command "
+"completion, command history, and changeable macros."
+msgstr "יישומון זה מוסיף שורת פקודה ללוח."
+
+#: ../mini-commander/src/command_line.c:345
+msgid "No items in history"
+msgstr "אין פריטים בהיסטוריה"
+
+#. build file select dialog
+#: ../mini-commander/src/command_line.c:469
+msgid "Start program"
+msgstr "התחל תוכנית"
+
+#: ../mini-commander/src/command_line.c:522
+msgid "Command line"
+msgstr "שורת פקודה"
+
+#: ../mini-commander/src/command_line.c:523
+msgid "Type a command here and Mate will execute it for you"
+msgstr "כתוב כאן פקודה ו־Mate יבצע אותה עבורך"
+
+#: ../mini-commander/src/mc-install-default-macros.c:80
+#, c-format
+msgid "Cannot get schema for %s: %s"
+msgstr "לא ניתן לקבל סכימה בעבור %s: %s"
+
+#: ../mini-commander/src/mc-install-default-macros.c:111
+#, c-format
+msgid "Cannot set schema for %s: %s"
+msgstr "לא ניתן לקבוע סכימה בעבור %s: %s"
+
+#: ../mini-commander/src/mc-install-default-macros.c:117
+#, c-format
+msgid "Set default list value for %s\n"
+msgstr "קבע ערך רשימה ברירת מחדל ל %s\n"
+
+#: ../mini-commander/src/mc-install-default-macros.c:129
+#, c-format
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
+msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL נקבע, לא מתקין סכימות\n"
+
+#: ../mini-commander/src/mc-install-default-macros.c:137
+#, c-format
+msgid "Must set the MATECONF_CONFIG_SOURCE environment variable\n"
+msgstr "חייב לקבוע את משתנה הסביבה MATECONF_CONFIG_SOURCE\n"
+
+#: ../mini-commander/src/mc-install-default-macros.c:154
+#, c-format
+msgid "Failed to access configuration source(s): %s\n"
+msgstr "נכשל בגישה למקור(ואת) ההגדרות: %s\n"
+
+#: ../mini-commander/src/mc-install-default-macros.c:169
+#, c-format
+msgid "Error syncing config data: %s"
+msgstr "שגיאה בסינכרון מידע ההגדרות: %s"
+
+#: ../mini-commander/src/mini-commander-global.schemas.in.h:1
+#: ../mini-commander/src/mini-commander.schemas.in.h:26
+msgid "Macro pattern list"
+msgstr "Macro pattern list"
+
+#: ../mini-commander/src/mini-commander-global.schemas.in.h:2
+msgid ""
+"List of MateConfValue entries containing strings for the macro patterns."
+msgstr "List of MateConfValue entries containing strings for the macro patterns."
+
+#: ../mini-commander/src/mini-commander-global.schemas.in.h:3
+#: ../mini-commander/src/mini-commander.schemas.in.h:28
+msgid "Macro command list"
+msgstr "Macro command list"
+
+#: ../mini-commander/src/mini-commander-global.schemas.in.h:4
+msgid ""
+"List of MateConfValue entries containing strings for the macro commands."
+msgstr "List of MateConfValue entries containing strings for the macro commands."
+
+#: ../mini-commander/src/mini-commander.ui.h:1
+msgid "Command Line Preferences"
+msgstr "העדפות שורת הפקודה"
+
+#: ../mini-commander/src/mini-commander.ui.h:2
+msgid "Auto Completion"
+msgstr "השלמה אוטומטית"
+
+#: ../mini-commander/src/mini-commander.ui.h:3
+msgid "E_nable history-based auto completion"
+msgstr "ה_פעלת השלמה אוטומטית בהתבסס על היסטוריה"
+
+#: ../mini-commander/src/mini-commander.ui.h:4
+msgid "Size"
+msgstr "גודל"
+
+#: ../mini-commander/src/mini-commander.ui.h:5
+#: ../stickynotes/stickynotes.ui.h:19
+msgid "_Width:"
+msgstr "_רוחב:"
+
+#: ../mini-commander/src/mini-commander.ui.h:6 ../multiload/properties.c:526
+msgid "pixels"
+msgstr "פיקסלים"
+
+#: ../mini-commander/src/mini-commander.ui.h:7 ../multiload/properties.c:571
+msgid "Colors"
+msgstr "צבעים"
+
+#: ../mini-commander/src/mini-commander.ui.h:8
+msgid "_Use default theme colors"
+msgstr "השתמש ב_צבעי ערכת הנושא של ברירת המחדל"
+
+#: ../mini-commander/src/mini-commander.ui.h:9
+msgid "Command line _foreground:"
+msgstr "ק_דמת שורת הפקודה:"
+
+#: ../mini-commander/src/mini-commander.ui.h:10
+msgid "Command line _background:"
+msgstr "ר_קע שורת הפקודה:"
+
+#: ../mini-commander/src/mini-commander.ui.h:11
+msgid "Pick a color"
+msgstr "בחר צבע"
+
+#: ../mini-commander/src/mini-commander.ui.h:13
+msgid "_Macros:"
+msgstr "_מקרואים:"
+
+#: ../mini-commander/src/mini-commander.ui.h:14
+msgid "_Add Macro..."
+msgstr "הו_סף מקרו..."
+
+#: ../mini-commander/src/mini-commander.ui.h:15
+msgid "_Delete Macro"
+msgstr "_מחק מקרו"
+
+#: ../mini-commander/src/mini-commander.ui.h:16
+msgid "Macros"
+msgstr "מקרואים"
+
+#: ../mini-commander/src/mini-commander.ui.h:17
+msgid "Add New Macro"
+msgstr "הוספת מקרו חדש"
+
+#: ../mini-commander/src/mini-commander.ui.h:18
+msgid "_Pattern:"
+msgstr "_תבנית:"
+
+#: ../mini-commander/src/mini-commander.ui.h:19
+msgid "Co_mmand:"
+msgstr "_פקודה:"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:1
+msgid "Show handle"
+msgstr "Show handle"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:2
+msgid "Show a handle so the applet can be detached from the panel."
+msgstr "Show a handle so the applet can be detached from the panel."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:3
+msgid "Show frame"
+msgstr "Show frame"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:4
+msgid "Show a frame surrounding the applet."
+msgstr "Show a frame surrounding the applet."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:5
+msgid "Perform history autocompletion"
+msgstr "Perform history autocompletion"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:6
+msgid ""
+"Attempt to autocomplete a command from the history of commands entered."
+msgstr "Attempt to autocomplete a command from the history of commands entered."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:7
+msgid "Width"
+msgstr "Width"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:8
+msgid "Width of the applet"
+msgstr "Width of the applet"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:9
+msgid "Not used anymore"
+msgstr "Not used anymore"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:10
+msgid "Use the default theme colors"
+msgstr "Use the default theme colors"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:11
+msgid "Use theme colors instead of custom ones."
+msgstr "Use theme colors instead of custom ones."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:12
+msgid "Foreground color, red component"
+msgstr "Foreground color, red component"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:13
+msgid "The red component of the foreground color."
+msgstr "The red component of the foreground color."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:14
+msgid "Foreground color, green component"
+msgstr "Foreground color, green component"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:15
+msgid "The green component of the foreground color."
+msgstr "The green component of the foreground color."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:16
+msgid "Foreground color, blue component"
+msgstr "Foreground color, blue component"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:17
+msgid "The blue component of the foreground color."
+msgstr "The blue component of the foreground color."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:18
+msgid "Background color, red component"
+msgstr "Background color, red component"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:19
+msgid "The red component of the background color."
+msgstr "The red component of the background color."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:20
+msgid "Background color, green component"
+msgstr "Background color, green component"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:21
+msgid "The green component of the background color."
+msgstr "The green component of the background color."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:22
+msgid "Background color, blue component"
+msgstr "Background color, blue component"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:23
+msgid "The blue component of the background color."
+msgstr "The blue component of the background color."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:24
+msgid "History list"
+msgstr "History list"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:25
+msgid "List of MateConfValue entries containing strings for history entries."
+msgstr "List of MateConfValue entries containing strings for history entries."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:27
+msgid ""
+"This per-applet key is deprecated in favour of the global key, /schemas/apps"
+"/mini-commander-global/macro_patterns."
+msgstr "This per-applet key is deprecated in favour of the global key, /schemas/apps/mini-commander-global/macro_patterns."
+
+#: ../mini-commander/src/mini-commander_applet.c:242
+#: ../mini-commander/src/mini-commander_applet.c:246
+msgid "Browser"
+msgstr "דפדפן"
+
+#: ../mini-commander/src/mini-commander_applet.c:247
+msgid "Click this button to start the browser"
+msgstr "לחץ על כפתור זה כדי להפעיל את הדפדפן"
+
+#: ../mini-commander/src/mini-commander_applet.c:260
+#: ../mini-commander/src/mini-commander_applet.c:264
+msgid "History"
+msgstr "היסטוריה"
+
+#: ../mini-commander/src/mini-commander_applet.c:265
+msgid "Click this button for the list of previous commands"
+msgstr "לחץ על כפתור זה לרשימה של פקודות קודמות"
+
+#: ../mini-commander/src/mini-commander_applet.c:346
+msgid "Command line has been disabled by your system administrator"
+msgstr "שורת פקודה בוטלה על ידי מנהל המערכת"
+
+#: ../mini-commander/src/mini-commander_applet.c:361
+#: ../mini-commander/src/org.mate.applets.MiniCommanderApplet.mate-panel-applet.in.in.h:2
+msgid "Command Line"
+msgstr "שורת פקודה"
+
+#: ../mini-commander/src/mini-commander_applet.c:407
+msgid "Mini-Commander applet"
+msgstr "יישומון שורת הפקודה"
+
+#: ../mini-commander/src/mini-commander_applet.c:408
+msgid "This applet adds a command line to the panel"
+msgstr "יישומון זה מוסיף שורת פקודה ללוח שלך"
+
+#: ../mini-commander/src/org.mate.applets.MiniCommanderApplet.mate-panel-applet.in.in.h:1
+msgid "MiniCommander Applet Factory"
+msgstr "יצרן יישומון שורת פקודה קטנה"
+
+#: ../mini-commander/src/org.mate.applets.MiniCommanderApplet.mate-panel-applet.in.in.h:3
+msgid "Mini-Commander"
+msgstr "שורת פקודה קטנה"
+
+#: ../mini-commander/src/preferences.c:401
+msgid "You must specify a pattern"
+msgstr "חובה לציין תבנית"
+
+#: ../mini-commander/src/preferences.c:405
+msgid "You must specify a pattern and a command"
+msgstr "חובה לציין תבנית ופקודה"
+
+#: ../mini-commander/src/preferences.c:406
+msgid "You must specify a command"
+msgstr "חובה לציין פקודה"
+
+#: ../mini-commander/src/preferences.c:409
+msgid "You may not specify duplicate patterns"
+msgstr "אין אפשרות לציין תבניות כפולות"
+
+#: ../mini-commander/src/preferences.c:773
+msgid "Pattern"
+msgstr "תבנית"
+
+#: ../mini-commander/src/preferences.c:783
+msgid "Command"
+msgstr "פקודה"
+
+#: ../mixer/applet.c:184
+msgid "Volume Applet"
+msgstr "יישומון בקרת עצמה"
+
+#. tooltip over applet
+#: ../mixer/applet.c:200 ../mixer/applet.c:221 ../null_applet/null_applet.c:44
+#: ../null_applet/null_applet.c:46
+msgid "Volume Control"
+msgstr "בקרת עצמה"
+
+#: ../mixer/applet.c:384
+msgid "_Open Volume Control"
+msgstr "_פתח את בקרת העצמה"
+
+#: ../mixer/applet.c:398
+msgid "Mu_te"
+msgstr "ה_שתק"
+
+#: ../mixer/applet.c:564
+msgid ""
+"The volume control did not find any elements and/or devices to control. This"
+" means either that you don't have the right GStreamer plugins installed, or "
+"that you don't have a sound card configured."
+msgstr "בקרת העצמה לא זיהתה התקנים מתאימים. זה אומר שאו שלא מותקנים תוספי GStreamer מתאימים, או שלא מוגדר כרטיס קול"
+
+#: ../mixer/applet.c:568
+msgid ""
+"You can remove the volume control from the panel by right-clicking the "
+"speaker icon on the panel and selecting \"Remove From Panel\" from the menu."
+msgstr "אפשר להסיר את בקרת העצה על ידי פתיחת החלונית הקופצת מעל סמל הרמקול ובחירת \"הסר מהלוח\""
+
+#: ../mixer/applet.c:754
+#, c-format
+msgid "Failed to start Volume Control: %s"
+msgstr "נכשל באתחול בקרת העצמה: %s"
+
+#: ../mixer/applet.c:1203
+#, c-format
+msgid "%s: muted"
+msgstr "‏%s: מושתק"
+
+#. Translator comment: I'm not all too sure if this makes sense
+#. * to mark as a translation, but anyway. The string is a list of
+#. * selected tracks, the number is the volume in percent. You
+#. * most likely want to keep this as-is.
+#: ../mixer/applet.c:1209
+#, c-format
+msgid "%s: %d%%"
+msgstr "‏%s:·%d%%"
+
+#: ../mixer/applet.c:1445
+#, c-format
+msgid "Failed to display help: %s"
+msgstr "נכשל בהצגת עזרה: %s"
+
+#: ../mixer/applet.c:1458
+msgid "Volume control for your MATE Panel."
+msgstr "בקרת עצמה ללוח MATE."
+
+#: ../mixer/applet.c:1459
+msgid "Using GStreamer 0.10."
+msgstr "בשימוש GSreamer 0.10."
+
+#: ../mixer/dock.c:218
+msgid "Mute"
+msgstr "השתק"
+
+#: ../mixer/dock.c:224
+msgid "Volume Control..."
+msgstr "בקרת עצמה..."
+
+#: ../mixer/load.c:86
+#, c-format
+msgid "Unknown Volume Control %d"
+msgstr "בקרת עצמה לא ידועה %d"
+
+#: ../mixer/mixer.schemas.in.h:1
+msgid "Channel controlled by applet. Only for OSS setups"
+msgstr "Channel controlled by applet. Only for OSS setups"
+
+#: ../mixer/mixer.schemas.in.h:2
+msgid "Saved mute state"
+msgstr "Saved mute state"
+
+#: ../mixer/mixer.schemas.in.h:3
+msgid "Saved volume to restore on startup"
+msgstr "Saved volume to restore on startup"
+
+#. make window look cute
+#: ../mixer/preferences.c:90
+msgid "Volume Control Preferences"
+msgstr "העדפות בקרת העצמה"
+
+#: ../mixer/preferences.c:103
+msgid "Select the device and track to control."
+msgstr "נא לבחור את ההתקן והערוץ לבקרה."
+
+#: ../modemlights/modem-applet.c:142
+msgid "_Activate"
+msgstr "_הפעל"
+
+#: ../modemlights/modem-applet.c:145
+msgid "_Deactivate"
+msgstr "_בטל"
+
+#: ../modemlights/modem-applet.c:148 ../stickynotes/stickynotes.ui.h:4
+msgid "_Properties"
+msgstr "_מאפיינים"
+
+#: ../modemlights/modem-applet.c:184
+#: ../modemlights/org.mate.applets.ModemApplet.mate-panel-applet.in.in.h:1
+msgid "Modem Monitor"
+msgstr "צג מודם"
+
+#: ../modemlights/modem-applet.c:710
+msgid "Connection active, but could not get connection time"
+msgstr "החיבור פעיל, משך החיבור לא ידוע"
+
+#: ../modemlights/modem-applet.c:726
+#, c-format
+msgid "Time connected: %.1d:%.2d"
+msgstr "משך החיבור: %.1d:%.2d"
+
+#: ../modemlights/modem-applet.c:730
+msgid "Not connected"
+msgstr "לא מחובר"
+
+#: ../modemlights/modem-applet.c:752
+msgid ""
+"To connect to your Internet service provider, you need administrator "
+"privileges"
+msgstr "על מנת להתחבר לאינטרנט, יש צורך בהרשאת מנהל מערכת"
+
+#: ../modemlights/modem-applet.c:753
+msgid ""
+"To disconnect from your Internet service provider, you need administrator "
+"privileges"
+msgstr "על מנת להתנתק מהאינטרנט, יש צורך בהרשאת מנהל מערכת"
+
+#: ../modemlights/modem-applet.c:828
+msgid "The entered password is invalid"
+msgstr "הסיסמא שגויה"
+
+#: ../modemlights/modem-applet.c:830
+msgid ""
+"Check that you have typed it correctly and that you haven't activated the "
+"\"caps lock\" key"
+msgstr "יש לבדוק שהסיסמא הוקשה כראוי ושמקש ה\"caps lock\" לא הופעל"
+
+#: ../modemlights/modem-applet.c:932
+msgid "Do you want to connect?"
+msgstr "האם ברצונך להתחבר?"
+
+#: ../modemlights/modem-applet.c:933
+msgid "Do you want to disconnect?"
+msgstr "האם ברצונך להתנתק?"
+
+#: ../modemlights/modem-applet.c:942
+msgid "C_onnect"
+msgstr "הת_חבר"
+
+#: ../modemlights/modem-applet.c:942
+msgid "_Disconnect"
+msgstr "הת_נתק"
+
+#: ../modemlights/modem-applet.c:995
+msgid "Could not launch network configuration tool"
+msgstr "לא ניתן להריץ את כלי הגדרת הרשת"
+
+#: ../modemlights/modem-applet.c:997
+msgid ""
+"Check that it's installed in the correct path and that it has the correct "
+"permissions"
+msgstr "יש לבדוק אם כלי הגדרת הרשת מותקן"
+
+#: ../modemlights/modem-applet.c:1020
+msgid "Applet for activating and monitoring a dial-up network connection."
+msgstr "יישומון לחיבור וניטור חיבור dial-up לרשת"
+
+#: ../modemlights/modemlights.ui.h:1
+msgid "Enter password"
+msgstr "הכנס סיסמה"
+
+#: ../modemlights/modemlights.ui.h:2
+msgid "Root password required"
+msgstr "נדרשת סיסמת משתמש על"
+
+#: ../modemlights/modemlights.ui.h:3
+msgid "Password:"
+msgstr "סיסמה:"
+
+#: ../modemlights/modemlights.ui.h:4
+msgid "Connecting with Internet Service Provider"
+msgstr "מתבצע חיבור לספקית שירות האינטרנט"
+
+#: ../modemlights/org.mate.applets.ModemApplet.mate-panel-applet.in.in.h:2
+msgid "Activate and monitor a dial-up network connection"
+msgstr "הפעלה וניטור חיבור dial-up"
+
+#: ../multiload/main.c:56
+msgid ""
+"A system load monitor capable of displaying graphs for CPU, ram, and swap "
+"space use, plus network traffic."
+msgstr "צג עומס מערכת המאפשר להציג גרפים למעבד, מקום שימוש ב RAM ובקובץ תחלופה, וגם עומס רשת."
+
+#: ../multiload/main.c:124
+#, c-format
+msgid "There was an error executing '%s': %s"
+msgstr "ארעה שגיאה בהפעלת '%s': %s"
+
+#: ../multiload/main.c:252 ../multiload/properties.c:596
+msgid "Processor"
+msgstr "מעבד"
+
+#: ../multiload/main.c:254 ../multiload/properties.c:604
+msgid "Memory"
+msgstr "זיכרון"
+
+#: ../multiload/main.c:256 ../multiload/properties.c:612
+msgid "Network"
+msgstr "רשת"
+
+#: ../multiload/main.c:258 ../multiload/properties.c:619
+msgid "Swap Space"
+msgstr "מקום תחלופה"
+
+#: ../multiload/main.c:260 ../multiload/main.c:339
+msgid "Load Average"
+msgstr "ממוצע הספק"
+
+#: ../multiload/main.c:262
+msgid "Disk"
+msgstr "דיסק"
+
+#. xgettext: use and cache are > 1 most of the time,
+#. please assume that they always are.
+#. 
+#: ../multiload/main.c:278
+#, c-format
+msgid ""
+"%s:\n"
+"%u%% in use by programs\n"
+"%u%% in use as cache"
+msgstr "‏%s:\n‏%u%% בשימוש על ידי תוכניות\n‏%u%% בשימוש כמטמון:"
+
+#: ../multiload/main.c:286
+#, c-format
+msgid "The system load average is %0.02f"
+msgstr "ממוצע העומס של המערכת הוא %0.02f"
+
+#. xgettext: same as in graphic tab of g-s-m
+#: ../multiload/main.c:294
+#, c-format
+msgid ""
+"%s:\n"
+"Receiving %s\n"
+"Sending %s"
+msgstr "%s:\nהתקבל %s\nנשלח %s"
+
+#: ../multiload/main.c:310
+#, c-format
+msgid ""
+"%s:\n"
+"%u%% in use"
+msgid_plural ""
+"%s:\n"
+"%u%% in use"
+msgstr[0] "‏%s:\n‏%u%% בשימוש‏"
+msgstr[1] "‏%s:\n‏%u%% בשימוש‏"
+
+#: ../multiload/main.c:335
+msgid "CPU Load"
+msgstr "הספק מעבד"
+
+#: ../multiload/main.c:336
+msgid "Memory Load"
+msgstr "עומס זיכרון"
+
+#: ../multiload/main.c:337
+msgid "Net Load"
+msgstr "הספק רשת"
+
+#: ../multiload/main.c:338
+msgid "Swap Load"
+msgstr "עומס תחלופה"
+
+#: ../multiload/main.c:340
+msgid "Disk Load"
+msgstr "עומס דיסק"
+
+#: ../multiload/main.c:436
+msgid "_Open System Monitor"
+msgstr "_פתח צג מערכת"
+
+#: ../multiload/main.c:464
+#: ../multiload/org.mate.applets.MultiLoadApplet.mate-panel-applet.in.in.h:1
+msgid "System Monitor"
+msgstr "צג מערכת"
+
+#: ../multiload/multiload.schemas.in.h:1
+msgid "Enable CPU load graph"
+msgstr "Enable CPU load graph"
+
+#: ../multiload/multiload.schemas.in.h:2
+msgid "Enable memory load graph"
+msgstr "Enable memory load graph"
+
+#: ../multiload/multiload.schemas.in.h:3
+msgid "Enable network load graph"
+msgstr "Enable network load graph"
+
+#: ../multiload/multiload.schemas.in.h:4
+msgid "Enable swap load graph"
+msgstr "Enable swap load graph"
+
+#: ../multiload/multiload.schemas.in.h:5
+msgid "Enable load average graph"
+msgstr "Enable load average graph"
+
+#: ../multiload/multiload.schemas.in.h:6
+msgid "Enable disk load graph"
+msgstr "Enable disk load graph"
+
+#: ../multiload/multiload.schemas.in.h:7
+msgid "Applet refresh rate in milliseconds"
+msgstr "Applet refresh rate in milliseconds"
+
+#: ../multiload/multiload.schemas.in.h:8
+msgid "Graph size"
+msgstr "Graph size"
+
+#: ../multiload/multiload.schemas.in.h:9
+msgid ""
+"For horizontal panels, the width of the graphs in pixels. For vertical "
+"panels, this is the height of the graphs."
+msgstr "For horizontal panels, the width of the graphs in pixels. For vertical panels, this is the height of the graphs."
+
+#: ../multiload/multiload.schemas.in.h:10
+msgid "Graph color for user-related CPU activity"
+msgstr "Graph color for user-related CPU activity"
+
+#: ../multiload/multiload.schemas.in.h:11
+msgid "Graph color for system-related CPU activity"
+msgstr "Graph color for system-related CPU activity"
+
+#: ../multiload/multiload.schemas.in.h:12
+msgid "Graph color for nice-related CPU activity"
+msgstr "Graph color for nice-related CPU activity"
+
+#: ../multiload/multiload.schemas.in.h:13
+msgid "Graph color for iowait related CPU activity"
+msgstr "Graph color for iowait related CPU activity"
+
+#: ../multiload/multiload.schemas.in.h:14
+msgid "CPU graph background color"
+msgstr "CPU graph background color"
+
+#: ../multiload/multiload.schemas.in.h:15
+msgid "Graph color for user-related memory usage"
+msgstr "Graph color for user-related memory usage"
+
+#: ../multiload/multiload.schemas.in.h:16
+msgid "Graph color for shared memory"
+msgstr "Graph color for shared memory"
+
+#: ../multiload/multiload.schemas.in.h:17
+msgid "Graph color for buffer memory"
+msgstr "Graph color for buffer memory"
+
+#: ../multiload/multiload.schemas.in.h:18
+msgid "Graph color for cached memory"
+msgstr "Graph color for cached memory"
+
+#: ../multiload/multiload.schemas.in.h:19
+msgid "Memory graph background color"
+msgstr "Memory graph background color"
+
+#: ../multiload/multiload.schemas.in.h:20
+msgid "Graph color for input network activity"
+msgstr "Graph color for input network activity"
+
+#: ../multiload/multiload.schemas.in.h:21
+msgid "Graph color for output network activity"
+msgstr "Graph color for output network activity"
+
+#: ../multiload/multiload.schemas.in.h:22
+msgid "Graph color for loopback network usage"
+msgstr "Graph color for loopback network usage"
+
+#: ../multiload/multiload.schemas.in.h:23
+msgid "Network graph background color"
+msgstr "Network graph background color"
+
+#: ../multiload/multiload.schemas.in.h:24
+msgid "Graph color for user-related swap usage"
+msgstr "צבע הגרף לפעילות תחלופה user-related"
+
+#: ../multiload/multiload.schemas.in.h:25
+msgid "Swap graph background color"
+msgstr "Swap graph background color"
+
+#: ../multiload/multiload.schemas.in.h:26
+msgid "Graph color for load average"
+msgstr "Graph color for load average"
+
+#: ../multiload/multiload.schemas.in.h:27
+msgid "Load graph background color"
+msgstr "Load graph background color"
+
+#: ../multiload/multiload.schemas.in.h:28
+msgid "Graph color for disk read"
+msgstr "Graph color for disk read"
+
+#: ../multiload/multiload.schemas.in.h:29
+msgid "Graph color for disk write"
+msgstr "Graph color for disk write"
+
+#: ../multiload/multiload.schemas.in.h:30
+msgid "Background color for disk load graph"
+msgstr "Background color for disk load graph"
+
+#: ../multiload/multiload.schemas.in.h:31
+msgid "The desktop description file to execute as the system monitor"
+msgstr "The desktop description file to execute as the system monitor"
+
+#: ../multiload/netspeed.c:40
+#, c-format
+msgid "%s/s"
+msgstr "%s/s"
+
+#: ../multiload/org.mate.applets.MultiLoadApplet.mate-panel-applet.in.in.h:2
+msgid "A system load indicator"
+msgstr "מחוון עומס מערכת"
+
+#: ../multiload/properties.c:357
+msgid "Monitored Resources"
+msgstr "משאבים מוצגים"
+
+#: ../multiload/properties.c:382
+msgid "_Processor"
+msgstr "_מעבד"
+
+#: ../multiload/properties.c:395
+msgid "_Memory"
+msgstr "_זיכרון"
+
+#: ../multiload/properties.c:408
+msgid "_Network"
+msgstr "_רשת"
+
+#: ../multiload/properties.c:421
+msgid "S_wap Space"
+msgstr "מקום _תחלופה"
+
+#: ../multiload/properties.c:434
+msgid "_Load"
+msgstr "ה_ספק"
+
+#: ../multiload/properties.c:447
+msgid "_Harddisk"
+msgstr "_דיסק קשיח"
+
+#: ../multiload/properties.c:463
+msgid "Options"
+msgstr "אפשרויות"
+
+#: ../multiload/properties.c:493
+msgid "System m_onitor width: "
+msgstr "רוחב צ_ג המערכת: "
+
+#: ../multiload/properties.c:495
+msgid "System m_onitor height: "
+msgstr "גובה צ_ג המערכת: "
+
+#: ../multiload/properties.c:534
+msgid "Sys_tem monitor update interval: "
+msgstr "השהיית עדכוני צג המע_רכת: "
+
+#: ../multiload/properties.c:560
+msgid "milliseconds"
+msgstr "מילי-שניות"
+
+#: ../multiload/properties.c:598 ../multiload/properties.c:606
+msgid "_User"
+msgstr "_משתמש"
+
+#: ../multiload/properties.c:599
+msgid "S_ystem"
+msgstr "מ_ערכת"
+
+#: ../multiload/properties.c:600
+msgid "N_ice"
+msgstr "_עדיפות"
+
+#: ../multiload/properties.c:601
+msgid "I_OWait"
+msgstr "הפסקת קלט/פלט"
+
+#: ../multiload/properties.c:602
+msgid "I_dle"
+msgstr "_סרק"
+
+#: ../multiload/properties.c:607
+msgid "Sh_ared"
+msgstr "מ_שותף"
+
+#: ../multiload/properties.c:608
+msgid "_Buffers"
+msgstr "_מאגרים"
+
+#: ../multiload/properties.c:609
+msgid "Cach_ed"
+msgstr "מ_טמון"
+
+#: ../multiload/properties.c:610
+msgid "F_ree"
+msgstr "פ_נוי"
+
+#: ../multiload/properties.c:614
+msgid "_In"
+msgstr "_נכנס"
+
+#: ../multiload/properties.c:615
+msgid "_Out"
+msgstr "י_וצא"
+
+#: ../multiload/properties.c:616
+msgid "_Local"
+msgstr "_מקומי"
+
+#: ../multiload/properties.c:617 ../multiload/properties.c:627
+#: ../multiload/properties.c:633
+msgid "_Background"
+msgstr "_רקע"
+
+#: ../multiload/properties.c:621
+msgid "_Used"
+msgstr "_בשימוש"
+
+#: ../multiload/properties.c:622
+msgid "_Free"
+msgstr "_פנוי"
+
+#: ../multiload/properties.c:624
+msgid "Load"
+msgstr "עומס"
+
+#: ../multiload/properties.c:626
+msgid "_Average"
+msgstr "_ממוצע"
+
+#: ../multiload/properties.c:629
+msgid "Harddisk"
+msgstr "דיסק קשיח"
+
+#: ../multiload/properties.c:631
+msgid "_Read"
+msgstr "_קרא"
+
+#: ../multiload/properties.c:632
+msgid "_Write"
+msgstr "_כתוב"
+
+#: ../multiload/properties.c:657
+msgid "System Monitor Preferences"
+msgstr "העדפות צג מערכת"
+
+#: ../null_applet/MATE_CDPlayerApplet.server.in.h:1
+msgid "CD Player (Deprecated)"
+msgstr "נגן תקליטורים (ישן)"
+
+#: ../null_applet/MATE_CDPlayerApplet.server.in.h:2
+msgid "Panel applet for playing audio CDs"
+msgstr "יישומון לוח לניגון תקליטורי שמע"
+
+#: ../null_applet/MATE_MailcheckApplet_Factory.server.in.h:1
+msgid "Inbox Monitor (Deprecated)"
+msgstr "מחוון דואר נכנס (נזנח)"
+
+#: ../null_applet/MATE_MailcheckApplet_Factory.server.in.h:2
+msgid "Alert you when new mail arrives"
+msgstr "התרע אותך כאשר דואר חדש מגיע"
+
+#: ../null_applet/MATE_MixerApplet.server.in.h:1
+msgid "Volume Control (Deprecated)"
+msgstr "בקרת עצמה (נזנח)"
+
+#: ../null_applet/MATE_MixerApplet.server.in.h:2
+msgid "Adjust the sound volume"
+msgstr "כיוון עצמת השמע"
+
+#: ../null_applet/MATE_NullApplet_Factory.server.in.in.h:1
+msgid "Null Applet Factory"
+msgstr "Null Applet Factory"
+
+#: ../null_applet/MATE_NullApplet_Factory.server.in.in.h:2
+msgid "Factory for deprecating applets"
+msgstr "Factory for deprecating applets"
+
+#: ../null_applet/MATE_Panel_WirelessApplet.server.in.h:1
+msgid "Wireless Link Monitor"
+msgstr "צג קישור אלחוטי"
+
+#: ../null_applet/MATE_Panel_WirelessApplet.server.in.h:2
+msgid "Monitor the quality of a wireless network link"
+msgstr "מציג את איכות חיבור הרשת האלחוטית"
+
+#: ../null_applet/MATE_KeyboardApplet.server.in.h:1
+msgid "Keyboard Indicator (Deprecated)"
+msgstr "מחוון מקלדת (נזנח)"
+
+#: ../null_applet/MATE_KeyboardApplet.server.in.h:2
+msgid "Keyboard layout indicator"
+msgstr "מחוון פריסת מקלדת"
+
+#: ../null_applet/null_applet.c:40
+msgid "Inbox Monitor"
+msgstr "מציג תיבת הדואר הנכנס"
+
+#: ../null_applet/null_applet.c:42
+msgid "CD Player"
+msgstr "נגן תקליטורים"
+
+#: ../null_applet/null_applet.c:48
+msgid "Keyboard Indicator"
+msgstr "מחוון מקלדת"
+
+#: ../null_applet/null_applet.c:151
+msgid "Some panel items are no longer available"
+msgstr "מספר פריטי לוח כבר לא קיימים"
+
+#: ../null_applet/null_applet.c:152
+msgid ""
+"One or more panel items (also referred to as applets) are no longer "
+"available in the MATE desktop."
+msgstr "מספר פריטי לוח (יישומונים) כבר לא קיימים בשולחן העבודה MATE."
+
+#: ../null_applet/null_applet.c:154
+msgid "These items will now be removed from your configuration:"
+msgstr "פריטים אלו יוסרו כאת מההגדרות שלך:"
+
+#: ../null_applet/null_applet.c:157
+msgid "You will not receive this message again."
+msgstr "הודעה זאת לא תוצג שוב."
+
+#: ../stickynotes/data/MATE_StickyNotesApplet.server.in.h:1
+msgid "Tomboy (ne Stickynotes)"
+msgstr "‏Tomboy (פתקיות דביקות)"
+
+#: ../stickynotes/data/MATE_StickyNotesApplet.server.in.h:2
+msgid "Tomboy (transparent upgrade from stickynotes)"
+msgstr "‏Tomboy (עדכון שקוף מפתקיות דביקות)"
+
+#: ../stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.in.in.h:1
+msgid "Sticky Notes Applet Factory"
+msgstr "יצרן יישומון פתקיות דביקות"
+
+#: ../stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.in.in.h:2
+#: ../stickynotes/stickynotes_applet.c:147
+#: ../stickynotes/stickynotes_applet.c:428
+msgid "Sticky Notes"
+msgstr "פתקיות דביקות"
+
+#: ../stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.in.in.h:3
+msgid "Create, view, and manage sticky notes on the desktop"
+msgstr "צור, צפה ונהל פתקיות דביקות על שולחן העבודה"
+
+#: ../stickynotes/stickynotes.c:634
+msgid "This note is locked."
+msgstr "פתקית זאת נעולה."
+
+#: ../stickynotes/stickynotes.c:638
+msgid "This note is unlocked."
+msgstr "פתקית זאת אינה נעולה."
+
+#: ../stickynotes/stickynotes.ui.h:1 ../stickynotes/stickynotes_applet.c:33
+msgid "_New Note"
+msgstr "פתקית _חדשה"
+
+#: ../stickynotes/stickynotes.ui.h:2
+msgid "_Delete Note..."
+msgstr "מחק _פתקית..."
+
+#: ../stickynotes/stickynotes.ui.h:3
+msgid "_Lock Note"
+msgstr "_נעל פתקית"
+
+#: ../stickynotes/stickynotes.ui.h:5
+msgid "Sticky Notes Preferences"
+msgstr "העדפות פתקיות דביקות"
+
+#: ../stickynotes/stickynotes.ui.h:6
+msgid "Default Note Properties"
+msgstr "מאפייני ברירת המחדל של פתקית"
+
+#: ../stickynotes/stickynotes.ui.h:7
+msgid "Choose a font to use for all sticky notes"
+msgstr "בחר גופן לשימוש בכל הפתקיות הדביקות"
+
+#: ../stickynotes/stickynotes.ui.h:8
+msgid "Pick a default sticky note font"
+msgstr "בחר גופן ברירת מחדל עבור פתקיות"
+
+#: ../stickynotes/stickynotes.ui.h:9
+msgid "_Font:"
+msgstr "_גופן:"
+
+#: ../stickynotes/stickynotes.ui.h:10
+msgid "Use fo_nt from the system theme"
+msgstr "שימוש ב_גופן מערכת נושא המערכת"
+
+#: ../stickynotes/stickynotes.ui.h:11
+msgid "Note C_olor:"
+msgstr "צבע _פתקית:"
+
+#: ../stickynotes/stickynotes.ui.h:12
+msgid "Font Co_lor:"
+msgstr "צ_בע גופן:"
+
+#: ../stickynotes/stickynotes.ui.h:13
+msgid "Choose a base color to use for all sticky notes"
+msgstr "בחר צבע בסיס לשימוש בכל הפתקיות הדביקות"
+
+#: ../stickynotes/stickynotes.ui.h:14
+msgid "Pick a default sticky note color"
+msgstr "בחר צבע ברירת מחדל עבור פתקיות"
+
+#: ../stickynotes/stickynotes.ui.h:15
+msgid "Use co_lor from the system theme"
+msgstr "שימוש ב_צבע מערכת נושא המערכת"
+
+#: ../stickynotes/stickynotes.ui.h:16
+msgid "Specify the default height (in pixels) of new notes"
+msgstr "ציין את גובה ברירת המחדל (בפיקסלים) של פתקיות חדשות"
+
+#: ../stickynotes/stickynotes.ui.h:17
+msgid "Specify the default width (in pixels) of new notes"
+msgstr "ציין את רוחב ברירת המחדל (בפיקסלים) של פתקיות חדשות"
+
+#: ../stickynotes/stickynotes.ui.h:18
+msgid "H_eight:"
+msgstr "_גובה:"
+
+#: ../stickynotes/stickynotes.ui.h:20
+msgid "Behavior"
+msgstr "התנהגות"
+
+#: ../stickynotes/stickynotes.ui.h:21
+msgid "Hide notes when the des_ktop is clicked on"
+msgstr "ה_סתרת הפתקיות בעת לחיצה על שולחן העבודה"
+
+#: ../stickynotes/stickynotes.ui.h:22
+msgid "Choose whether to hide all notes when selecting on the desktop"
+msgstr "בחירה האם להסתיר את כל הפתקיות בעת לחיצה על שולחן העבודה"
+
+#: ../stickynotes/stickynotes.ui.h:23
+msgid "Force _default color and font on notes"
+msgstr "כפה את _צבע וגופן ברירת המחדל על כל הפתקיות"
+
+#: ../stickynotes/stickynotes.ui.h:24
+msgid "Choose if the default style is forced on all notes"
+msgstr "בחר האם לכפות את סגנון ברירת המחדל על כל הפתקיות"
+
+#: ../stickynotes/stickynotes.ui.h:25
+msgid "_Put notes on all workspaces"
+msgstr "ה_צמדת פתקיות אל כל מרחבי העבודה"
+
+#: ../stickynotes/stickynotes.ui.h:26
+msgid "Choose if notes are visible on all workspaces"
+msgstr "בחר האם הפתקיות גלויות בכל סביבות העבודה"
+
+#: ../stickynotes/stickynotes.ui.h:27
+msgid "Delete this sticky note?"
+msgstr "למחוק את הפתקית הדביקה?"
+
+#: ../stickynotes/stickynotes.ui.h:28
+msgid "This cannot be undone."
+msgstr "לא ניתן לבטל פעולה זו."
+
+#: ../stickynotes/stickynotes.ui.h:29
+msgid "Delete all sticky notes?"
+msgstr "למחוק את כל הפתקיות הדביקות?"
+
+#: ../stickynotes/stickynotes.ui.h:30
+msgid "_Delete All"
+msgstr "_מחק הכל"
+
+#: ../stickynotes/stickynotes.ui.h:31
+msgid "Sticky Note"
+msgstr "פתקית דביקה"
+
+#: ../stickynotes/stickynotes.ui.h:32
+msgid "Lock/Unlock note"
+msgstr "נעל/שחרר פתקית"
+
+#: ../stickynotes/stickynotes.ui.h:33
+msgid "Close note"
+msgstr "סגור פתקית"
+
+#: ../stickynotes/stickynotes.ui.h:34
+msgid "Resize note"
+msgstr "שנה גודל פתקית"
+
+#: ../stickynotes/stickynotes.ui.h:35
+msgid "Sticky Note Properties"
+msgstr "מאפייני פתקית דביקה"
+
+#: ../stickynotes/stickynotes.ui.h:36
+msgid "Properties"
+msgstr "מאפיינים"
+
+#: ../stickynotes/stickynotes.ui.h:37
+msgid "Choose a font for the note"
+msgstr "בחר גופן לפתקית"
+
+#: ../stickynotes/stickynotes.ui.h:38
+msgid "Pick a font for the sticky note"
+msgstr "בחר גופן עבור הפתקית הדביקה"
+
+#: ../stickynotes/stickynotes.ui.h:39
+msgid "Use default fo_nt"
+msgstr "השתמש ב_גופן ברירת המחדל"
+
+#: ../stickynotes/stickynotes.ui.h:40
+msgid "Choose a color for the note"
+msgstr "בחר צבע לפתקית"
+
+#: ../stickynotes/stickynotes.ui.h:41
+msgid "Pick a color for the sticky note"
+msgstr "בחר צבע עבור הפתקית הדביקה"
+
+#: ../stickynotes/stickynotes.ui.h:42
+msgid "Note _Color:"
+msgstr "צ_בע פתקית:"
+
+#: ../stickynotes/stickynotes.ui.h:43
+msgid "Font C_olor:"
+msgstr "_צבע גופן:"
+
+#: ../stickynotes/stickynotes.ui.h:44
+msgid "Use default co_lor"
+msgstr "השתמש ב_צבע ברירת המחדל"
+
+#: ../stickynotes/stickynotes.ui.h:45
+msgid "Specify a title for the note"
+msgstr "ציין שם עבור הפתקית"
+
+#: ../stickynotes/stickynotes.ui.h:46
+msgid "_Title:"
+msgstr "_שם:"
+
+#: ../stickynotes/stickynotes.schemas.in.h:1
+msgid "Default width for new notes"
+msgstr "Default width for new notes"
+
+#: ../stickynotes/stickynotes.schemas.in.h:2
+msgid "Default width for new sticky notes in pixels."
+msgstr "Default width for new sticky notes in pixels."
+
+#: ../stickynotes/stickynotes.schemas.in.h:3
+msgid "Default height for new notes"
+msgstr "Default height for new notes"
+
+#: ../stickynotes/stickynotes.schemas.in.h:4
+msgid "Default height for new sticky notes in pixels."
+msgstr "Default height for new sticky notes in pixels."
+
+#: ../stickynotes/stickynotes.schemas.in.h:5
+msgid "Default color for new notes"
+msgstr "Default color for new notes"
+
+#: ../stickynotes/stickynotes.schemas.in.h:6
+msgid ""
+"Default color for new sticky notes. This should be in html hex "
+"specification, for example \"#30FF50\"."
+msgstr "Default color for new sticky notes. This should be in html hex specification, for example \"#30FF50\"."
+
+#: ../stickynotes/stickynotes.schemas.in.h:7
+msgid "Default color for font"
+msgstr "Default color for font"
+
+#: ../stickynotes/stickynotes.schemas.in.h:8
+msgid ""
+"Default font color for new sticky notes. This should be in html hex "
+"specification, for example \"#000000\"."
+msgstr "Default font color for new sticky notes. This should be in html hex specification, for example \"#000000\"."
+
+#: ../stickynotes/stickynotes.schemas.in.h:9
+msgid "Default font for new notes"
+msgstr "Default font for new notes"
+
+#: ../stickynotes/stickynotes.schemas.in.h:10
+msgid ""
+"Default font for new sticky notes. This should be a Pango Font Name, for "
+"example \"Sans Italic 10\"."
+msgstr "Default font for new sticky notes. This should be a Pango Font Name, for example \"Sans Italic 10\"."
+
+#: ../stickynotes/stickynotes.schemas.in.h:11
+msgid "Sticky notes' workspace stickyness"
+msgstr "Sticky notes' workspace stickyness"
+
+#: ../stickynotes/stickynotes.schemas.in.h:12
+msgid ""
+"Specifies whether the sticky notes are visible on ALL workspaces on the "
+"desktop, or not."
+msgstr "Specifies whether the sticky notes are visible on ALL workspaces on the desktop, or not."
+
+#: ../stickynotes/stickynotes.schemas.in.h:13
+msgid "Sticky notes' locked state"
+msgstr "Sticky notes' locked state"
+
+#: ../stickynotes/stickynotes.schemas.in.h:14
+msgid "Specifies whether the sticky notes are locked (non-editable) or not."
+msgstr "מציין האם הפתקיות הדביקות נעולות (לא ניתנות לעריכה) או לא."
+
+#: ../stickynotes/stickynotes.schemas.in.h:15
+msgid "Date format of note's title"
+msgstr "Date format of note's title"
+
+#: ../stickynotes/stickynotes.schemas.in.h:16
+msgid ""
+"By default, sticky notes are given the current date as the title when they "
+"are created. This format is used; anything that can be parsed by strftime() "
+"is valid."
+msgstr "By default, sticky notes are given the current date as the title when they are created. This format is used; anything that can be parsed by strftime() is valid."
+
+#: ../stickynotes/stickynotes.schemas.in.h:17
+msgid "Whether to use the default system color"
+msgstr "Whether to use the default system color"
+
+#: ../stickynotes/stickynotes.schemas.in.h:18
+msgid ""
+"If this option is disabled, a custom color can be used as the default color "
+"for all sticky notes."
+msgstr "If this option is disabled, a custom color can be used as the default color for all sticky notes."
+
+#: ../stickynotes/stickynotes.schemas.in.h:19
+msgid "Whether to use the default system font"
+msgstr "Whether to use the default system font"
+
+#: ../stickynotes/stickynotes.schemas.in.h:20
+msgid ""
+"If this option is disabled, a custom font can be used as the default font "
+"for all sticky notes."
+msgstr "If this option is disabled, a custom font can be used as the default font for all sticky notes."
+
+#: ../stickynotes/stickynotes.schemas.in.h:21
+msgid "Whether to force the default color and font on all notes"
+msgstr "Whether to force the default color and font on all notes"
+
+#: ../stickynotes/stickynotes.schemas.in.h:22
+msgid ""
+"If this option is enabled, the custom colors and fonts that have been "
+"assigned to individual notes will be ignored."
+msgstr "If this option is enabled, the custom colors and fonts that have been assigned to individual notes will be ignored."
+
+#: ../stickynotes/stickynotes.schemas.in.h:23
+msgid "Whether to hide all notes when the desktop is selected"
+msgstr "Whether to hide all notes when the desktop is selected"
+
+#: ../stickynotes/stickynotes.schemas.in.h:24
+msgid ""
+"If this option is enabled, selecting the desktop in any way will "
+"automatically hide all the open notes."
+msgstr "If this option is enabled, selecting the desktop in any way will automatically hide all the open notes."
+
+#: ../stickynotes/stickynotes.schemas.in.h:25
+msgid "Whether to ask for confirmation when deleting a note"
+msgstr "Whether to ask for confirmation when deleting a note"
+
+#: ../stickynotes/stickynotes.schemas.in.h:26
+msgid "Empty notes are always deleted without confirmation."
+msgstr "Empty notes are always deleted without confirmation."
+
+#: ../stickynotes/stickynotes_applet.c:36
+msgid "Hi_de Notes"
+msgstr "הח_בא פתקיות"
+
+#: ../stickynotes/stickynotes_applet.c:39
+msgid "_Delete Notes"
+msgstr "_מחק פתקיות"
+
+#: ../stickynotes/stickynotes_applet.c:55
+msgid "_Lock Notes"
+msgstr "_נעל פתקיות"
+
+#: ../stickynotes/stickynotes_applet.c:621
+#, c-format
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] "פתקית אחת"
+msgstr[1] "‏%d פתקיות"
+
+#: ../stickynotes/stickynotes_applet.c:622
+msgid "Show sticky notes"
+msgstr "הצג פתקיות דביקות"
+
+#: ../stickynotes/stickynotes_applet_callbacks.c:421
+msgid "Sticky Notes for the MATE Desktop Environment"
+msgstr "פתקיות דביקות לסביבת שולחן העבודה Mate"
+
+#: ../timer-applet/data/TimerApplet.server.in.in.h:1
+msgid "Timer Applet Factory"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.server.in.in.h:2
+msgid "A Timer Applet factory that creates Timer Applets"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.server.in.in.h:3
+msgid "Timer"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.server.in.in.h:4
+msgid "Start a timer and receive a notification when it is finished"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.xml.h:1
+msgid "Pa_use"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.xml.h:2
+msgid "_Continue"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.xml.h:3
+msgid "_Stop"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.xml.h:4
+msgid "R_estart"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.xml.h:5
+msgid "Next"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.xml.h:6
+msgid "Pre_sets"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.xml.h:7
+msgid "Ma_nage Presets"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:1
+msgid "Start Timer"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:2
+msgid "_Name:"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:3
+msgid "Start automatically"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:4
+msgid "<b>Define next timer</b>"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:5
+msgid "Execute:"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:6
+msgid "<b>Run custom command</b>"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:7
+msgid "Run executable after timer finished."
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:8
+msgid "Advanced"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:9
+msgid "S_ave as Preset"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:10
+msgid "Mana_ge Presets"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:11
+msgid "<b>_Presets</b>"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:12
+msgid "S_tart Timer"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:13
+msgid "Manage Presets"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:14
+msgid "_Delete"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:15
+msgid "_Edit..."
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:16
+msgid "_Add..."
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:17
+msgid "Timer Preferences"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:18
+msgid "_Show remaining time while timer is running"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:19
+msgid "_Play notification sound"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:20
+msgid "Use d_efault sound"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:21
+msgid "Use c_ustom sound"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:22
+msgid "Choose A Sound File"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:23
+msgid "_Show popup notification"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:24
+msgid "_Show popup notification after timer has ended."
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:25
+msgid "S_how pulsing panel icon"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:26
+msgid "Show pulsing panel icon after timer has ended."
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:27
+#: ../timer-applet/src/timerapplet/controllers/GlobalController.py:47
+msgid "Add Preset"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:28
+msgid "<b>_Name</b>"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:29
+msgid "<b>_Duration</b>"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:30
+msgid "Run custom command after timer has ended."
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:31
+msgid "<b>Custom command</b>"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:32
+msgid "Initiate automatically"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:33
+msgid "<b>Interval timer</b>"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:34
+msgid "A timer applet for the perfect egg and beyond!"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:35
+msgid "Timer Applet"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:1
+msgid "Play notification sound"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:2
+msgid "Play a notification sound when the timer finishes a countdown"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:3
+msgid "Use a custom notification sound"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:4
+msgid ""
+"Use the custom notification sound specified in "
+"custom_notification_sound_path"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:5
+msgid "Path to a custom notification sound"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:6
+msgid ""
+"Path to a sound file that will be played when the timer finishes a countdown"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:7
+msgid "Show Pulsing icon"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:8
+msgid "Show pulsing tray icon when timer finished"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:9
+msgid "Show Popup notification"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:10
+msgid "Show Popup notification in the notification area"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:11
+msgid "Show remaining time"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:12
+msgid "Show the remaining time while the timer is running or paused"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:13
+msgid "Play a beep sound"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:14
+msgid ""
+"Play a beep sound on a computer's internal speaker when the timer finishes. "
+"This may not have an effect on all computers."
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/controllers/GlobalController.py:62
+msgid "Edit Preset"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:96
+msgid "Continue timer countdown?"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:97
+msgid "The timer is currently paused. Would you like to continue countdown?"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:193
+msgid "Click to start a new timer countdown."
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:198
+msgid "Paused. Click to continue timer countdown."
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:201
+msgid "Finished"
+msgstr ""
+
+#. "<timer name>" finished at <time>
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:206
+#, python-format
+msgid ""
+"\"%s\" finished at %s.\n"
+"Click to stop timer."
+msgstr ""
+
+#. Timer finished at <time>
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:209
+#, python-format
+msgid ""
+"Timer finished at %s.\n"
+"Click to stop timer."
+msgstr ""
+
+#. HH:MM:SS (<timer name>)
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:385
+#, python-format
+msgid "%02d:%02d:%02d (%s)"
+msgstr ""
+
+#. HH:MM:SS
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:388
+#: ../timer-applet/src/timerapplet/utils.py:52
+#, python-format
+msgid "%02d:%02d:%02d"
+msgstr ""
+
+#. "<timer name>" Finished
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:410
+#, python-format
+msgid "\"%s\" Finished"
+msgstr ""
+
+#. "<timer name>" finished at <time>
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:413
+#, python-format
+msgid "\"%s\" finished at %s"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:415
+msgid "Timer Finished"
+msgstr ""
+
+#. Timer finished at <time>
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:418
+#, python-format
+msgid "Timer finished at %s"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:425
+#, python-format
+msgid "Timer finished about <b>%d second</b> ago"
+msgid_plural "Timer finished about <b>%d seconds</b> ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:430
+#, python-format
+msgid "Timer finished about <b>%d minute</b> ago"
+msgid_plural "Timer finished about <b>%d minutes</b> ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../timer-applet/src/timerapplet/ui/ContinueTimerDialog.py:24
+msgid "Continue Timer"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/ContinueTimerDialog.py:27
+msgid "_Stop Timer"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/ContinueTimerDialog.py:28
+msgid "_Keep Paused"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/ContinueTimerDialog.py:29
+msgid "_Continue Timer"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/StartTimerDialog.py:197
+msgid "<b>Command not found.</b>"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/StartNextTimerDialog.py:30
+msgid "Start Next Timer"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/StartNextTimerDialog.py:33
+msgid "_Don't start next timer"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/StartNextTimerDialog.py:34
+msgid "_Start next timer"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/DurationChooser.py:31
+msgid "_Hours:"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/DurationChooser.py:34
+msgid "_Minutes:"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/DurationChooser.py:37
+msgid "_Seconds:"
+msgstr ""
+
+#. HH:MM
+#. MM:SS
+#: ../timer-applet/src/timerapplet/utils.py:56
+#: ../timer-applet/src/timerapplet/utils.py:59
+#, python-format
+msgid "%02d:%02d"
+msgstr ""
+
+#. <preset name> (HH:MM:SS)
+#: ../timer-applet/src/timerapplet/utils.py:69
+#, python-format
+msgid "%s (%02d:%02d:%02d)"
+msgstr ""
+
+#: ../trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.in.in.h:1
+msgid "Trash"
+msgstr "אשפה"
+
+#: ../trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.in.in.h:2
+msgid "Go to Trash"
+msgstr "לך לאשפה"
+
+#: ../trashapplet/src/trashapplet.c:69 ../trashapplet/src/trash-empty.c:351
+msgid "_Empty Trash"
+msgstr "_רוקן את האשפה"
+
+#: ../trashapplet/src/trashapplet.c:72
+msgid "_Open Trash"
+msgstr "_פתח את האשפה"
+
+#: ../trashapplet/src/trashapplet.c:128
+#, c-format
+msgid "%d Item in Trash"
+msgid_plural "%d Items in Trash"
+msgstr[0] "‏%d פריטים באשפה"
+msgstr[1] "‏%d פריטים באשפה"
+
+#: ../trashapplet/src/trashapplet.c:136
+msgid "No Items in Trash"
+msgstr "אין פריטים באשפה"
+
+#: ../trashapplet/src/trashapplet.c:378
+#, c-format
+msgid ""
+"Error while spawning caja:\n"
+"%s"
+msgstr "שגיאה בקריאה לנאוטילוס:\n%s"
+
+#: ../trashapplet/src/trashapplet.c:427
+msgid ""
+"A MATE trash bin that lives in your panel. You can use it to view the trash "
+"or drag and drop items into the trash."
+msgstr "ישומון אשפה עבור MATE"
+
+#: ../trashapplet/src/trashapplet.c:452
+msgid "Delete Immediately?"
+msgstr "למחוק לחלוטין?"
+
+#: ../trashapplet/src/trashapplet.c:482
+msgid "Cannot move items to trash, do you want to delete them immediately?"
+msgstr "לא ניתן להזיז את הפריטים לאשפה, האם למחוק אותם לחלוטין?"
+
+#: ../trashapplet/src/trashapplet.c:487
+msgid ""
+"Cannot move some items to trash, do you want to delete these immediately?"
+msgstr "לא ניתן להזיז חלק מהפריטים לאשפה, האם למחוק פריטים אילו לחלוטין?"
+
+#: ../trashapplet/src/trashapplet.c:617
+msgid "Trash Applet"
+msgstr "יישומון אשפה"
+
+#. Translators: the %s in this string should be read as %d.
+#: ../trashapplet/src/trash-empty.c:81
+#, c-format
+msgid "Removing item %s of %s"
+msgstr "מסיר פריט %s מתוך %s"
+
+#. Translators: %s is a file name
+#: ../trashapplet/src/trash-empty.c:107
+#, c-format
+msgid "Removing: %s"
+msgstr "מסיר: %s"
+
+#: ../trashapplet/src/trash-empty.c:330
+msgid "Empty all of the items from the trash?"
+msgstr "האם לרוקן את כל הפריטים מהאשפה?"
+
+#: ../trashapplet/src/trash-empty.c:337
+msgid ""
+"If you choose to empty the trash, all items in it will be permanently lost. "
+"Please note that you can also delete them separately."
+msgstr "ריקון האשפה יגרום לאבדן הפריטים בה לצמיתות. יש אפשרות למחוק כל פריט בנפרד."
+
+#: ../trashapplet/trashapplet-empty-progress.ui.h:1
+msgid "Emptying the Trash"
+msgstr "מרוקן את האשפה"
+
+#: ../trashapplet/trashapplet-empty-progress.ui.h:2
+msgid "From:"
+msgstr "מאת:"

@@ -1,0 +1,3353 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2009.
+# Mikko Rauhala <mjr@iki.fi>, 1999.
+# Tuomas Lukka, 1998.
+# Ville Hautamäki <villeh@photon.joensuu.fi>, 1998.
+msgid ""
+msgstr ""
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-06-13 00:13+0200\n"
+"PO-Revision-Date: 2012-06-12 22:14+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../accessx-status/applet.c:136
+msgid "Shows the state of AccessX features such as latched modifiers"
+msgstr "Näyttää AccessX-ominaisuuksien (kuten salvattujen muuttujien) tilat"
+
+#. about.set_artists([])
+#. about.set_documenters([])
+#. translators: These appear in the About dialog, usual format applies.
+#. "documenters",        documenters,
+#: ../accessx-status/applet.c:140 ../battstat/battstat_applet.c:1263
+#: ../charpick/charpick.c:610 ../cpufreq/src/cpufreq-applet.c:613
+#: ../drivemount/drivemount.c:117 ../geyes/geyes.c:196
+#: ../mateweather/mateweather-about.c:52 ../invest-applet/invest/about.py:29
+#: ../mini-commander/src/about.c:53 ../mixer/applet.c:1467
+#: ../modemlights/modem-applet.c:1023 ../multiload/main.c:61
+#: ../stickynotes/stickynotes_applet_callbacks.c:425
+#: ../trashapplet/src/trashapplet.c:432
+msgid "translator-credits"
+msgstr "Ilkka Tuohela, 2005-2008\nJarkko Ranta, 2000-2004\nMikka Rauhala, 1999\nVille Hautamäki, 1998\nTuomas Lukka, 1998\n\nhttp://mate.fi/"
+
+#: ../accessx-status/applet.c:156
+#, c-format
+msgid "There was an error launching the help viewer: %s"
+msgstr "Virhe käynnistettäessä ohjeselainta: %s"
+
+#: ../accessx-status/applet.c:195
+#, c-format
+msgid "There was an error launching the keyboard preferences dialog: %s"
+msgstr "Virhe käynnistettäessä näppäimistön asetusikkunaa: %s"
+
+#: ../accessx-status/applet.c:208
+msgid "_Keyboard Accessibility Preferences"
+msgstr "_Näppäimistön esteettömyysasetukset"
+
+#: ../accessx-status/applet.c:209 ../battstat/battstat_applet.c:64
+#: ../charpick/charpick.c:717 ../cpufreq/src/cpufreq-applet.c:125
+#: ../drivemount/drivemount.c:153 ../geyes/geyes.c:361
+#: ../mateweather/mateweather-applet.c:124
+#: ../invest-applet/data/Invest_Applet.xml.h:3
+#: ../mini-commander/src/mini-commander_applet.c:56 ../mixer/applet.c:387
+#: ../modemlights/modem-applet.c:151 ../multiload/main.c:439
+#: ../stickynotes/stickynotes_applet.c:45 ../trashapplet/src/trashapplet.c:75
+msgid "_Help"
+msgstr "O_hje"
+
+#: ../accessx-status/applet.c:210 ../battstat/battstat_applet.c:67
+#: ../charpick/charpick.c:720 ../cpufreq/src/cpufreq-applet.c:128
+#: ../drivemount/drivemount.c:156 ../geyes/geyes.c:364
+#: ../mateweather/mateweather-applet.c:127
+#: ../invest-applet/data/Invest_Applet.xml.h:4
+#: ../mini-commander/src/mini-commander_applet.c:59 ../mixer/applet.c:390
+#: ../modemlights/modem-applet.c:154 ../multiload/main.c:442
+#: ../stickynotes/stickynotes_applet.c:48
+#: ../timer-applet/data/TimerApplet.xml.h:9
+#: ../trashapplet/src/trashapplet.c:78
+msgid "_About"
+msgstr "_Tietoja"
+
+#. Note to translators: the first letter of the alphabet, not the indefinite
+#. article
+#: ../accessx-status/applet.c:480 ../accessx-status/applet.c:514
+msgid "a"
+msgstr "a"
+
+#: ../accessx-status/applet.c:997 ../accessx-status/applet.c:1063
+#: ../accessx-status/applet.c:1133 ../accessx-status/applet.c:1344
+msgid "AccessX Status"
+msgstr "AccessX-tila"
+
+#: ../accessx-status/applet.c:998 ../accessx-status/applet.c:1134
+msgid "Shows keyboard status when accessibility features are used."
+msgstr "Näyttää näppäimistön tilan esteettömyysominaisuuksia käytettäessä"
+
+#: ../accessx-status/applet.c:1033
+msgid "XKB Extension is not enabled"
+msgstr "XKB-laajennus ei ole käytössä"
+
+#: ../accessx-status/applet.c:1038
+msgid "Unknown error"
+msgstr "Tuntematon virhe"
+
+#: ../accessx-status/applet.c:1042
+#, c-format
+msgid "Error: %s"
+msgstr "Virhe: %s"
+
+#: ../accessx-status/applet.c:1341
+#: ../accessx-status/org.mate.applets.AccessxStatusApplet.mate-panel-applet.in.in.h:3
+msgid "Keyboard Accessibility Status"
+msgstr "Näppäimistön esteettömyystila"
+
+#: ../accessx-status/applet.c:1345
+msgid "Displays current state of keyboard accessibility features"
+msgstr "Näyttää nykyiset näppäimistön esteettömyystoiminnot"
+
+#: ../accessx-status/org.mate.applets.AccessxStatusApplet.mate-panel-applet.in.in.h:1
+msgid "AccessX Status Applet Factory"
+msgstr "AccessX-tilasovelman tehdas"
+
+#: ../accessx-status/org.mate.applets.AccessxStatusApplet.mate-panel-applet.in.in.h:2
+msgid "Keyboard Accessibility Status Applet Factory"
+msgstr "Näppäimistön esteettömyystila -sovelman tehdas"
+
+#: ../accessx-status/org.mate.applets.AccessxStatusApplet.mate-panel-applet.in.in.h:4
+msgid "Shows the status of keyboard accessibility features"
+msgstr "Näyttää näppäimistön esteettömyysominaisuuksien tilan"
+
+#: ../battstat/battstat_applet.c:61 ../charpick/charpick.c:714
+#: ../cpufreq/src/cpufreq-applet.c:122 ../geyes/geyes.c:358
+#: ../mateweather/mateweather-applet.c:121
+#: ../invest-applet/data/Invest_Applet.xml.h:2
+#: ../mini-commander/src/mini-commander_applet.c:53 ../mixer/applet.c:393
+#: ../multiload/main.c:433 ../stickynotes/stickynotes_applet.c:42
+#: ../timer-applet/data/TimerApplet.xml.h:8
+msgid "_Preferences"
+msgstr "_Asetukset"
+
+#: ../battstat/battstat_applet.c:72
+msgid "System is running on AC power"
+msgstr "Järjestelmä käyttää verkkovirtaa"
+
+#: ../battstat/battstat_applet.c:73
+msgid "System is running on battery power"
+msgstr "Järjestelmä käyttää akkuvirtaa"
+
+#: ../battstat/battstat_applet.c:375
+#, c-format
+msgid "Battery charged (%d%%)"
+msgstr "Akku on nyt täynnä (%d %%)"
+
+#: ../battstat/battstat_applet.c:377
+#, c-format
+msgid "Unknown time (%d%%) remaining"
+msgstr "Tuntematon määrä (%d %%) jäljellä"
+
+#: ../battstat/battstat_applet.c:379
+#, c-format
+msgid "Unknown time (%d%%) until charged"
+msgstr "Akun lataukseen (%d %%) kuluva aika tuntematon"
+
+#: ../battstat/battstat_applet.c:384
+#, c-format
+msgid "%d minute (%d%%) remaining"
+msgid_plural "%d minutes (%d%%) remaining"
+msgstr[0] "%d minuutti (%d %%) jäljellä"
+msgstr[1] "%d minuuttia (%d %%) jäljellä"
+
+#: ../battstat/battstat_applet.c:389
+#, c-format
+msgid "%d minute until charged (%d%%)"
+msgid_plural "%d minutes until charged (%d%%)"
+msgstr[0] "%d minuutti kunnes akku on latautunut (%d %%)"
+msgstr[1] "%d minuuttia kunnes akku on latautunut (%d %%)"
+
+#: ../battstat/battstat_applet.c:395
+#, c-format
+msgid "%d hour (%d%%) remaining"
+msgid_plural "%d hours (%d%%) remaining"
+msgstr[0] "%d tunti (%d %%) jäljellä"
+msgstr[1] "%d tuntia (%d %%) jäljellä"
+
+#: ../battstat/battstat_applet.c:400
+#, c-format
+msgid "%d hour until charged (%d%%)"
+msgid_plural "%d hours until charged (%d%%)"
+msgstr[0] "%d tunti kunnes akku on latautunut (%d %%)"
+msgstr[1] "%d tuntia kunnes akku on latautunut (%d %%)"
+
+#. TRANSLATOR: "%d %s %d %s" are "%d hours %d minutes"
+#. * Swap order with "%2$s %2$d %1$s %1$d if needed
+#: ../battstat/battstat_applet.c:407
+#, c-format
+msgid "%d %s %d %s (%d%%) remaining"
+msgstr "%d %s %d %s (%d %%) jäljellä"
+
+#: ../battstat/battstat_applet.c:408 ../battstat/battstat_applet.c:415
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "tunti"
+msgstr[1] "tuntia"
+
+#: ../battstat/battstat_applet.c:409 ../battstat/battstat_applet.c:416
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minuutti"
+msgstr[1] "minuuttia"
+
+#. TRANSLATOR: "%d %s %d %s" are "%d hours %d minutes"
+#. * Swap order with "%2$s %2$d %1$s %1$d if needed
+#: ../battstat/battstat_applet.c:414
+#, c-format
+msgid "%d %s %d %s until charged (%d%%)"
+msgstr "%d %s %d %s kunnes akku on latautunut (%d %%)"
+
+#: ../battstat/battstat_applet.c:428
+msgid "Battery Monitor"
+msgstr "Latausmittari"
+
+#: ../battstat/battstat_applet.c:438 ../battstat/battstat_applet.c:498
+msgid "Your battery is now fully recharged"
+msgstr "Akkusi on nyt täynnä"
+
+#: ../battstat/battstat_applet.c:474 ../battstat/battstat_applet.c:630
+msgid "Battery Notice"
+msgstr "Akkuilmoitus"
+
+#. we don't know the remaining time
+#: ../battstat/battstat_applet.c:575
+#, c-format
+msgid "You have %d%% of your total battery capacity remaining."
+msgstr "Akun latauksesta on %d%% jäljellä."
+
+#: ../battstat/battstat_applet.c:581
+#, c-format
+msgid ""
+"You have %d minute of battery power remaining (%d%% of the total capacity)."
+msgid_plural ""
+"You have %d minutes of battery power remaining (%d%% of the total capacity)."
+msgstr[0] "Akussa on %d minuutti virtaa jäljellä (%d %% täydestä akusta)."
+msgstr[1] "Akussa on %d minuuttia virtaa jäljellä (%d %% täydestä akusta)."
+
+#. TRANSLATORS: this is a list, it is left as a single string
+#. * to allow you to make it appear like a list would in your
+#. * locale.  This is if the laptop does not support suspend.
+#: ../battstat/battstat_applet.c:593
+msgid ""
+"To avoid losing your work:\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr "Välttääksesi työtiedostojen menetyksen:\n • kytke tietokone virtalähteeseen tai\n • sulje avoimet asiakirjat ja sammuta tietokoneesi."
+
+#. TRANSLATORS: this is a list, it is left as a single string
+#. * to allow you to make it appear like a list would in your
+#. * locale.  This is if the laptop supports suspend.
+#: ../battstat/battstat_applet.c:601
+msgid ""
+"To avoid losing your work:\n"
+" • suspend your laptop to save power,\n"
+" • plug your laptop into external power, or\n"
+" • save open documents and shut your laptop down."
+msgstr "Välttääksesi työtiedostojen menetyksen:\n • aseta tietokone virransäästötilaan,\n • kytke tietokone virtalähteeseen, tai\n • sulje avoimet asiakirjat ja sammuta tietokoneesi."
+
+#: ../battstat/battstat_applet.c:609
+msgid "Your battery is running low"
+msgstr "Akkusi on vähissä"
+
+#: ../battstat/battstat_applet.c:706
+msgid "No battery present"
+msgstr "Ei akkua kytketty"
+
+#: ../battstat/battstat_applet.c:709
+msgid "Battery status unknown"
+msgstr "Akun tila tuntematon"
+
+#: ../battstat/battstat_applet.c:868
+msgid "N/A"
+msgstr "N/A"
+
+#: ../battstat/battstat_applet.c:1208 ../drivemount/drivemount.c:141
+#: ../geyes/geyes.c:346 ../geyes/themes.c:248
+#: ../mateweather/mateweather-applet.c:70
+#: ../mateweather/mateweather-pref.c:816
+#: ../mini-commander/src/preferences.c:366
+#: ../stickynotes/stickynotes_applet_callbacks.c:391
+#: ../stickynotes/stickynotes_applet_callbacks.c:607
+#: ../trashapplet/src/trashapplet.c:399
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "Virhe näytettäessä ohjetta: %s"
+
+#: ../battstat/battstat_applet.c:1248
+msgid "This utility shows the status of your laptop battery."
+msgstr "Tämä ohjelma näyttää kannettavan tietokoneesi akun latauksen."
+
+#. ture
+#: ../battstat/battstat_applet.c:1250
+msgid "upower backend enabled."
+msgstr ""
+
+#. true
+#: ../battstat/battstat_applet.c:1252
+msgid "HAL backend enabled."
+msgstr "HAL-taustajärjestelmä käytössä."
+
+#. false
+#: ../battstat/battstat_applet.c:1253
+msgid "Legacy (non-HAL) backend enabled."
+msgstr "Perinteinen (muu kuin HAL) taustajärjestelmä käytössä."
+
+#: ../battstat/battstat_applet.c:1629 ../battstat/battstat_applet.c:1683
+#: ../battstat/org.mate.applets.BattstatApplet.mate-panel-applet.in.in.h:2
+msgid "Battery Charge Monitor"
+msgstr "Latausmittari"
+
+#: ../battstat/battstat_applet.c:1684
+#: ../battstat/org.mate.applets.BattstatApplet.mate-panel-applet.in.in.h:3
+msgid "Monitor a laptop's remaining power"
+msgstr "Seuraa kannettavan tietokoneen käytettävissä olevaa virtaa"
+
+#: ../battstat/battstat_applet.ui.h:1
+msgid "Battery Charge Monitor Preferences"
+msgstr "Latausmittarin asetukset"
+
+#: ../battstat/battstat_applet.ui.h:2
+msgid "Appearance"
+msgstr "Ulkonäkö"
+
+#: ../battstat/battstat_applet.ui.h:3
+msgid "_Compact view"
+msgstr "_Tiivis näkymä"
+
+#: ../battstat/battstat_applet.ui.h:4
+msgid "(shows single image for status and charge)"
+msgstr "(yksi kuva tilalle ja lataukselle)"
+
+#: ../battstat/battstat_applet.ui.h:5
+msgid "_Expanded view"
+msgstr "_Laaja näkymä"
+
+#: ../battstat/battstat_applet.ui.h:6
+msgid "(two images: one for status, one for charge)"
+msgstr "(kaksi kuvaa, toinen tilalle ja toinen lataukselle)"
+
+#: ../battstat/battstat_applet.ui.h:7
+msgid "_Show time/percentage:"
+msgstr "_Näytä aika tai prosentit:"
+
+#: ../battstat/battstat_applet.ui.h:8
+msgid "Show _time remaining"
+msgstr "Näy_tä jäljellä oleva aika"
+
+#: ../battstat/battstat_applet.ui.h:9
+msgid "Show _percentage remaining"
+msgstr "Näytä jäljellä olevat _prosentit"
+
+#: ../battstat/battstat_applet.ui.h:10
+msgid "Notifications"
+msgstr "Huomautukset"
+
+#. TRANSLATOR: This is the beginning of the sentence 'Warn when battery charge
+#. drops to: [XX] percent/minutes remaining'
+#: ../battstat/battstat_applet.ui.h:12
+msgid "_Warn when battery charge drops to:"
+msgstr "Va_roita akun latauksen laskiessa arvoon:"
+
+#: ../battstat/battstat_applet.ui.h:13
+msgid "_Notify when battery is fully recharged"
+msgstr "_Huomauta kun akku on ladattu täyteen"
+
+#: ../battstat/battstat-hal.c:343 ../battstat/battstat-hal.c:368
+msgid "HAL error"
+msgstr "HAL-virhe"
+
+#: ../battstat/battstat-hal.c:343
+msgid "Could not create libhal_ctx"
+msgstr "Kontekstia libhal_ctx ei voitu luoda"
+
+#: ../battstat/battstat-hal.c:368
+msgid "No batteries found"
+msgstr "Akkuja ei löytynyt"
+
+#: ../battstat/battstat-hal.c:417
+#, c-format
+msgid "Unable to initialise HAL: %s: %s"
+msgstr "HAL:ia ei voitu alustaa: %s: %s"
+
+#: ../battstat/battstat.schemas.in.h:1
+msgid "Red value level"
+msgstr "Punaisen arvon raja"
+
+#: ../battstat/battstat.schemas.in.h:2
+msgid ""
+"The battery level below which the battery is displayed as red. Also the "
+"value at which the low battery warning is displayed."
+msgstr "Akun lataustila jonka jälkeen akku näytetään punaisena. Arvo on samalla se, jonka jälkeen matalan lataustason varoitus näytetään."
+
+#: ../battstat/battstat.schemas.in.h:3
+msgid "Warn on low time rather than low percentage"
+msgstr "Varoita vähäisestä käyttöajasta matalan latausprosentin sijaan"
+
+#: ../battstat/battstat.schemas.in.h:4
+msgid ""
+"Use the value defined in red_value as a time remaining to show the warning "
+"dialog rather than a percentage."
+msgstr "Käytä kohdassa red_value määriteltyä arvoa jäljellä olevan ajan näyttämiseen varoitusikkuna aikana prosenttiluvun sijasta."
+
+#: ../battstat/battstat.schemas.in.h:5
+msgid "Low Battery Notification"
+msgstr "Huomautus matalasta akun latauksesta"
+
+#: ../battstat/battstat.schemas.in.h:6
+msgid "Notify user when the battery is low."
+msgstr "Huomauta akun ollessa lähes tyhjä."
+
+#: ../battstat/battstat.schemas.in.h:7
+msgid "Full Battery Notification"
+msgstr "Huomautus täydestä akusta"
+
+#: ../battstat/battstat.schemas.in.h:8
+msgid "Notify user when the battery is full."
+msgstr "Huomauta akun ollessa täysi."
+
+#: ../battstat/battstat.schemas.in.h:9
+msgid "Beep for warnings"
+msgstr "Anna äänimerkki varoitettaessa"
+
+#: ../battstat/battstat.schemas.in.h:10
+msgid "Beep when displaying a warning."
+msgstr "Piippaa näytettäessä varoitus."
+
+#: ../battstat/battstat.schemas.in.h:11
+msgid "Drain from top"
+msgstr "Tyhjennä yläpäästä"
+
+#: ../battstat/battstat.schemas.in.h:12
+msgid ""
+"Show the battery meter draining from the top of the battery. Only "
+"implemented for traditional battery view."
+msgstr "Näytä yläpäästä tyhjentyvä akun latausmittari. Toteutettu vain perinteisessä akun näkymässä."
+
+#: ../battstat/battstat.schemas.in.h:13
+msgid "Upright (small) battery"
+msgstr "Pysty (pienempi) akun kuva"
+
+#: ../battstat/battstat.schemas.in.h:14
+msgid "Show the upright, smaller battery on the panel."
+msgstr "Näytä pystysuuntainen, pienempi akku paneelissa."
+
+#: ../battstat/battstat.schemas.in.h:15
+msgid "Show the horizontal battery"
+msgstr "Näytä vaakasuuntainen akku"
+
+#: ../battstat/battstat.schemas.in.h:16
+msgid "Show the traditional, horizontal battery on the panel."
+msgstr "Näytä perinteinen, vaakasuuntainen akku paneelissa."
+
+#: ../battstat/battstat.schemas.in.h:17
+msgid "Show the time/percent label"
+msgstr "Näytä aika- ja prosenttitiedot"
+
+#: ../battstat/battstat.schemas.in.h:18
+msgid "0 for no label, 1 for percentage and 2 for time remaining."
+msgstr "0 ei otsikkoa, 1 prosentteina ja 2 jäljellä olevana aikana"
+
+#: ../battstat/org.mate.applets.BattstatApplet.mate-panel-applet.in.in.h:1
+msgid "Battstat Factory"
+msgstr "Battstat-tehdas"
+
+#. TRANSLATOR: this is a selectable item in a drop-down menu to end
+#. * this sentence:
+#. *   "Warn when battery charge drops to: [XX] percent".
+#. 
+#: ../battstat/properties.c:314
+msgid "Percent"
+msgstr "prosenttia"
+
+#. TRANSLATOR: this is a selectable item in a drop-down menu to end
+#. * this sentence:
+#. *   "Warn when battery charge drops to: [XX] minutes remaining"
+#. 
+#: ../battstat/properties.c:320
+msgid "Minutes Remaining"
+msgstr "minuuttia jäljellä"
+
+#: ../battstat/sounds/mate-battstat_applet.soundlist.in.h:1
+msgid "Battery Status Utility"
+msgstr "Akun latausmittari"
+
+#: ../battstat/sounds/mate-battstat_applet.soundlist.in.h:2
+msgid "Battery power low"
+msgstr "Virta vähissä"
+
+#: ../battstat/sounds/mate-battstat_applet.soundlist.in.h:3
+msgid "Battery fully re-charged"
+msgstr "Akku on täynnä"
+
+#: ../charpick/charpick.c:436
+msgid "Available palettes"
+msgstr "Saatavilla olevat paletit"
+
+#. TRANSLATOR: This sentance reads something like 'Insert "PILCROW SIGN"'
+#. *             hopefully, the name of the unicode character has already
+#. *             been translated.
+#. 
+#: ../charpick/charpick.c:483
+#, c-format
+msgid "Insert \"%s\""
+msgstr "Lisää ”%s”"
+
+#: ../charpick/charpick.c:486
+msgid "Insert special character"
+msgstr "Lisää erikoismerkki"
+
+#: ../charpick/charpick.c:490
+#, c-format
+msgid "insert special character %s"
+msgstr "lisää erikoismerkki %s"
+
+#: ../charpick/charpick.c:605
+msgid ""
+"Mate Panel applet for selecting strange characters that are not on my "
+"keyboard. Released under GNU General Public Licence."
+msgstr "Mate-paneelisovelma epätavallisten, näppäimistöltä puuttuvien merkkien valitsemiseen. Julkaistu GNU:n GPL-lisenssillä"
+
+#: ../charpick/charpick.c:743 ../charpick/charpick.c:757
+#: ../charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.in.in.h:2
+#: ../charpick/properties.c:452
+msgid "Character Palette"
+msgstr "Merkkipaletti"
+
+#: ../charpick/charpick.c:743
+#: ../charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.in.in.h:3
+msgid "Insert characters"
+msgstr "Lisää merkkejä"
+
+#: ../charpick/charpick.schemas.in.h:1
+msgid "DEPRECATED - Characters shown on applet startup"
+msgstr "VANHENTUNUT - Sovelman käynnistyessä näytettävät merkit"
+
+#: ../charpick/charpick.schemas.in.h:2
+msgid "Characters shown on applet startup"
+msgstr "Sovelman käynnistyessä näytettävät merkit"
+
+#: ../charpick/charpick.schemas.in.h:3
+msgid ""
+"The string that the user had selected when the applet was last used. This "
+"string will be displayed when the user starts the applet."
+msgstr "Merkkijono, jonka käyttäjä valitsi, kun sovelmaa viimeksi käytettiin. Tämä merkkijono näytetään kun sovelma käynnistetään."
+
+#: ../charpick/charpick.schemas.in.h:4 ../charpick/properties.c:379
+msgid "List of available palettes"
+msgstr "Luettelo saatavilla olevista paleteista"
+
+#: ../charpick/charpick.schemas.in.h:5
+msgid "List of strings containing the available palettes."
+msgstr "Luettelo merkkijonoista, jotka sisältävät saatavilla olevat paletit."
+
+#: ../charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.in.in.h:1
+msgid "Charpicker Applet Factory"
+msgstr "Merkkivalitsimen tehdas"
+
+#: ../charpick/properties.c:28
+msgid "_Edit"
+msgstr "_Muokkaa"
+
+#: ../charpick/properties.c:117
+msgid "_Palette:"
+msgstr "_Paletti:"
+
+#: ../charpick/properties.c:125
+msgid "Palette entry"
+msgstr "Paletti"
+
+#: ../charpick/properties.c:126
+msgid "Modify a palette by adding or removing characters"
+msgstr "Muokkaa palettia lisäämällä tai poistamalla merkkejä"
+
+#: ../charpick/properties.c:240
+msgid "Add Palette"
+msgstr "Lisää paletti"
+
+#: ../charpick/properties.c:277
+msgid "Edit Palette"
+msgstr "Muokkaa palettia"
+
+#: ../charpick/properties.c:378
+msgid "Palettes list"
+msgstr "Palettiluettelo"
+
+#: ../charpick/properties.c:457
+msgid "_Palettes:"
+msgstr "_Paletit:"
+
+#: ../charpick/properties.c:473
+msgid "Add button"
+msgstr "Lisäyspainike"
+
+#: ../charpick/properties.c:474
+msgid "Click to add a new palette"
+msgstr "Napsauta lisätäksesi uuden paletin"
+
+#: ../charpick/properties.c:481
+msgid "Edit button"
+msgstr "Muokkauspainike"
+
+#: ../charpick/properties.c:482
+msgid "Click to edit the selected palette"
+msgstr "Napsauta muokataksesi valittua palettia"
+
+#: ../charpick/properties.c:489
+msgid "Delete button"
+msgstr "Poistopainike"
+
+#: ../charpick/properties.c:490
+msgid "Click to delete the selected palette"
+msgstr "Napsauta poistaaksesi valitun paletin"
+
+#: ../charpick/properties.c:541
+msgid "Character Palette Preferences"
+msgstr "Merkkipaletin asetukset"
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:1
+msgid "CPU to Monitor"
+msgstr "Tarkkailtava prosessori"
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:2
+msgid ""
+"Set the CPU to monitor. In a single processor system you don't have to "
+"change it."
+msgstr "Valitse tarkkailtava prosessori. Yhden prosessorin laitteissa tätä ei tarvitse muuttaa."
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:3
+msgid "Mode to show cpu usage"
+msgstr "Prosessorin käytön näyttötila"
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:4
+msgid ""
+"A 0 value means to show the applet in graphic mode (pixmap only), 1 to show "
+"the applet in text mode (not to show the pixmap) and 2 to show the applet in"
+" graphic and text mode."
+msgstr "Arvo 0 näyttää sovelman graafisessa tilassa (vain pixmap), 1 näyttää tekstitilassa (ei näytetä pixmappia) ja 2 näyttää sovelman sekä graafisessa että tekstitilassa."
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:5
+msgid "The type of text to display (if the text is enabled)."
+msgstr "Näytettävän tekstin tyyppi (jos tekstin näyttö on käytössä)"
+
+#: ../cpufreq/cpufreq-applet.schemas.in.h:6
+msgid ""
+"A 0 value means to show cpu frequency, 1 to show frequency and units, and 2 "
+"to show percentage instead of frequency."
+msgstr "Arvo 0 näyttää kellotaajuuden, 1 näyttää kellotaajuuden ja yksiköt ja 2 näyttää prosentteja taajuuden sijasta."
+
+#: ../cpufreq/cpufreq-preferences.ui.h:1
+msgid "CPU Frequency Monitor Preferences"
+msgstr "Prosessorin kellotaajuusnäytön asetukset"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:2
+msgid "Monitor Settings"
+msgstr "Näytön asetukset"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:3
+msgid "_Monitored CPU:"
+msgstr "_Seurattava prosessori:"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:4
+msgid "Display Settings"
+msgstr "Näytön asetukset"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:5
+msgid "_Appearance:"
+msgstr "_Ulkoasu:"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:6
+msgid "Show CPU frequency as _frequency"
+msgstr "Näytä CPU-taajuus _taajuutena"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:7
+msgid "Show frequency _units"
+msgstr "Näytä taajuuden _yksiköt"
+
+#: ../cpufreq/cpufreq-preferences.ui.h:8
+msgid "Show CPU frequency as _percentage"
+msgstr "Näytä nopeus _prosentteina"
+
+#: ../cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.in.in.h:1
+#: ../cpufreq/src/cpufreq-applet.c:946 ../cpufreq/src/cpufreq-applet.c:1005
+msgid "CPU Frequency Scaling Monitor"
+msgstr "Prosessorin kellotaajuuden ilmaisin"
+
+#: ../cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.in.in.h:2
+msgid "Monitor the CPU Frequency Scaling"
+msgstr "Tarkkaile prosessorin kellotaajuuden muutoksia"
+
+#: ../cpufreq/src/cpufreq-applet.c:581 ../cpufreq/src/cpufreq-prefs.c:478
+msgid "Could not open help document"
+msgstr "Ohje-dokumenttia ei voitu avata"
+
+#: ../cpufreq/src/cpufreq-applet.c:608
+msgid "This utility shows the current CPU Frequency Scaling."
+msgstr "Tämä ohjelma näyttää tämänhetkisen CPU:n kellotaajuuden skaalauksen."
+
+#: ../cpufreq/src/cpufreq-applet.c:1006
+msgid "This utility shows the current CPU Frequency"
+msgstr "Tämä ohjelma näyttää prosessorin tämänhetkisen kellotaajuuden."
+
+#: ../cpufreq/src/cpufreq-prefs.c:613
+msgid "Graphic"
+msgstr "Graafisena"
+
+#: ../cpufreq/src/cpufreq-prefs.c:618
+msgid "Text"
+msgstr "Teksti"
+
+#: ../cpufreq/src/cpufreq-prefs.c:623
+msgid "Graphic and Text"
+msgstr "Graafisena ja tekstinä"
+
+#: ../cpufreq/src/cpufreq-monitor-cpuinfo.c:117
+msgid "Frequency Scaling Unsupported"
+msgstr "Kellotaajuuden skaalaus ei ole tuettu"
+
+#. If there is no cpufreq support it shows only the cpu frequency,
+#. * I think is better than do nothing. I have to notify it to the user,
+#. because
+#. * he could think that cpufreq is supported but it doesn't work succesfully
+#. 
+#: ../cpufreq/src/cpufreq-monitor-factory.c:59
+msgid "CPU frequency scaling unsupported"
+msgstr "Prosessorin kellotaajuuden skaalaus ei ole tuettu"
+
+#: ../cpufreq/src/cpufreq-monitor-factory.c:60
+msgid ""
+"You will not be able to modify the frequency of your machine.  Your machine "
+"may be misconfigured or not have hardware support for CPU frequency scaling."
+msgstr "Et voi muuttaa tietokoneesi prosessorin kellotaajuutta. Tietokoneesi voi olla väärin määritelty tai sen laitteisto ei tue CPU:n kellotaajuuden säätöä."
+
+#: ../cpufreq/src/cpufreq-selector/org.mate.cpufreqselector.policy.in.h:1
+msgid "Change CPU Frequency scaling"
+msgstr "Muuta prosessorin kellotaajuuden asetuksia."
+
+#: ../cpufreq/src/cpufreq-selector/org.mate.cpufreqselector.policy.in.h:2
+msgid "Privileges are required to change the CPU Frequency scaling."
+msgstr "Prosessorin kellotaajuusasetusten muuttaminen vaatii lisäoikeuksia."
+
+#: ../drivemount/drive-button.c:342 ../drivemount/drive-button.c:355
+msgid "(mounted)"
+msgstr "(liitetty)"
+
+#: ../drivemount/drive-button.c:344
+msgid "(not mounted)"
+msgstr "(ei liitetty)"
+
+#: ../drivemount/drive-button.c:556
+#, c-format
+msgid "Cannot execute '%s'"
+msgstr "Ei voida suorittaa ”%s”"
+
+#: ../drivemount/drive-button.c:879
+msgid "_Play DVD"
+msgstr "_Soita DVD"
+
+#: ../drivemount/drive-button.c:883
+msgid "_Play CD"
+msgstr "_Soita CD"
+
+#: ../drivemount/drive-button.c:886
+#, c-format
+msgid "_Open %s"
+msgstr "_Avaa %s"
+
+#: ../drivemount/drive-button.c:895
+#, c-format
+msgid "Un_mount %s"
+msgstr "_Irrota %s"
+
+#: ../drivemount/drive-button.c:902
+#, c-format
+msgid "_Mount %s"
+msgstr "_Liitä %s"
+
+#: ../drivemount/drive-button.c:910
+#, c-format
+msgid "_Eject %s"
+msgstr "Levy %s _ulos"
+
+#: ../drivemount/drivemount.c:114
+msgid "Applet for mounting and unmounting block volumes."
+msgstr "Sovelma asemien liittämiseksi ja irrottamiseksi."
+
+#: ../drivemount/drivemount.c:173 ../drivemount/drivemount.c:210
+#: ../drivemount/org.mate.applets.DriveMountApplet.mate-panel-applet.in.in.h:3
+msgid "Disk Mounter"
+msgstr "Levynliitin"
+
+#: ../drivemount/drivemount.schemas.in.h:1
+msgid "Interval timeout to check mount point status"
+msgstr "Liitoksen tilan tarkistamisen aikaväli"
+
+#: ../drivemount/drivemount.schemas.in.h:2
+msgid "Time in seconds between status updates"
+msgstr "Aikaväli sekunteina, jonka välein sovelma tarkistaa liitoksen tilan"
+
+#: ../drivemount/org.mate.applets.DriveMountApplet.mate-panel-applet.in.in.h:1
+msgid "Drive Mount Applet Factory"
+msgstr "Levynliitossovelman tehdas"
+
+#: ../drivemount/org.mate.applets.DriveMountApplet.mate-panel-applet.in.in.h:2
+msgid "Factory for drive mount applet"
+msgstr "Tehdas levynliitossovelmalle"
+
+#: ../drivemount/org.mate.applets.DriveMountApplet.mate-panel-applet.in.in.h:4
+msgid "Mount local disks and devices"
+msgstr "Liitä paikallisia levyjä ja asemia"
+
+#: ../geyes/geyes.c:191
+msgid "A goofy set of eyes for the MATE panel. They follow your mouse."
+msgstr "Hauska, pieni xeyes-klooni Maten paneeliin. Silmät seuraavat hiirtä."
+
+#: ../geyes/geyes.c:391 ../geyes/geyes.c:422 ../geyes/geyes.c:424
+#: ../geyes/org.mate.applets.GeyesApplet.mate-panel-applet.in.in.h:2
+msgid "Eyes"
+msgstr "Silmät"
+
+#: ../geyes/geyes.c:425
+msgid "The eyes look in the direction of the mouse pointer"
+msgstr "Silmät katsovat aina hiiren osoittimen suuntaan"
+
+#: ../geyes/geyes.schemas.in.h:1
+msgid "Directory in which the theme is located"
+msgstr "Hakemisto, josta teema löytyy"
+
+#: ../geyes/org.mate.applets.GeyesApplet.mate-panel-applet.in.in.h:1
+msgid "Geyes Applet Factory"
+msgstr "Geyes-sovelman tehdas"
+
+#: ../geyes/org.mate.applets.GeyesApplet.mate-panel-applet.in.in.h:3
+msgid "A set of eyeballs for your panel"
+msgstr "Aseta silmäpari paneeliisi"
+
+#: ../geyes/themes.c:131
+msgid "Can not launch the eyes applet."
+msgstr "Silmäsovelman käynnistäminen epäonnistui."
+
+#: ../geyes/themes.c:132
+msgid "There was a fatal error while trying to load the theme."
+msgstr "Vakava virhe yritettäessä ladata teemaa."
+
+#: ../geyes/themes.c:307
+msgid "Geyes Preferences"
+msgstr "Geyesin asetukset"
+
+#: ../geyes/themes.c:341
+msgid "Themes"
+msgstr "Teemat"
+
+#: ../geyes/themes.c:362
+msgid "_Select a theme:"
+msgstr "_Valitse teema:"
+
+#: ../mateweather/mateweather-about.c:48
+msgid "© 1999-2005 by S. Papadimitriou and others"
+msgstr "© 1999-2005 S. Papadimitriou ja muut"
+
+#: ../mateweather/mateweather-about.c:49
+msgid "A panel application for monitoring local weather conditions."
+msgstr "Paikallisia sääoloja seuraava sovelma."
+
+#: ../mateweather/mateweather-applet.c:115
+msgid "_Details"
+msgstr "_Yksityiskohdat"
+
+#: ../mateweather/mateweather-applet.c:118
+#: ../mateweather/mateweather-dialog.c:198
+msgid "_Update"
+msgstr "_Päivitä"
+
+#: ../mateweather/mateweather-applet.c:329
+#: ../mateweather/org.mate.applets.MateWeatherApplet.mate-panel-applet.in.in.h:3
+msgid "Weather Report"
+msgstr "Säätiedote"
+
+#: ../mateweather/mateweather-applet.c:347
+#: ../mateweather/mateweather-applet.c:351
+msgid "MATE Weather"
+msgstr "Maten säätiedot"
+
+#: ../mateweather/mateweather-applet.c:453
+msgid "Weather Forecast"
+msgstr "Säätiedote"
+
+#: ../mateweather/mateweather-applet.c:465
+#, c-format
+msgid ""
+"City: %s\n"
+"Sky: %s\n"
+"Temperature: %s"
+msgstr "Kaupunki: %s\nTaivas: %s\nLämpötila: %s"
+
+#: ../mateweather/mateweather-applet.c:515
+msgid "Updating..."
+msgstr "Päivittyy…"
+
+#: ../mateweather/mateweather-dialog.c:196
+msgid "Details"
+msgstr "Yksityiskohdat"
+
+#: ../mateweather/mateweather-dialog.c:239
+msgid "City:"
+msgstr "Kaupunki:"
+
+#: ../mateweather/mateweather-dialog.c:247
+msgid "Last update:"
+msgstr "Päivitetty:"
+
+#: ../mateweather/mateweather-dialog.c:255
+msgid "Conditions:"
+msgstr "Sääolot:"
+
+#: ../mateweather/mateweather-dialog.c:263
+msgid "Sky:"
+msgstr "Taivas:"
+
+#: ../mateweather/mateweather-dialog.c:271
+msgid "Temperature:"
+msgstr "Lämpötila:"
+
+#: ../mateweather/mateweather-dialog.c:279
+msgid "Feels like:"
+msgstr "Tuntuu:"
+
+#: ../mateweather/mateweather-dialog.c:287
+msgid "Dew point:"
+msgstr "Kastepiste:"
+
+#: ../mateweather/mateweather-dialog.c:295
+msgid "Relative humidity:"
+msgstr "Suhteellinen kosteus:"
+
+#: ../mateweather/mateweather-dialog.c:303
+msgid "Wind:"
+msgstr "Tuuli:"
+
+#: ../mateweather/mateweather-dialog.c:311
+msgid "Pressure:"
+msgstr "Paine:"
+
+#: ../mateweather/mateweather-dialog.c:319
+msgid "Visibility:"
+msgstr "Näkyvyys:"
+
+#: ../mateweather/mateweather-dialog.c:327
+msgid "Sunrise:"
+msgstr "Aurinko nousee:"
+
+#: ../mateweather/mateweather-dialog.c:335
+msgid "Sunset:"
+msgstr "Aurinko laskee:"
+
+#: ../mateweather/mateweather-dialog.c:469
+msgid "Current Conditions"
+msgstr "Tämänhetkiset sääolot"
+
+#: ../mateweather/mateweather-dialog.c:486
+msgid "Forecast Report"
+msgstr "Ennustetiedot"
+
+#: ../mateweather/mateweather-dialog.c:486
+msgid "See the ForeCast Details"
+msgstr "Katso ennusteen yksityiskohtia"
+
+#: ../mateweather/mateweather-dialog.c:496
+msgid "Forecast"
+msgstr "Ennuste"
+
+#: ../mateweather/mateweather-dialog.c:504
+msgid "Radar Map"
+msgstr "Tutkakartta"
+
+#: ../mateweather/mateweather-dialog.c:535
+msgid "_Visit Weather.com"
+msgstr "_Vieraile Weather.com:ssa"
+
+#: ../mateweather/mateweather-dialog.c:536
+msgid "Visit Weather.com"
+msgstr "Vieraile Weather.com:ssa"
+
+#: ../mateweather/mateweather-dialog.c:536
+msgid "Click to Enter Weather.com"
+msgstr "Vieraile Weather.com:ssa"
+
+#: ../mateweather/mateweather-dialog.c:621
+msgid "Forecast not currently available for this location."
+msgstr "Ennustetta ei ole juuri nyt saatavana tälle sijainnille."
+
+#. Accessible Name and Description for the components in Preference Dialog
+#: ../mateweather/mateweather-pref.c:179
+msgid "Location view"
+msgstr "Sijaintinäkymä"
+
+#: ../mateweather/mateweather-pref.c:179
+msgid "Select Location from the list"
+msgstr "Valitse sijainti luettelosta"
+
+#: ../mateweather/mateweather-pref.c:180
+msgid "Update spin button"
+msgstr "Päivityspainike"
+
+#: ../mateweather/mateweather-pref.c:180
+msgid "Spinbutton for updating"
+msgstr "Painike säätietojen päivitykseen"
+
+#: ../mateweather/mateweather-pref.c:181
+msgid "Address Entry"
+msgstr "Osoite"
+
+#: ../mateweather/mateweather-pref.c:181
+msgid "Enter the URL"
+msgstr "Anna URL"
+
+#: ../mateweather/mateweather-pref.c:332
+msgid ""
+"Failed to load the Locations XML database.  Please report this as a bug."
+msgstr "Sijaintien XML-tietokantaa ei voitu ladata. Ole hyvä ja raportoi tämä virhe."
+
+#: ../mateweather/mateweather-pref.c:878
+msgid "Weather Preferences"
+msgstr "Säätietosovelman asetukset"
+
+#: ../mateweather/mateweather-pref.c:906
+#: ../mateweather/mateweather-pref.c:1092
+msgid "_Automatically update every:"
+msgstr "_Päivitä automaattisesti:"
+
+#. * Units settings page.
+#. 
+#. Temperature Unit
+#: ../mateweather/mateweather-pref.c:921
+msgid "_Temperature unit:"
+msgstr "_Lämpötilan yksikkö:"
+
+#: ../mateweather/mateweather-pref.c:930 ../mateweather/mateweather-pref.c:952
+#: ../mateweather/mateweather-pref.c:979
+#: ../mateweather/mateweather-pref.c:1009
+msgid "Default"
+msgstr "Oletus"
+
+#: ../mateweather/mateweather-pref.c:931
+msgid "Kelvin"
+msgstr "Kelvin"
+
+#. TRANSLATORS: Celsius is sometimes referred Centigrade
+#: ../mateweather/mateweather-pref.c:933
+msgid "Celsius"
+msgstr "Celsius"
+
+#: ../mateweather/mateweather-pref.c:934
+msgid "Fahrenheit"
+msgstr "Fahrenheit"
+
+#. Speed Unit
+#: ../mateweather/mateweather-pref.c:943
+msgid "_Wind speed unit:"
+msgstr "_Tuulennopeuden yksikkö:"
+
+#. TRANSLATOR: The wind speed unit "meters per second"
+#: ../mateweather/mateweather-pref.c:954
+msgid "m/s"
+msgstr " m/s"
+
+#. TRANSLATOR: The wind speed unit "kilometers per hour"
+#: ../mateweather/mateweather-pref.c:956
+msgid "km/h"
+msgstr " km/h"
+
+#. TRANSLATOR: The wind speed unit "miles per hour"
+#: ../mateweather/mateweather-pref.c:958
+msgid "mph"
+msgstr " mph"
+
+#. TRANSLATOR: The wind speed unit "knots"
+#: ../mateweather/mateweather-pref.c:960
+msgid "knots"
+msgstr "solmua"
+
+#: ../mateweather/mateweather-pref.c:961
+msgid "Beaufort scale"
+msgstr "Bofori-skaala"
+
+#. Pressure Unit
+#: ../mateweather/mateweather-pref.c:970
+msgid "_Pressure unit:"
+msgstr "_Paineen yksikkö:"
+
+#. TRANSLATOR: The pressure unit "kiloPascals"
+#: ../mateweather/mateweather-pref.c:981
+msgid "kPa"
+msgstr " kPa"
+
+#. TRANSLATOR: The pressure unit "hectoPascals"
+#: ../mateweather/mateweather-pref.c:983
+msgid "hPa"
+msgstr " hPa"
+
+#. TRANSLATOR: The pressure unit "millibars"
+#: ../mateweather/mateweather-pref.c:985
+msgid "mb"
+msgstr " mb"
+
+#. TRANSLATOR: The pressure unit "millibars of mercury"
+#: ../mateweather/mateweather-pref.c:987
+msgid "mmHg"
+msgstr " mmHg"
+
+#. TRANSLATOR: The pressure unit "inches of mercury"
+#: ../mateweather/mateweather-pref.c:989
+msgid "inHg"
+msgstr " inHg"
+
+#. TRANSLATOR: The pressure unit "atmospheres"
+#: ../mateweather/mateweather-pref.c:991
+msgid "atm"
+msgstr "atm"
+
+#. Distance Unit
+#: ../mateweather/mateweather-pref.c:1000
+msgid "_Visibility unit:"
+msgstr "_Näkyvyyden yksikkö:"
+
+#. TRANSLATOR: The distance unit "meters"
+#: ../mateweather/mateweather-pref.c:1011
+msgid "meters"
+msgstr "metriä"
+
+#. TRANSLATOR: The distance unit "kilometers"
+#: ../mateweather/mateweather-pref.c:1013
+msgid "km"
+msgstr " km"
+
+#. TRANSLATOR: The distance unit "miles"
+#: ../mateweather/mateweather-pref.c:1015
+msgid "miles"
+msgstr "mailia"
+
+#: ../mateweather/mateweather-pref.c:1041
+msgid "Enable _radar map"
+msgstr "Kä_ytä sääkarttoja"
+
+#: ../mateweather/mateweather-pref.c:1057
+msgid "Use _custom address for radar map"
+msgstr "Käytä mukau_tettua osoitetta sääkartalle"
+
+#: ../mateweather/mateweather-pref.c:1075
+msgid "A_ddress:"
+msgstr "_Osoite:"
+
+#: ../mateweather/mateweather-pref.c:1088
+msgid "Update"
+msgstr "Päivitä"
+
+#: ../mateweather/mateweather-pref.c:1111
+msgid "minutes"
+msgstr "minuuttia"
+
+#: ../mateweather/mateweather-pref.c:1129
+msgid "Display"
+msgstr "Näyttö"
+
+#: ../mateweather/mateweather-pref.c:1143
+#: ../mini-commander/src/mini-commander.ui.h:12
+msgid "General"
+msgstr "Yleiset"
+
+#: ../mateweather/mateweather-pref.c:1154
+msgid "_Select a location:"
+msgstr "_Valitse sijainti:"
+
+#: ../mateweather/mateweather-pref.c:1176
+msgid "_Find:"
+msgstr "_Etsi:"
+
+#: ../mateweather/mateweather-pref.c:1182
+msgid "Find _Next"
+msgstr "Etsi _seuraava"
+
+#: ../mateweather/mateweather-pref.c:1203
+msgid "Location"
+msgstr "Sijainti"
+
+#: ../mateweather/org.mate.applets.MateWeatherApplet.mate-panel-applet.in.in.h:1
+msgid "Mateweather Applet Factory"
+msgstr ""
+
+#: ../mateweather/org.mate.applets.MateWeatherApplet.mate-panel-applet.in.in.h:2
+msgid "Factory for creating the weather applet."
+msgstr "Tehdas säätietosovelman luomiseksi"
+
+#: ../mateweather/org.mate.applets.MateWeatherApplet.mate-panel-applet.in.in.h:4
+msgid "Monitor the current weather conditions, and forecasts"
+msgstr "Seuraa sääoloja ja ennusteita"
+
+#: ../invest-applet/data/Invest_Applet.server.in.in.h:1
+#: ../invest-applet/invest/about.py:17
+msgid "Invest"
+msgstr "Sijoittaminen"
+
+#: ../invest-applet/data/Invest_Applet.server.in.in.h:2
+#: ../invest-applet/invest/about.py:20
+msgid "Track your invested money."
+msgstr "Seuraa rahallisia sijoituksiasi."
+
+#: ../invest-applet/data/Invest_Applet.xml.h:1
+msgid "_Refresh"
+msgstr "_Päivitä"
+
+#: ../invest-applet/data/financialchart.ui.h:1
+msgid "Today"
+msgstr "Tänään"
+
+#: ../invest-applet/data/financialchart.ui.h:2
+msgid "5 Days"
+msgstr "5 päivää"
+
+#: ../invest-applet/data/financialchart.ui.h:3
+msgid "3 Months"
+msgstr "3 kuukautta"
+
+#: ../invest-applet/data/financialchart.ui.h:4
+msgid "6 Months"
+msgstr "6 kuukautta"
+
+#: ../invest-applet/data/financialchart.ui.h:5
+msgid "1 Year"
+msgstr "1 vuosi"
+
+#: ../invest-applet/data/financialchart.ui.h:6
+msgid "5 Years"
+msgstr "5 vuotta"
+
+#: ../invest-applet/data/financialchart.ui.h:7
+msgid "Maximum"
+msgstr "Suurin"
+
+#: ../invest-applet/data/financialchart.ui.h:8
+#: ../invest-applet/invest/chart.py:107
+msgid "Financial Chart"
+msgstr "Kurssikehityskaavio"
+
+#: ../invest-applet/data/financialchart.ui.h:9
+msgid "_Ticker symbol: "
+msgstr "_Osakkeen symboli: "
+
+#: ../invest-applet/data/financialchart.ui.h:10
+msgid "Auto _refresh"
+msgstr "Automaattinen _päivitys"
+
+#: ../invest-applet/data/financialchart.ui.h:11
+msgid "_Graph style: "
+msgstr "_Kaavion tyyli: "
+
+#. see http://biz.yahoo.com/charts/guide11.html and
+#. http://en.wikipedia.org/wiki/Moving_average
+#: ../invest-applet/data/financialchart.ui.h:13
+msgid "Moving average: "
+msgstr "Liikkuva keskiarvo: "
+
+#. see http://biz.yahoo.com/charts/guide12.html and
+#. http://en.wikipedia.org/wiki/Moving_average#Exponential_moving_average
+#: ../invest-applet/data/financialchart.ui.h:15
+msgid "Exponential moving average: "
+msgstr "Eksponentiaalisesti liikkuva keskiarvo: "
+
+#: ../invest-applet/data/financialchart.ui.h:16
+msgid "5"
+msgstr "5"
+
+#: ../invest-applet/data/financialchart.ui.h:17
+msgid "10"
+msgstr "10"
+
+#: ../invest-applet/data/financialchart.ui.h:18
+msgid "20"
+msgstr "20"
+
+#: ../invest-applet/data/financialchart.ui.h:19
+msgid "50"
+msgstr "50"
+
+#: ../invest-applet/data/financialchart.ui.h:20
+msgid "100"
+msgstr "100"
+
+#: ../invest-applet/data/financialchart.ui.h:21
+msgid "200"
+msgstr "200"
+
+#. see http://en.wikipedia.org/wiki/Technical_analysis#Overlays
+#: ../invest-applet/data/financialchart.ui.h:23
+msgid "Overlays: "
+msgstr "Ylipiirrot: "
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide13.html and
+#. http://en.wikipedia.org/wiki/Bollinger_bands
+#: ../invest-applet/data/financialchart.ui.h:25
+msgid "Bollinger"
+msgstr "Bollinger"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide16.html and
+#. http://en.wikipedia.org/wiki/Parabolic_SAR
+#: ../invest-applet/data/financialchart.ui.h:27
+msgid "SAR"
+msgstr "SAR"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide6.html and
+#. http://en.wikipedia.org/wiki/Stock_split
+#: ../invest-applet/data/financialchart.ui.h:29
+msgid "Splits"
+msgstr "Jaot"
+
+#. Please keep this term short. For its meaning, see
+#. http://biz.yahoo.com/charts/guide20.html and
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:31
+msgid "Volumes"
+msgstr "Myyntimäärät"
+
+#. see http://biz.yahoo.com/charts/guide10.html and
+#. http://en.wikipedia.org/wiki/Technical_indicator#Charting_terms_and_indicators
+#: ../invest-applet/data/financialchart.ui.h:33
+msgid "Indicators: "
+msgstr "Ilmaisimet: "
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Relative_Strength_Index
+#: ../invest-applet/data/financialchart.ui.h:35
+msgid "RSI"
+msgstr "RSI"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:37
+msgid "Vol"
+msgstr "Vol"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Money_flow_index
+#: ../invest-applet/data/financialchart.ui.h:39
+msgid "MFI"
+msgstr "MFI"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Stochastic_oscillator
+#: ../invest-applet/data/financialchart.ui.h:41
+msgid "Slow stoch"
+msgstr "Hidas stokastinen"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Volume_%28finance%29
+#: ../invest-applet/data/financialchart.ui.h:43
+msgid "Vol+MA"
+msgstr "Vol+MA"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Rate_of_change_%28technical_analysis%29
+#: ../invest-applet/data/financialchart.ui.h:45
+msgid "ROC"
+msgstr "ROC"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Stochastic_oscillator
+#: ../invest-applet/data/financialchart.ui.h:47
+msgid "Fast stoch"
+msgstr "Nopea stokastinen"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/Williams_%25R
+#: ../invest-applet/data/financialchart.ui.h:50
+#, no-c-format
+msgid "W%R"
+msgstr "W%R"
+
+#. Please keep this term short. For its meaning, see
+#. http://en.wikipedia.org/wiki/MACD
+#: ../invest-applet/data/financialchart.ui.h:52
+msgid "MACD"
+msgstr "MACD"
+
+#: ../invest-applet/data/financialchart.ui.h:53
+msgid "_Options"
+msgstr "_Valinnat"
+
+#: ../invest-applet/data/financialchart.ui.h:54
+msgid "Downloading chart from <b>Yahoo!</b>"
+msgstr "Hae kaavioita <b>Yahoo!sta</b>"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:1
+msgid "Invest Preferences"
+msgstr "Sijoittajan asetukset"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:2
+msgid "label"
+msgstr "otsikko"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:3
+msgid "Stocks"
+msgstr "Osakkeet"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:4
+msgid ""
+"<i><small><b>Note:</b> Quotes are delayed at least 15 minutes.\n"
+"<b>Source: </b> Yahoo!</small></i>"
+msgstr "<i><small><b>Huomautus: </b> Kurssit viipyvät vähintään 15 minuuttia.\n<b>Lähde: </b> Yahoo!</small></i>"
+
+#: ../invest-applet/data/prefs-dialog.ui.h:6
+msgid "Currency"
+msgstr ""
+
+#. a) We aren't configured yet
+#: ../invest-applet/invest/applet.py:50
+msgid "<b>You have not entered any stock information yet</b>"
+msgstr "<b>Et ole vielä syöttänyt mitään osaketietoja</b>"
+
+#: ../invest-applet/invest/applet.py:55
+msgid "<b>No stock quotes are currently available</b>"
+msgstr "<b>Osakekursseja ei ole juuri nyt saatavilla</b>"
+
+#: ../invest-applet/invest/applet.py:56
+msgid ""
+"The server could not be contacted. The computer is either offline or the "
+"servers are down. Try again later."
+msgstr "Palvelimeen ei saatu yhteyttä. Tietokone ei ole joko verkossa tai palvelimet ovat tavoittamattomissa. Yritä myöhemmin uudestaan."
+
+#: ../invest-applet/invest/chart.py:156
+#, python-format
+msgid "Financial Chart - %s"
+msgstr "Kurssikehityskaavio - %s"
+
+#: ../invest-applet/invest/chart.py:223
+msgid "Opening Chart"
+msgstr "Avataan kaaviota"
+
+#: ../invest-applet/invest/chart.py:238
+msgid "Chart downloaded"
+msgstr "Kaavion nouto"
+
+#: ../invest-applet/invest/chart.py:240
+msgid "Chart could not be downloaded"
+msgstr "Kaaviota ei voitu noutaa"
+
+#: ../invest-applet/invest/invest-applet.py:41
+msgid "Invest Applet"
+msgstr "Sijoitussovelma"
+
+#: ../invest-applet/invest/preferences.py:31
+msgid "Symbol"
+msgstr "Symbolit"
+
+#: ../invest-applet/invest/preferences.py:31
+msgid "Label"
+msgstr "Nimike"
+
+#: ../invest-applet/invest/preferences.py:31
+msgid "Amount"
+msgstr "Määrä"
+
+#: ../invest-applet/invest/preferences.py:31
+msgid "Price"
+msgstr "Hinta"
+
+#: ../invest-applet/invest/preferences.py:31
+msgid "Commission"
+msgstr "Palkkio"
+
+#: ../invest-applet/invest/preferences.py:31
+msgid "Currency Rate"
+msgstr ""
+
+#: ../invest-applet/invest/quotes.py:131
+msgid "Invest could not connect to Yahoo! Finance"
+msgstr "Sijoitussovelma ei saanut yhteyttä Yahoo! Finance -palveluun"
+
+#. Translators: %s is an hour (%H:%M)
+#: ../invest-applet/invest/quotes.py:134 ../invest-applet/invest/quotes.py:163
+#, python-format
+msgid "Updated at %s"
+msgstr "Päivitetty %s"
+
+#. Translators: This is share-market jargon. It is the average percentage
+#. change of all stock prices. The %s gets replaced with the string value of
+#. the change (localized), including the percent sign.
+#: ../invest-applet/invest/quotes.py:153
+#, python-format
+msgid "Average change: %s"
+msgstr ""
+
+#. Translators: This is share-market jargon. It refers to the total difference
+#. between the current price and purchase price for all the shares put
+#. together for a particular currency. i.e. How much money would be earned if
+#. they were sold right now. The first string is the change value, the second
+#. the currency, and the third value is the percentage of the change,
+#. formatted using user's locale.
+#: ../invest-applet/invest/quotes.py:162
+#, python-format
+msgid "Positions balance: %s %s (%s)"
+msgstr ""
+
+#. model: SYMBOL, LABEL, TICKER_ONLY, BALANCE, BALANCE_PCT, VALUE,
+#. VARIATION_PCT, PB
+#. Translators: these words all refer to a stock. Last is short
+#. for "last price". Gain is referring to the gain since the
+#. stock was purchased.
+#: ../invest-applet/invest/widgets.py:51
+msgid "Ticker"
+msgstr "Kurssikoodi"
+
+#: ../invest-applet/invest/widgets.py:51
+msgid "Last"
+msgstr "Viimeisin"
+
+#: ../invest-applet/invest/widgets.py:51
+msgid "Change %"
+msgstr "Muutos %"
+
+#: ../invest-applet/invest/widgets.py:51
+msgid "Chart"
+msgstr "Kaavio"
+
+#: ../invest-applet/invest/widgets.py:51
+msgid "Gain"
+msgstr "Voitto"
+
+#: ../invest-applet/invest/widgets.py:51
+msgid "Gain %"
+msgstr "Voitto %"
+
+#: ../mini-commander/MATE_MiniCommanderApplet.server.in.h:1
+msgid "Deskbar (formerly Mini-Commander)"
+msgstr "Komentopalkki (aiemmin komentorivisovelma)"
+
+#: ../mini-commander/MATE_MiniCommanderApplet.server.in.h:2
+msgid "Deskbar (transparent upgrade from Mini-Commander)"
+msgstr "Komentopalkki (päivitys komentorivisovelmasta)"
+
+#: ../mini-commander/src/about.c:48
+msgid ""
+"This MATE applet adds a command line to the panel. It features command "
+"completion, command history, and changeable macros."
+msgstr "Tämä Maten sovelma lisää komentorivin paneeliin. Komentorivi osaa komennon täydennyksen, komentohistorian ja muokattavat makrot."
+
+#: ../mini-commander/src/command_line.c:345
+msgid "No items in history"
+msgstr "Ei historiakohtia"
+
+#. build file select dialog
+#: ../mini-commander/src/command_line.c:469
+msgid "Start program"
+msgstr "Käynnistettävä ohjelma"
+
+#: ../mini-commander/src/command_line.c:522
+msgid "Command line"
+msgstr "Komentorivi"
+
+#: ../mini-commander/src/command_line.c:523
+msgid "Type a command here and Mate will execute it for you"
+msgstr "Kirjoita komento tähän ja Mate suorittaa sen sinulle"
+
+#: ../mini-commander/src/mc-install-default-macros.c:80
+#, c-format
+msgid "Cannot get schema for %s: %s"
+msgstr "%s:n kaavainta ei löytynyt : %s"
+
+#: ../mini-commander/src/mc-install-default-macros.c:111
+#, c-format
+msgid "Cannot set schema for %s: %s"
+msgstr "%s:n kaavainta ei löytynyt: %s"
+
+#: ../mini-commander/src/mc-install-default-macros.c:117
+#, c-format
+msgid "Set default list value for %s\n"
+msgstr "Aseta oletusarvo kohteelle %s\n"
+
+#: ../mini-commander/src/mc-install-default-macros.c:129
+#, c-format
+msgid ""
+"MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL is set, not installing schemas\n"
+msgstr "MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL on asetettu eli kaavaimia ei asenneta\n"
+
+#: ../mini-commander/src/mc-install-default-macros.c:137
+#, c-format
+msgid "Must set the MATECONF_CONFIG_SOURCE environment variable\n"
+msgstr "Sinun täytyy asettaa MATECONF_CONFIG_SOURCE-ympäristömuuttuja\n"
+
+#: ../mini-commander/src/mc-install-default-macros.c:154
+#, c-format
+msgid "Failed to access configuration source(s): %s\n"
+msgstr "Asetusten lähteen saanti ei onnistunut: %s\n"
+
+#: ../mini-commander/src/mc-install-default-macros.c:169
+#, c-format
+msgid "Error syncing config data: %s"
+msgstr "Asetustietojen synkronisointi epäonnistui: %s"
+
+#: ../mini-commander/src/mini-commander-global.schemas.in.h:1
+#: ../mini-commander/src/mini-commander.schemas.in.h:26
+msgid "Macro pattern list"
+msgstr "Makrokuvioiden luettelo"
+
+#: ../mini-commander/src/mini-commander-global.schemas.in.h:2
+msgid ""
+"List of MateConfValue entries containing strings for the macro patterns."
+msgstr "Makrokuviot sisältävien MateConfValue-arvojen luettelo."
+
+#: ../mini-commander/src/mini-commander-global.schemas.in.h:3
+#: ../mini-commander/src/mini-commander.schemas.in.h:28
+msgid "Macro command list"
+msgstr "Makrokomentojen luettelo"
+
+#: ../mini-commander/src/mini-commander-global.schemas.in.h:4
+msgid ""
+"List of MateConfValue entries containing strings for the macro commands."
+msgstr "Makrokomennot sisältävien MateConfValue-arvojen luettelo."
+
+#: ../mini-commander/src/mini-commander.ui.h:1
+msgid "Command Line Preferences"
+msgstr "Komentorivin asetukset"
+
+#: ../mini-commander/src/mini-commander.ui.h:2
+msgid "Auto Completion"
+msgstr "Automaattitäydennys"
+
+#: ../mini-commander/src/mini-commander.ui.h:3
+msgid "E_nable history-based auto completion"
+msgstr "Käytä historiaa_n perustuvaa täydennystä"
+
+#: ../mini-commander/src/mini-commander.ui.h:4
+msgid "Size"
+msgstr "Koko"
+
+#: ../mini-commander/src/mini-commander.ui.h:5
+#: ../stickynotes/stickynotes.ui.h:19
+msgid "_Width:"
+msgstr "_Leveys:"
+
+#: ../mini-commander/src/mini-commander.ui.h:6 ../multiload/properties.c:526
+msgid "pixels"
+msgstr "pikseliä"
+
+#: ../mini-commander/src/mini-commander.ui.h:7 ../multiload/properties.c:571
+msgid "Colors"
+msgstr "Värit"
+
+#: ../mini-commander/src/mini-commander.ui.h:8
+msgid "_Use default theme colors"
+msgstr "_Käytä teeman oletusvärejä"
+
+#: ../mini-commander/src/mini-commander.ui.h:9
+msgid "Command line _foreground:"
+msgstr "Komentorivin _edustaväri:"
+
+#: ../mini-commander/src/mini-commander.ui.h:10
+msgid "Command line _background:"
+msgstr "Komentorivin _taustaväri:"
+
+#: ../mini-commander/src/mini-commander.ui.h:11
+msgid "Pick a color"
+msgstr "Valitse väri"
+
+#: ../mini-commander/src/mini-commander.ui.h:13
+msgid "_Macros:"
+msgstr "_Makrot:"
+
+#: ../mini-commander/src/mini-commander.ui.h:14
+msgid "_Add Macro..."
+msgstr "_Lisää makro…"
+
+#: ../mini-commander/src/mini-commander.ui.h:15
+msgid "_Delete Macro"
+msgstr "_Poista makro"
+
+#: ../mini-commander/src/mini-commander.ui.h:16
+msgid "Macros"
+msgstr "Makrot"
+
+#: ../mini-commander/src/mini-commander.ui.h:17
+msgid "Add New Macro"
+msgstr "Lisää makro"
+
+#: ../mini-commander/src/mini-commander.ui.h:18
+msgid "_Pattern:"
+msgstr "_Hakuehto:"
+
+#: ../mini-commander/src/mini-commander.ui.h:19
+msgid "Co_mmand:"
+msgstr "_Komento:"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:1
+msgid "Show handle"
+msgstr "Näytä kahva"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:2
+msgid "Show a handle so the applet can be detached from the panel."
+msgstr "Näytä kahva jolla sovelma voidaan irrottaa paneelista."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:3
+msgid "Show frame"
+msgstr "Näytä kehys"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:4
+msgid "Show a frame surrounding the applet."
+msgstr "Näytä kehys sovelman ympärillä."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:5
+msgid "Perform history autocompletion"
+msgstr "Käytä historiaan perustuvaa täydennystä"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:6
+msgid ""
+"Attempt to autocomplete a command from the history of commands entered."
+msgstr "Komento pyritään täydentämään komentohistorian perusteella."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:7
+msgid "Width"
+msgstr "Leveys"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:8
+msgid "Width of the applet"
+msgstr "Sovelman leveys"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:9
+msgid "Not used anymore"
+msgstr "Ei enää käytössä"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:10
+msgid "Use the default theme colors"
+msgstr "Käytä teeman värejä"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:11
+msgid "Use theme colors instead of custom ones."
+msgstr "Käyttää teeman värejä mukautettujen sijaan."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:12
+msgid "Foreground color, red component"
+msgstr "Edustaväri, punainen komponentti"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:13
+msgid "The red component of the foreground color."
+msgstr "Edustavärin punainen komponentti."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:14
+msgid "Foreground color, green component"
+msgstr "Edustaväri, vihreä komponentti"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:15
+msgid "The green component of the foreground color."
+msgstr "Edustavärin vihreä komponentti."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:16
+msgid "Foreground color, blue component"
+msgstr "Edustaväri, sininen komponentti"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:17
+msgid "The blue component of the foreground color."
+msgstr "Edustavärin sininen komponentti."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:18
+msgid "Background color, red component"
+msgstr "Taustaväri, punainen komponentti"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:19
+msgid "The red component of the background color."
+msgstr "Taustavärin punainen komponentti."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:20
+msgid "Background color, green component"
+msgstr "Taustaväri, vihreä komponentti"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:21
+msgid "The green component of the background color."
+msgstr "Taustavärin vihreä komponentti."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:22
+msgid "Background color, blue component"
+msgstr "Taustaväri, sininen komponentti"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:23
+msgid "The blue component of the background color."
+msgstr "Taustavärin sininen komponentti."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:24
+msgid "History list"
+msgstr "Historia"
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:25
+msgid "List of MateConfValue entries containing strings for history entries."
+msgstr "Historiamerkkijonot sisältävien MateConfValue-arvojen luettelo."
+
+#: ../mini-commander/src/mini-commander.schemas.in.h:27
+msgid ""
+"This per-applet key is deprecated in favour of the global key, /schemas/apps"
+"/mini-commander-global/macro_patterns."
+msgstr "Tämä sovelmakohtainen avain on korvattu globaalilla avaimella /schemas/apps/mini-commander-global/macro_patterns."
+
+#: ../mini-commander/src/mini-commander_applet.c:242
+#: ../mini-commander/src/mini-commander_applet.c:246
+msgid "Browser"
+msgstr "Selain"
+
+#: ../mini-commander/src/mini-commander_applet.c:247
+msgid "Click this button to start the browser"
+msgstr "Napsauta tätä käynnistääksesi selaimen"
+
+#: ../mini-commander/src/mini-commander_applet.c:260
+#: ../mini-commander/src/mini-commander_applet.c:264
+msgid "History"
+msgstr "Historia"
+
+#: ../mini-commander/src/mini-commander_applet.c:265
+msgid "Click this button for the list of previous commands"
+msgstr "Napsauta saadaksesi listan viimeisimmistä komennoista"
+
+#: ../mini-commander/src/mini-commander_applet.c:346
+msgid "Command line has been disabled by your system administrator"
+msgstr "Komentorivi on poistettu käytöstä järjestelmänvalvojasi toimesta"
+
+#: ../mini-commander/src/mini-commander_applet.c:361
+#: ../mini-commander/src/org.mate.applets.MiniCommanderApplet.mate-panel-applet.in.in.h:2
+msgid "Command Line"
+msgstr "Komentorivi"
+
+#: ../mini-commander/src/mini-commander_applet.c:407
+msgid "Mini-Commander applet"
+msgstr "Pienoiskomentotulkki"
+
+#: ../mini-commander/src/mini-commander_applet.c:408
+msgid "This applet adds a command line to the panel"
+msgstr "Tämä sovelma lisää komentorivin paneeliin"
+
+#: ../mini-commander/src/org.mate.applets.MiniCommanderApplet.mate-panel-applet.in.in.h:1
+msgid "MiniCommander Applet Factory"
+msgstr "Pienoiskomentotulkkisovelman tehdas"
+
+#: ../mini-commander/src/org.mate.applets.MiniCommanderApplet.mate-panel-applet.in.in.h:3
+msgid "Mini-Commander"
+msgstr "Minikomentotulkki"
+
+#: ../mini-commander/src/preferences.c:401
+msgid "You must specify a pattern"
+msgstr "Sinun täytyy määrittää hakuehto"
+
+#: ../mini-commander/src/preferences.c:405
+msgid "You must specify a pattern and a command"
+msgstr "Sinun täytyy määrittää hakuehto ja komento"
+
+#: ../mini-commander/src/preferences.c:406
+msgid "You must specify a command"
+msgstr "Sinun täytyy määrittää komento"
+
+#: ../mini-commander/src/preferences.c:409
+msgid "You may not specify duplicate patterns"
+msgstr "Et voi antaa samaa hakuehtoa useita kertoja"
+
+#: ../mini-commander/src/preferences.c:773
+msgid "Pattern"
+msgstr "Hakuehto"
+
+#: ../mini-commander/src/preferences.c:783
+msgid "Command"
+msgstr "Komento"
+
+#: ../mixer/applet.c:184
+msgid "Volume Applet"
+msgstr "Äänenvoimakkuuden säädin"
+
+#. tooltip over applet
+#: ../mixer/applet.c:200 ../mixer/applet.c:221 ../null_applet/null_applet.c:44
+#: ../null_applet/null_applet.c:46
+msgid "Volume Control"
+msgstr "Äänenvoimakkuus"
+
+#: ../mixer/applet.c:384
+msgid "_Open Volume Control"
+msgstr "_Avaa äänenvoimakkuuden hallinta"
+
+#: ../mixer/applet.c:398
+msgid "Mu_te"
+msgstr "_Vaimenna"
+
+#: ../mixer/applet.c:564
+msgid ""
+"The volume control did not find any elements and/or devices to control. This"
+" means either that you don't have the right GStreamer plugins installed, or "
+"that you don't have a sound card configured."
+msgstr "Äänenvoimakkuuden hallinta ei löytänyt ohjaimia tai laitteita, joita säätää. Tämä tarkoittaa että joko oikeat GStreamer-liitännäiset eivät ole asennettuina tai että äänikorttisi ei ole määritelty."
+
+#: ../mixer/applet.c:568
+msgid ""
+"You can remove the volume control from the panel by right-clicking the "
+"speaker icon on the panel and selecting \"Remove From Panel\" from the menu."
+msgstr "Voit poistaa äänenvoimakkuuden hallinnan paneelista painamalla oikeaa nappia kaiuttimen kuvan päällä ja valitsemalla ”Poista paneelista”."
+
+#: ../mixer/applet.c:754
+#, c-format
+msgid "Failed to start Volume Control: %s"
+msgstr "Äänenvoimakkuuden säätimen käynnistys epäonnistui: %s"
+
+#: ../mixer/applet.c:1203
+#, c-format
+msgid "%s: muted"
+msgstr "%s: vaimennettu"
+
+#. Translator comment: I'm not all too sure if this makes sense
+#. * to mark as a translation, but anyway. The string is a list of
+#. * selected tracks, the number is the volume in percent. You
+#. * most likely want to keep this as-is.
+#: ../mixer/applet.c:1209
+#, c-format
+msgid "%s: %d%%"
+msgstr "%s: %d %%"
+
+#: ../mixer/applet.c:1445
+#, c-format
+msgid "Failed to display help: %s"
+msgstr "Ohjetta ei voitu näyttää: %s"
+
+#: ../mixer/applet.c:1458
+msgid "Volume control for your MATE Panel."
+msgstr "Äänenvoimakkuuden hallinta Maten paneeliin."
+
+#: ../mixer/applet.c:1459
+msgid "Using GStreamer 0.10."
+msgstr "Käyttää Gstreamer-versiota 0.10."
+
+#: ../mixer/dock.c:218
+msgid "Mute"
+msgstr "Vaimenna"
+
+#: ../mixer/dock.c:224
+msgid "Volume Control..."
+msgstr "Äänenvoimakkuus…"
+
+#: ../mixer/load.c:86
+#, c-format
+msgid "Unknown Volume Control %d"
+msgstr "Tuntematon äänenvoimakkuuden ohjain %d"
+
+#: ../mixer/mixer.schemas.in.h:1
+msgid "Channel controlled by applet. Only for OSS setups"
+msgstr "Sovelman hallinnoima kanava. Vain OSS:ää käyttäville järjestelmille"
+
+#: ../mixer/mixer.schemas.in.h:2
+msgid "Saved mute state"
+msgstr "Vaimennus tallennettu"
+
+#: ../mixer/mixer.schemas.in.h:3
+msgid "Saved volume to restore on startup"
+msgstr "Käynnistettäessä palautettava äänenvoimakkuus tallennettu"
+
+#. make window look cute
+#: ../mixer/preferences.c:90
+msgid "Volume Control Preferences"
+msgstr "Äänenvoimakkuuden säätimen asetukset"
+
+#: ../mixer/preferences.c:103
+msgid "Select the device and track to control."
+msgstr "Valitse hallittava laite ja kanava."
+
+#: ../modemlights/modem-applet.c:142
+msgid "_Activate"
+msgstr "_Avaa"
+
+#: ../modemlights/modem-applet.c:145
+msgid "_Deactivate"
+msgstr "_Katkaise"
+
+#: ../modemlights/modem-applet.c:148 ../stickynotes/stickynotes.ui.h:4
+msgid "_Properties"
+msgstr "_Ominaisuudet"
+
+#: ../modemlights/modem-applet.c:184
+#: ../modemlights/org.mate.applets.ModemApplet.mate-panel-applet.in.in.h:1
+msgid "Modem Monitor"
+msgstr "Modeemin tila"
+
+#: ../modemlights/modem-applet.c:710
+msgid "Connection active, but could not get connection time"
+msgstr "Yhteys auki, mutta yhteysaikaa ei voida selvittää"
+
+#: ../modemlights/modem-applet.c:726
+#, c-format
+msgid "Time connected: %.1d:%.2d"
+msgstr "Yhteys auki: %.1d:%.2d"
+
+#: ../modemlights/modem-applet.c:730
+msgid "Not connected"
+msgstr "ei yhteyttä"
+
+#: ../modemlights/modem-applet.c:752
+msgid ""
+"To connect to your Internet service provider, you need administrator "
+"privileges"
+msgstr "Tarvitset ylläpitäjän oikeudet avataksesi yhteyden Internet-palveluntarjoajaasi"
+
+#: ../modemlights/modem-applet.c:753
+msgid ""
+"To disconnect from your Internet service provider, you need administrator "
+"privileges"
+msgstr "Tarvitset ylläpitäjän oikeudet sulkeaksesi yhteyden Internet-palveluntarjoajaasi"
+
+#: ../modemlights/modem-applet.c:828
+msgid "The entered password is invalid"
+msgstr "Syötetty salasana on väärä"
+
+#: ../modemlights/modem-applet.c:830
+msgid ""
+"Check that you have typed it correctly and that you haven't activated the "
+"\"caps lock\" key"
+msgstr "Tarkista että kirjoitit sen oikein ja ettei ”Caps Lock” ole päällä"
+
+#: ../modemlights/modem-applet.c:932
+msgid "Do you want to connect?"
+msgstr "Haluatko ottaa yhteyden?"
+
+#: ../modemlights/modem-applet.c:933
+msgid "Do you want to disconnect?"
+msgstr "Haluatko katkaista yhteyden?"
+
+#: ../modemlights/modem-applet.c:942
+msgid "C_onnect"
+msgstr "_Yhdistä"
+
+#: ../modemlights/modem-applet.c:942
+msgid "_Disconnect"
+msgstr "_Katkaise"
+
+#: ../modemlights/modem-applet.c:995
+msgid "Could not launch network configuration tool"
+msgstr "Verkkoasetusten määrittelytyökalua ei voitu käynnistää"
+
+#: ../modemlights/modem-applet.c:997
+msgid ""
+"Check that it's installed in the correct path and that it has the correct "
+"permissions"
+msgstr "Tarkista että se on asennettu oikeaan paikkaan ja että sen oikeudet ovat riittävät"
+
+#: ../modemlights/modem-applet.c:1020
+msgid "Applet for activating and monitoring a dial-up network connection."
+msgstr "Sovelma modeemiyhteyden käynnistämiseen ja tarkkailuun."
+
+#: ../modemlights/modemlights.ui.h:1
+msgid "Enter password"
+msgstr "Syötä salasana"
+
+#: ../modemlights/modemlights.ui.h:2
+msgid "Root password required"
+msgstr "Root-salasana vaaditaan"
+
+#: ../modemlights/modemlights.ui.h:3
+msgid "Password:"
+msgstr "Salasana:"
+
+#: ../modemlights/modemlights.ui.h:4
+msgid "Connecting with Internet Service Provider"
+msgstr "Yhdistetään palveluntarjoajaan"
+
+#: ../modemlights/org.mate.applets.ModemApplet.mate-panel-applet.in.in.h:2
+msgid "Activate and monitor a dial-up network connection"
+msgstr "Avaa ja tarkkaile modeemiyhteyksiä"
+
+#: ../multiload/main.c:56
+msgid ""
+"A system load monitor capable of displaying graphs for CPU, ram, and swap "
+"space use, plus network traffic."
+msgstr "Järjestelmän kuorman tarkkailija, joka osaa näyttää käyriä CPU:n, muistin ja välimuistin käytöstä sekä verkon liikenteestä."
+
+#: ../multiload/main.c:124
+#, c-format
+msgid "There was an error executing '%s': %s"
+msgstr "Virhe suoritettaessa toimintoa ”%s”: %s"
+
+#: ../multiload/main.c:252 ../multiload/properties.c:596
+msgid "Processor"
+msgstr "Suoritin"
+
+#: ../multiload/main.c:254 ../multiload/properties.c:604
+msgid "Memory"
+msgstr "Muisti"
+
+#: ../multiload/main.c:256 ../multiload/properties.c:612
+msgid "Network"
+msgstr "Verkko"
+
+#: ../multiload/main.c:258 ../multiload/properties.c:619
+msgid "Swap Space"
+msgstr "Sivutustila"
+
+#: ../multiload/main.c:260 ../multiload/main.c:339
+msgid "Load Average"
+msgstr "Keskimääräinen kuorma"
+
+#: ../multiload/main.c:262
+msgid "Disk"
+msgstr "Kiintolevy"
+
+#. xgettext: use and cache are > 1 most of the time,
+#. please assume that they always are.
+#. 
+#: ../multiload/main.c:278
+#, c-format
+msgid ""
+"%s:\n"
+"%u%% in use by programs\n"
+"%u%% in use as cache"
+msgstr "%s:\n%u %% ohjelmien käytössä\n%u %% välimuistin käytössä"
+
+#: ../multiload/main.c:286
+#, c-format
+msgid "The system load average is %0.02f"
+msgstr "Järjestelmän keskimääräinen kuormitus on %0.02f"
+
+#. xgettext: same as in graphic tab of g-s-m
+#: ../multiload/main.c:294
+#, c-format
+msgid ""
+"%s:\n"
+"Receiving %s\n"
+"Sending %s"
+msgstr "%s:\nVastaanotetaan %s\nLähetetään %s"
+
+#: ../multiload/main.c:310
+#, c-format
+msgid ""
+"%s:\n"
+"%u%% in use"
+msgid_plural ""
+"%s:\n"
+"%u%% in use"
+msgstr[0] "%s:\n%u %% käytössä"
+msgstr[1] "%s:\n%u %% käytössä"
+
+#: ../multiload/main.c:335
+msgid "CPU Load"
+msgstr "Kuorma"
+
+#: ../multiload/main.c:336
+msgid "Memory Load"
+msgstr "Muistinkulutus"
+
+#: ../multiload/main.c:337
+msgid "Net Load"
+msgstr "Verkkokuorma"
+
+#: ../multiload/main.c:338
+msgid "Swap Load"
+msgstr "Sivutuskuorma"
+
+#: ../multiload/main.c:340
+msgid "Disk Load"
+msgstr "Levyn kuorma"
+
+#: ../multiload/main.c:436
+msgid "_Open System Monitor"
+msgstr "_Avaa Järjestelmänvalvonta"
+
+#: ../multiload/main.c:464
+#: ../multiload/org.mate.applets.MultiLoadApplet.mate-panel-applet.in.in.h:1
+msgid "System Monitor"
+msgstr "Järjestelmän tila"
+
+#: ../multiload/multiload.schemas.in.h:1
+msgid "Enable CPU load graph"
+msgstr "Näytä CPU:n kuormituskäyrä"
+
+#: ../multiload/multiload.schemas.in.h:2
+msgid "Enable memory load graph"
+msgstr "Näytä muistinkulutuskäyrä"
+
+#: ../multiload/multiload.schemas.in.h:3
+msgid "Enable network load graph"
+msgstr "Näytä verkkoliikennekäyrä"
+
+#: ../multiload/multiload.schemas.in.h:4
+msgid "Enable swap load graph"
+msgstr "Näytä sivutuskäyrä"
+
+#: ../multiload/multiload.schemas.in.h:5
+msgid "Enable load average graph"
+msgstr "Näytä keskimääräisen kuorman käyrä"
+
+#: ../multiload/multiload.schemas.in.h:6
+msgid "Enable disk load graph"
+msgstr "Näytä kiintolevyn kuormituskäyrä"
+
+#: ../multiload/multiload.schemas.in.h:7
+msgid "Applet refresh rate in milliseconds"
+msgstr "Sovelman päivitystiheys millisekunneissa"
+
+#: ../multiload/multiload.schemas.in.h:8
+msgid "Graph size"
+msgstr "Käyrän koko"
+
+#: ../multiload/multiload.schemas.in.h:9
+msgid ""
+"For horizontal panels, the width of the graphs in pixels. For vertical "
+"panels, this is the height of the graphs."
+msgstr "Vaakasuorille paneeleille käyrien leveys pikseleinä. Pystysuorille paneeleille käyrien korkeus."
+
+#: ../multiload/multiload.schemas.in.h:10
+msgid "Graph color for user-related CPU activity"
+msgstr "Käyttäjätoimintoihin liittyvän prosessoritoiminnan käyrän väri"
+
+#: ../multiload/multiload.schemas.in.h:11
+msgid "Graph color for system-related CPU activity"
+msgstr "Järjestelmätoimintoihin liittyvän prosessoritoiminnan käyrän väri"
+
+#: ../multiload/multiload.schemas.in.h:12
+msgid "Graph color for nice-related CPU activity"
+msgstr "Nice-toimintoihin liittyvän prosessoritoiminnan käyrän väri"
+
+#: ../multiload/multiload.schemas.in.h:13
+msgid "Graph color for iowait related CPU activity"
+msgstr "IOwait:iin liittyvän CPU-toiminnan käyrän väri"
+
+#: ../multiload/multiload.schemas.in.h:14
+msgid "CPU graph background color"
+msgstr "CPU-käyrän taustaväri"
+
+#: ../multiload/multiload.schemas.in.h:15
+msgid "Graph color for user-related memory usage"
+msgstr "Käyttäjätoimintoihin liittyvän muistinkäytön käyrän väri"
+
+#: ../multiload/multiload.schemas.in.h:16
+msgid "Graph color for shared memory"
+msgstr "Jaetun muistin käyrän väri"
+
+#: ../multiload/multiload.schemas.in.h:17
+msgid "Graph color for buffer memory"
+msgstr "Puskurimuistin käyrän väri"
+
+#: ../multiload/multiload.schemas.in.h:18
+msgid "Graph color for cached memory"
+msgstr "Välimuistin käyrän väri"
+
+#: ../multiload/multiload.schemas.in.h:19
+msgid "Memory graph background color"
+msgstr "Muistikäyrän taustaväri"
+
+#: ../multiload/multiload.schemas.in.h:20
+msgid "Graph color for input network activity"
+msgstr "Saapuvan verkkoliikenteen käyrän väri"
+
+#: ../multiload/multiload.schemas.in.h:21
+msgid "Graph color for output network activity"
+msgstr "Lähtevän verkkoliikenteen käyrän väri"
+
+#: ../multiload/multiload.schemas.in.h:22
+msgid "Graph color for loopback network usage"
+msgstr "Paikallisen (loopback) verkkoliikenteen käyrän väri"
+
+#: ../multiload/multiload.schemas.in.h:23
+msgid "Network graph background color"
+msgstr "Verkkokäyrän taustaväri"
+
+#: ../multiload/multiload.schemas.in.h:24
+msgid "Graph color for user-related swap usage"
+msgstr "Käyttäjätoimintoihin liittyvän sivutuskäytön käyrän väri"
+
+#: ../multiload/multiload.schemas.in.h:25
+msgid "Swap graph background color"
+msgstr "Sivutuskäyrän taustaväri"
+
+#: ../multiload/multiload.schemas.in.h:26
+msgid "Graph color for load average"
+msgstr "Keskikuorman käyrän väri"
+
+#: ../multiload/multiload.schemas.in.h:27
+msgid "Load graph background color"
+msgstr "Kuormakäyrän taustaväri"
+
+#: ../multiload/multiload.schemas.in.h:28
+msgid "Graph color for disk read"
+msgstr "Levyltä luvun käyrän väri"
+
+#: ../multiload/multiload.schemas.in.h:29
+msgid "Graph color for disk write"
+msgstr "Levylle kirjoitusten käyrän väri"
+
+#: ../multiload/multiload.schemas.in.h:30
+msgid "Background color for disk load graph"
+msgstr "Taustaväri kiintolevyn kuorman käyrälle"
+
+#: ../multiload/multiload.schemas.in.h:31
+msgid "The desktop description file to execute as the system monitor"
+msgstr "Työpöydän kuvaustiedosto, joka suoritetaan järjestelmän tarkkailijana"
+
+#: ../multiload/netspeed.c:40
+#, c-format
+msgid "%s/s"
+msgstr "%s/s"
+
+#: ../multiload/org.mate.applets.MultiLoadApplet.mate-panel-applet.in.in.h:2
+msgid "A system load indicator"
+msgstr "Järjestelmäkuorman ilmaisin"
+
+#: ../multiload/properties.c:357
+msgid "Monitored Resources"
+msgstr "Valvotut resurssit"
+
+#: ../multiload/properties.c:382
+msgid "_Processor"
+msgstr "_Suoritin"
+
+#: ../multiload/properties.c:395
+msgid "_Memory"
+msgstr "_Muisti"
+
+#: ../multiload/properties.c:408
+msgid "_Network"
+msgstr "_Verkko"
+
+#: ../multiload/properties.c:421
+msgid "S_wap Space"
+msgstr "Si_vutustila"
+
+#: ../multiload/properties.c:434
+msgid "_Load"
+msgstr "_Kuorma"
+
+#: ../multiload/properties.c:447
+msgid "_Harddisk"
+msgstr "_Kiintolevy"
+
+#: ../multiload/properties.c:463
+msgid "Options"
+msgstr "Asetukset"
+
+#: ../multiload/properties.c:493
+msgid "System m_onitor width: "
+msgstr "Järjestelmänvalvonnan _leveys: "
+
+#: ../multiload/properties.c:495
+msgid "System m_onitor height: "
+msgstr "Järjestelmänvalvonnan _korkeus: "
+
+#: ../multiload/properties.c:534
+msgid "Sys_tem monitor update interval: "
+msgstr "Järjestelmänvalvonnan _nopeus: "
+
+#: ../multiload/properties.c:560
+msgid "milliseconds"
+msgstr "millisekuntia"
+
+#: ../multiload/properties.c:598 ../multiload/properties.c:606
+msgid "_User"
+msgstr "Käy_ttäjä"
+
+#: ../multiload/properties.c:599
+msgid "S_ystem"
+msgstr "_Järjestelmä"
+
+#: ../multiload/properties.c:600
+msgid "N_ice"
+msgstr "N_ice"
+
+#: ../multiload/properties.c:601
+msgid "I_OWait"
+msgstr "I_OWait"
+
+#: ../multiload/properties.c:602
+msgid "I_dle"
+msgstr "Va_paa"
+
+#: ../multiload/properties.c:607
+msgid "Sh_ared"
+msgstr "_Jaettu"
+
+#: ../multiload/properties.c:608
+msgid "_Buffers"
+msgstr "Pu_skurit"
+
+#: ../multiload/properties.c:609
+msgid "Cach_ed"
+msgstr "_Välimuistissa"
+
+#: ../multiload/properties.c:610
+msgid "F_ree"
+msgstr "_Vapaana"
+
+#: ../multiload/properties.c:614
+msgid "_In"
+msgstr "_Saapuva"
+
+#: ../multiload/properties.c:615
+msgid "_Out"
+msgstr "_Lähtevä"
+
+#: ../multiload/properties.c:616
+msgid "_Local"
+msgstr "_Paikallinen"
+
+#: ../multiload/properties.c:617 ../multiload/properties.c:627
+#: ../multiload/properties.c:633
+msgid "_Background"
+msgstr "_Tausta"
+
+#: ../multiload/properties.c:621
+msgid "_Used"
+msgstr "_Käytetty"
+
+#: ../multiload/properties.c:622
+msgid "_Free"
+msgstr "_Vapaana"
+
+#: ../multiload/properties.c:624
+msgid "Load"
+msgstr "Verkkokuorma"
+
+#: ../multiload/properties.c:626
+msgid "_Average"
+msgstr "_Keskimääräinen"
+
+#: ../multiload/properties.c:629
+msgid "Harddisk"
+msgstr "Kiintolevy"
+
+#: ../multiload/properties.c:631
+msgid "_Read"
+msgstr "_Luku"
+
+#: ../multiload/properties.c:632
+msgid "_Write"
+msgstr "_Kirjoitus"
+
+#: ../multiload/properties.c:657
+msgid "System Monitor Preferences"
+msgstr "Järjestelmänvalvonnan asetukset"
+
+#: ../null_applet/MATE_CDPlayerApplet.server.in.h:1
+msgid "CD Player (Deprecated)"
+msgstr "CD-soitin (Vanha)"
+
+#: ../null_applet/MATE_CDPlayerApplet.server.in.h:2
+msgid "Panel applet for playing audio CDs"
+msgstr "Paneelisovelma CD-äänilevyjen soittamiseen"
+
+#: ../null_applet/MATE_MailcheckApplet_Factory.server.in.h:1
+msgid "Inbox Monitor (Deprecated)"
+msgstr "Postilaatikon ilmaisin (Vanhentunut)"
+
+#: ../null_applet/MATE_MailcheckApplet_Factory.server.in.h:2
+msgid "Alert you when new mail arrives"
+msgstr "Ilmoita kun uutta sähköpostia saapuu"
+
+#: ../null_applet/MATE_MixerApplet.server.in.h:1
+msgid "Volume Control (Deprecated)"
+msgstr "Äänenvoimakkuus (vanha versio)"
+
+#: ../null_applet/MATE_MixerApplet.server.in.h:2
+msgid "Adjust the sound volume"
+msgstr "Säädä äänenvoimakkuutta"
+
+#: ../null_applet/MATE_NullApplet_Factory.server.in.in.h:1
+msgid "Null Applet Factory"
+msgstr "Tyhjän sovelman tehdas"
+
+#: ../null_applet/MATE_NullApplet_Factory.server.in.in.h:2
+msgid "Factory for deprecating applets"
+msgstr "Tehdas vanhojen sovelmien piilottamisiin"
+
+#: ../null_applet/MATE_Panel_WirelessApplet.server.in.h:1
+msgid "Wireless Link Monitor"
+msgstr "Langattomien laitteiden valvonta"
+
+#: ../null_applet/MATE_Panel_WirelessApplet.server.in.h:2
+msgid "Monitor the quality of a wireless network link"
+msgstr "Seuraa langattoman verkon yhteyden laatua"
+
+#: ../null_applet/MATE_KeyboardApplet.server.in.h:1
+msgid "Keyboard Indicator (Deprecated)"
+msgstr "Näppäimistöilmaisin (vanhentunut)"
+
+#: ../null_applet/MATE_KeyboardApplet.server.in.h:2
+msgid "Keyboard layout indicator"
+msgstr "Näppäimistön asettelun osoitin"
+
+#: ../null_applet/null_applet.c:40
+msgid "Inbox Monitor"
+msgstr "Inbox-kansio tarkkailu"
+
+#: ../null_applet/null_applet.c:42
+msgid "CD Player"
+msgstr "CD-soitin"
+
+#: ../null_applet/null_applet.c:48
+msgid "Keyboard Indicator"
+msgstr "Näppäimistön asettelu"
+
+#: ../null_applet/null_applet.c:151
+msgid "Some panel items are no longer available"
+msgstr "Jotkut paneelin kohdista eivät ole enää saatavilla"
+
+#: ../null_applet/null_applet.c:152
+msgid ""
+"One or more panel items (also referred to as applets) are no longer "
+"available in the MATE desktop."
+msgstr "Yksi tai useampi käyttämäsi paneelin sovelma on poistettu tästä Mate-työpöydän versiosta."
+
+#: ../null_applet/null_applet.c:154
+msgid "These items will now be removed from your configuration:"
+msgstr "Nämä sovelmat poistetaan nyt konfiguraatiostasi."
+
+#: ../null_applet/null_applet.c:157
+msgid "You will not receive this message again."
+msgstr "Et näe tätä viestiä enää uudestaan"
+
+#: ../stickynotes/data/MATE_StickyNotesApplet.server.in.h:1
+msgid "Tomboy (ne Stickynotes)"
+msgstr "Tomboy-muistilaput"
+
+#: ../stickynotes/data/MATE_StickyNotesApplet.server.in.h:2
+msgid "Tomboy (transparent upgrade from stickynotes)"
+msgstr "Tomboy (päivitys aiempaan muistilappuohjelmaan)"
+
+#: ../stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.in.in.h:1
+msgid "Sticky Notes Applet Factory"
+msgstr "Muistilappusovelman tehdas"
+
+#: ../stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.in.in.h:2
+#: ../stickynotes/stickynotes_applet.c:147
+#: ../stickynotes/stickynotes_applet.c:428
+msgid "Sticky Notes"
+msgstr "Muistilaput"
+
+#: ../stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.in.in.h:3
+msgid "Create, view, and manage sticky notes on the desktop"
+msgstr "Luo, näytä ja hallitse muistilappuja työpöydällä"
+
+#: ../stickynotes/stickynotes.c:634
+msgid "This note is locked."
+msgstr "Muistilappu on lukittu."
+
+#: ../stickynotes/stickynotes.c:638
+msgid "This note is unlocked."
+msgstr "Muistilappu ei ole lukittu"
+
+#: ../stickynotes/stickynotes.ui.h:1 ../stickynotes/stickynotes_applet.c:33
+msgid "_New Note"
+msgstr "_Uusi muistilappu"
+
+#: ../stickynotes/stickynotes.ui.h:2
+msgid "_Delete Note..."
+msgstr ""
+
+#: ../stickynotes/stickynotes.ui.h:3
+msgid "_Lock Note"
+msgstr ""
+
+#: ../stickynotes/stickynotes.ui.h:5
+msgid "Sticky Notes Preferences"
+msgstr "Muistilappujen asetukset"
+
+#: ../stickynotes/stickynotes.ui.h:6
+msgid "Default Note Properties"
+msgstr "Oletusmuistilapun ominaisuudet"
+
+#: ../stickynotes/stickynotes.ui.h:7
+msgid "Choose a font to use for all sticky notes"
+msgstr "Valitse kirjasin, jota käytetään kaikissa muistilapuissa"
+
+#: ../stickynotes/stickynotes.ui.h:8
+msgid "Pick a default sticky note font"
+msgstr "Valitse muistilappujen oletuskirjasin"
+
+#: ../stickynotes/stickynotes.ui.h:9
+msgid "_Font:"
+msgstr "_Kirjasin:"
+
+#: ../stickynotes/stickynotes.ui.h:10
+msgid "Use fo_nt from the system theme"
+msgstr "Käytä järjestelmän teeman k_irjasinta"
+
+#: ../stickynotes/stickynotes.ui.h:11
+msgid "Note C_olor:"
+msgstr "Muistilapun _väri:"
+
+#: ../stickynotes/stickynotes.ui.h:12
+msgid "Font Co_lor:"
+msgstr "Kirjasimen _väri:"
+
+#: ../stickynotes/stickynotes.ui.h:13
+msgid "Choose a base color to use for all sticky notes"
+msgstr "Valitse perusväri, jota käytetään kaikissa muistilapuissa"
+
+#: ../stickynotes/stickynotes.ui.h:14
+msgid "Pick a default sticky note color"
+msgstr "Valitse muistilappujen oletusväri"
+
+#: ../stickynotes/stickynotes.ui.h:15
+msgid "Use co_lor from the system theme"
+msgstr "Käytä järjestelmän teeman v_äriä"
+
+#: ../stickynotes/stickynotes.ui.h:16
+msgid "Specify the default height (in pixels) of new notes"
+msgstr "Määrittele uusien muistilappujen korkeus (pikseleinä)"
+
+#: ../stickynotes/stickynotes.ui.h:17
+msgid "Specify the default width (in pixels) of new notes"
+msgstr "Määrittele uusien muistilappujen leveys (pikseleinä)"
+
+#: ../stickynotes/stickynotes.ui.h:18
+msgid "H_eight:"
+msgstr "Ko_rkeus:"
+
+#: ../stickynotes/stickynotes.ui.h:20
+msgid "Behavior"
+msgstr "Toiminta"
+
+#: ../stickynotes/stickynotes.ui.h:21
+msgid "Hide notes when the des_ktop is clicked on"
+msgstr ""
+
+#: ../stickynotes/stickynotes.ui.h:22
+msgid "Choose whether to hide all notes when selecting on the desktop"
+msgstr ""
+
+#: ../stickynotes/stickynotes.ui.h:23
+msgid "Force _default color and font on notes"
+msgstr "Pakotetaanko _oletusväri ja -kirjasin kaikkiin muistilappuihin"
+
+#: ../stickynotes/stickynotes.ui.h:24
+msgid "Choose if the default style is forced on all notes"
+msgstr "Pakotetaanko oletusulkonäkö kaikkiin muistilappuihin"
+
+#: ../stickynotes/stickynotes.ui.h:25
+msgid "_Put notes on all workspaces"
+msgstr "Näytä laput kaikilla ty_öpöydillä"
+
+#: ../stickynotes/stickynotes.ui.h:26
+msgid "Choose if notes are visible on all workspaces"
+msgstr "Valitse näkyvätkö muistilaput kaikilla työpöydillä"
+
+#: ../stickynotes/stickynotes.ui.h:27
+msgid "Delete this sticky note?"
+msgstr "Poistetaanko tämä muistilappu?"
+
+#: ../stickynotes/stickynotes.ui.h:28
+msgid "This cannot be undone."
+msgstr "Tätä ei voi perua."
+
+#: ../stickynotes/stickynotes.ui.h:29
+msgid "Delete all sticky notes?"
+msgstr "Poista kaikki muistilaput?"
+
+#: ../stickynotes/stickynotes.ui.h:30
+msgid "_Delete All"
+msgstr "_Poista kaikki"
+
+#: ../stickynotes/stickynotes.ui.h:31
+msgid "Sticky Note"
+msgstr "Muistilappu"
+
+#: ../stickynotes/stickynotes.ui.h:32
+msgid "Lock/Unlock note"
+msgstr "Lukitse/Avaa muistilappu"
+
+#: ../stickynotes/stickynotes.ui.h:33
+msgid "Close note"
+msgstr "Sulje muistilappu"
+
+#: ../stickynotes/stickynotes.ui.h:34
+msgid "Resize note"
+msgstr "Venytä muistilappua"
+
+#: ../stickynotes/stickynotes.ui.h:35
+msgid "Sticky Note Properties"
+msgstr "Muistilapun ominaisuudet"
+
+#: ../stickynotes/stickynotes.ui.h:36
+msgid "Properties"
+msgstr "Ominaisuudet"
+
+#: ../stickynotes/stickynotes.ui.h:37
+msgid "Choose a font for the note"
+msgstr "Valitse muistilapun kirjasin"
+
+#: ../stickynotes/stickynotes.ui.h:38
+msgid "Pick a font for the sticky note"
+msgstr "Valitse muistilapun kirjasin"
+
+#: ../stickynotes/stickynotes.ui.h:39
+msgid "Use default fo_nt"
+msgstr "Käytä oletusk_irjasinta"
+
+#: ../stickynotes/stickynotes.ui.h:40
+msgid "Choose a color for the note"
+msgstr "Valitse muistilapun väri"
+
+#: ../stickynotes/stickynotes.ui.h:41
+msgid "Pick a color for the sticky note"
+msgstr "Valitse muistilapun väri"
+
+#: ../stickynotes/stickynotes.ui.h:42
+msgid "Note _Color:"
+msgstr "Muistilapun _väri:"
+
+#: ../stickynotes/stickynotes.ui.h:43
+msgid "Font C_olor:"
+msgstr "Kirjasimen _väri:"
+
+#: ../stickynotes/stickynotes.ui.h:44
+msgid "Use default co_lor"
+msgstr "Käytä oletusv_äriä"
+
+#: ../stickynotes/stickynotes.ui.h:45
+msgid "Specify a title for the note"
+msgstr "Määrittele muistilapun otsikko"
+
+#: ../stickynotes/stickynotes.ui.h:46
+msgid "_Title:"
+msgstr "_Otsikko:"
+
+#: ../stickynotes/stickynotes.schemas.in.h:1
+msgid "Default width for new notes"
+msgstr "Uusien muistilappujen oletusleveys"
+
+#: ../stickynotes/stickynotes.schemas.in.h:2
+msgid "Default width for new sticky notes in pixels."
+msgstr "Uusien muistilappujen oletusleveys pikseleinä."
+
+#: ../stickynotes/stickynotes.schemas.in.h:3
+msgid "Default height for new notes"
+msgstr "Uusien muistilappujen oletuskorkeus"
+
+#: ../stickynotes/stickynotes.schemas.in.h:4
+msgid "Default height for new sticky notes in pixels."
+msgstr "Uusien muistilappujen oletuskorkeus pikseleinä."
+
+#: ../stickynotes/stickynotes.schemas.in.h:5
+msgid "Default color for new notes"
+msgstr "Uusien muistilappujen oletusväri"
+
+#: ../stickynotes/stickynotes.schemas.in.h:6
+msgid ""
+"Default color for new sticky notes. This should be in html hex "
+"specification, for example \"#30FF50\"."
+msgstr "Uusien muistilappujen oletusväri. Tämä tulisi esittää HTML:n heksamuodossa. Esimerkiksi ”#30FF50”."
+
+#: ../stickynotes/stickynotes.schemas.in.h:7
+msgid "Default color for font"
+msgstr "Kirjasimen oletusväri"
+
+#: ../stickynotes/stickynotes.schemas.in.h:8
+msgid ""
+"Default font color for new sticky notes. This should be in html hex "
+"specification, for example \"#000000\"."
+msgstr "Uusien muistilappujen kirjasimen oletusväri. Tämä tulisi esittää HTML:n heksamuodossa,  esimerkiksi ”#000000”."
+
+#: ../stickynotes/stickynotes.schemas.in.h:9
+msgid "Default font for new notes"
+msgstr "Uusien muistilappujen oletuskirjasin"
+
+#: ../stickynotes/stickynotes.schemas.in.h:10
+msgid ""
+"Default font for new sticky notes. This should be a Pango Font Name, for "
+"example \"Sans Italic 10\"."
+msgstr "Uusien muistilappujen oletuskirjasin. Tämän tulisi olla Pango-kirjasinnimi, esimerkiksi ”Sans Italic 10”."
+
+#: ../stickynotes/stickynotes.schemas.in.h:11
+msgid "Sticky notes' workspace stickyness"
+msgstr "Muistilappujen naulaus työtilojen välillä"
+
+#: ../stickynotes/stickynotes.schemas.in.h:12
+msgid ""
+"Specifies whether the sticky notes are visible on ALL workspaces on the "
+"desktop, or not."
+msgstr "Määrittää näytetäänkö muistilaput kaikissa työpöydän työtiloissa vai ei"
+
+#: ../stickynotes/stickynotes.schemas.in.h:13
+msgid "Sticky notes' locked state"
+msgstr "Muistilappujen lukitustila"
+
+#: ../stickynotes/stickynotes.schemas.in.h:14
+msgid "Specifies whether the sticky notes are locked (non-editable) or not."
+msgstr "Määrittää ovatko muistilaput lukittuja (eivät muokattavissa) vai eivät."
+
+#: ../stickynotes/stickynotes.schemas.in.h:15
+msgid "Date format of note's title"
+msgstr "Lapun otsikon päiväysmuoto"
+
+#: ../stickynotes/stickynotes.schemas.in.h:16
+msgid ""
+"By default, sticky notes are given the current date as the title when they "
+"are created. This format is used; anything that can be parsed by strftime() "
+"is valid."
+msgstr "Oletuksena uudet muistilaput saavat otsikokseen nykyisen päiväyksen. Tähän käytetään tässä määriteltyä kaavaa. Mikä tahansa arvo jonka strftime() osaa jäsentää on kelvollinen."
+
+#: ../stickynotes/stickynotes.schemas.in.h:17
+msgid "Whether to use the default system color"
+msgstr "Määrittää käytetäänkö järjestelmän oletusväriä"
+
+#: ../stickynotes/stickynotes.schemas.in.h:18
+msgid ""
+"If this option is disabled, a custom color can be used as the default color "
+"for all sticky notes."
+msgstr "Jos tämä asetus on pois päältä, muistilappujen oletusvärinä voidaan käyttää mukautettua väriä."
+
+#: ../stickynotes/stickynotes.schemas.in.h:19
+msgid "Whether to use the default system font"
+msgstr "Määrittää käytetäänkö järjestelmän oletuskirjasinta"
+
+#: ../stickynotes/stickynotes.schemas.in.h:20
+msgid ""
+"If this option is disabled, a custom font can be used as the default font "
+"for all sticky notes."
+msgstr "Jos tämä asetus on pois päältä, muistilappujen oletuskirjaimena voidaan käyttää mukautettua kirjasinta."
+
+#: ../stickynotes/stickynotes.schemas.in.h:21
+msgid "Whether to force the default color and font on all notes"
+msgstr "Määrittää pakotetaanko oletusväri ja -kirjasin kaikkiin muistilappuihin"
+
+#: ../stickynotes/stickynotes.schemas.in.h:22
+msgid ""
+"If this option is enabled, the custom colors and fonts that have been "
+"assigned to individual notes will be ignored."
+msgstr "Jos tämä asetus on päällä, eri muistilapuille asetetut mukautetut värit ja kirjasimet jätetään huomiotta ja käytetään oletusarvoja."
+
+#: ../stickynotes/stickynotes.schemas.in.h:23
+msgid "Whether to hide all notes when the desktop is selected"
+msgstr ""
+
+#: ../stickynotes/stickynotes.schemas.in.h:24
+msgid ""
+"If this option is enabled, selecting the desktop in any way will "
+"automatically hide all the open notes."
+msgstr ""
+
+#: ../stickynotes/stickynotes.schemas.in.h:25
+msgid "Whether to ask for confirmation when deleting a note"
+msgstr "Määrittää kysytäänkö muistilappua poistettaessa varmistusta"
+
+#: ../stickynotes/stickynotes.schemas.in.h:26
+msgid "Empty notes are always deleted without confirmation."
+msgstr "Tyhjät muistilaput poistetaan aina ilman varmistusta."
+
+#: ../stickynotes/stickynotes_applet.c:36
+msgid "Hi_de Notes"
+msgstr "_Piilota muistilaput"
+
+#: ../stickynotes/stickynotes_applet.c:39
+msgid "_Delete Notes"
+msgstr "_Poista muistilaput"
+
+#: ../stickynotes/stickynotes_applet.c:55
+msgid "_Lock Notes"
+msgstr "_Lukitse muistilaput"
+
+#: ../stickynotes/stickynotes_applet.c:621
+#, c-format
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] "%d lappu"
+msgstr[1] "%d lappua"
+
+#: ../stickynotes/stickynotes_applet.c:622
+msgid "Show sticky notes"
+msgstr "Näytä muistilaput"
+
+#: ../stickynotes/stickynotes_applet_callbacks.c:421
+msgid "Sticky Notes for the MATE Desktop Environment"
+msgstr "Mate-työpöydän muistilaput"
+
+#: ../timer-applet/data/TimerApplet.server.in.in.h:1
+msgid "Timer Applet Factory"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.server.in.in.h:2
+msgid "A Timer Applet factory that creates Timer Applets"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.server.in.in.h:3
+msgid "Timer"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.server.in.in.h:4
+msgid "Start a timer and receive a notification when it is finished"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.xml.h:1
+msgid "Pa_use"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.xml.h:2
+msgid "_Continue"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.xml.h:3
+msgid "_Stop"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.xml.h:4
+msgid "R_estart"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.xml.h:5
+msgid "Next"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.xml.h:6
+msgid "Pre_sets"
+msgstr ""
+
+#: ../timer-applet/data/TimerApplet.xml.h:7
+msgid "Ma_nage Presets"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:1
+msgid "Start Timer"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:2
+msgid "_Name:"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:3
+msgid "Start automatically"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:4
+msgid "<b>Define next timer</b>"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:5
+msgid "Execute:"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:6
+msgid "<b>Run custom command</b>"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:7
+msgid "Run executable after timer finished."
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:8
+msgid "Advanced"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:9
+msgid "S_ave as Preset"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:10
+msgid "Mana_ge Presets"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:11
+msgid "<b>_Presets</b>"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:12
+msgid "S_tart Timer"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:13
+msgid "Manage Presets"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:14
+msgid "_Delete"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:15
+msgid "_Edit..."
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:16
+msgid "_Add..."
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:17
+msgid "Timer Preferences"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:18
+msgid "_Show remaining time while timer is running"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:19
+msgid "_Play notification sound"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:20
+msgid "Use d_efault sound"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:21
+msgid "Use c_ustom sound"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:22
+msgid "Choose A Sound File"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:23
+msgid "_Show popup notification"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:24
+msgid "_Show popup notification after timer has ended."
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:25
+msgid "S_how pulsing panel icon"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:26
+msgid "Show pulsing panel icon after timer has ended."
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:27
+#: ../timer-applet/src/timerapplet/controllers/GlobalController.py:47
+msgid "Add Preset"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:28
+msgid "<b>_Name</b>"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:29
+msgid "<b>_Duration</b>"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:30
+msgid "Run custom command after timer has ended."
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:31
+msgid "<b>Custom command</b>"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:32
+msgid "Initiate automatically"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:33
+msgid "<b>Interval timer</b>"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:34
+msgid "A timer applet for the perfect egg and beyond!"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.glade.h:35
+msgid "Timer Applet"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:1
+msgid "Play notification sound"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:2
+msgid "Play a notification sound when the timer finishes a countdown"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:3
+msgid "Use a custom notification sound"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:4
+msgid ""
+"Use the custom notification sound specified in "
+"custom_notification_sound_path"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:5
+msgid "Path to a custom notification sound"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:6
+msgid ""
+"Path to a sound file that will be played when the timer finishes a countdown"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:7
+msgid "Show Pulsing icon"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:8
+msgid "Show pulsing tray icon when timer finished"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:9
+msgid "Show Popup notification"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:10
+msgid "Show Popup notification in the notification area"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:11
+msgid "Show remaining time"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:12
+msgid "Show the remaining time while the timer is running or paused"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:13
+msgid "Play a beep sound"
+msgstr ""
+
+#: ../timer-applet/data/timer-applet.schemas.in.h:14
+msgid ""
+"Play a beep sound on a computer's internal speaker when the timer finishes. "
+"This may not have an effect on all computers."
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/controllers/GlobalController.py:62
+msgid "Edit Preset"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:96
+msgid "Continue timer countdown?"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:97
+msgid "The timer is currently paused. Would you like to continue countdown?"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:193
+msgid "Click to start a new timer countdown."
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:198
+msgid "Paused. Click to continue timer countdown."
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:201
+msgid "Finished"
+msgstr ""
+
+#. "<timer name>" finished at <time>
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:206
+#, python-format
+msgid ""
+"\"%s\" finished at %s.\n"
+"Click to stop timer."
+msgstr ""
+
+#. Timer finished at <time>
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:209
+#, python-format
+msgid ""
+"Timer finished at %s.\n"
+"Click to stop timer."
+msgstr ""
+
+#. HH:MM:SS (<timer name>)
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:385
+#, python-format
+msgid "%02d:%02d:%02d (%s)"
+msgstr ""
+
+#. HH:MM:SS
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:388
+#: ../timer-applet/src/timerapplet/utils.py:52
+#, python-format
+msgid "%02d:%02d:%02d"
+msgstr ""
+
+#. "<timer name>" Finished
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:410
+#, python-format
+msgid "\"%s\" Finished"
+msgstr ""
+
+#. "<timer name>" finished at <time>
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:413
+#, python-format
+msgid "\"%s\" finished at %s"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:415
+msgid "Timer Finished"
+msgstr ""
+
+#. Timer finished at <time>
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:418
+#, python-format
+msgid "Timer finished at %s"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:425
+#, python-format
+msgid "Timer finished about <b>%d second</b> ago"
+msgid_plural "Timer finished about <b>%d seconds</b> ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../timer-applet/src/timerapplet/controllers/TimerApplet.py:430
+#, python-format
+msgid "Timer finished about <b>%d minute</b> ago"
+msgid_plural "Timer finished about <b>%d minutes</b> ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../timer-applet/src/timerapplet/ui/ContinueTimerDialog.py:24
+msgid "Continue Timer"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/ContinueTimerDialog.py:27
+msgid "_Stop Timer"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/ContinueTimerDialog.py:28
+msgid "_Keep Paused"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/ContinueTimerDialog.py:29
+msgid "_Continue Timer"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/StartTimerDialog.py:197
+msgid "<b>Command not found.</b>"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/StartNextTimerDialog.py:30
+msgid "Start Next Timer"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/StartNextTimerDialog.py:33
+msgid "_Don't start next timer"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/StartNextTimerDialog.py:34
+msgid "_Start next timer"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/DurationChooser.py:31
+msgid "_Hours:"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/DurationChooser.py:34
+msgid "_Minutes:"
+msgstr ""
+
+#: ../timer-applet/src/timerapplet/ui/DurationChooser.py:37
+msgid "_Seconds:"
+msgstr ""
+
+#. HH:MM
+#. MM:SS
+#: ../timer-applet/src/timerapplet/utils.py:56
+#: ../timer-applet/src/timerapplet/utils.py:59
+#, python-format
+msgid "%02d:%02d"
+msgstr ""
+
+#. <preset name> (HH:MM:SS)
+#: ../timer-applet/src/timerapplet/utils.py:69
+#, python-format
+msgid "%s (%02d:%02d:%02d)"
+msgstr ""
+
+#: ../trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.in.in.h:1
+msgid "Trash"
+msgstr "Roskakori"
+
+#: ../trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.in.in.h:2
+msgid "Go to Trash"
+msgstr "Avaa roskakori"
+
+#: ../trashapplet/src/trashapplet.c:69 ../trashapplet/src/trash-empty.c:351
+msgid "_Empty Trash"
+msgstr "Tyhjennä roskakori"
+
+#: ../trashapplet/src/trashapplet.c:72
+msgid "_Open Trash"
+msgstr "_Avaa roskakori"
+
+#: ../trashapplet/src/trashapplet.c:128
+#, c-format
+msgid "%d Item in Trash"
+msgid_plural "%d Items in Trash"
+msgstr[0] "%d tiedosto roskakorissa"
+msgstr[1] "%d tiedostoa roskakorissa"
+
+#: ../trashapplet/src/trashapplet.c:136
+msgid "No Items in Trash"
+msgstr "Roskakori on tyhjä"
+
+#: ../trashapplet/src/trashapplet.c:378
+#, c-format
+msgid ""
+"Error while spawning caja:\n"
+"%s"
+msgstr "Virhe käynnistettäessä cajata:\n%s"
+
+#: ../trashapplet/src/trashapplet.c:427
+msgid ""
+"A MATE trash bin that lives in your panel. You can use it to view the trash "
+"or drag and drop items into the trash."
+msgstr "Maten roskakori, joka näkyy paneelissasi. Voit katsoa sen avulla roskakorisi sisältöä tai raahata siihen roskakoriin laitettavia tiedostoja."
+
+#: ../trashapplet/src/trashapplet.c:452
+msgid "Delete Immediately?"
+msgstr "Poistetaanko heti?"
+
+#: ../trashapplet/src/trashapplet.c:482
+msgid "Cannot move items to trash, do you want to delete them immediately?"
+msgstr "Kohteita ei voida siirtää roskakoriin, haluatko poistaa ne pysyvästi heti?"
+
+#: ../trashapplet/src/trashapplet.c:487
+msgid ""
+"Cannot move some items to trash, do you want to delete these immediately?"
+msgstr "Kohteita ei voida siirtää roskakoriin, haluatko poistaa ne pysyvästi heti?"
+
+#: ../trashapplet/src/trashapplet.c:617
+msgid "Trash Applet"
+msgstr "Roskakorisovelma"
+
+#. Translators: the %s in this string should be read as %d.
+#: ../trashapplet/src/trash-empty.c:81
+#, c-format
+msgid "Removing item %s of %s"
+msgstr "Poistetaan kohdetta %s / %s"
+
+#. Translators: %s is a file name
+#: ../trashapplet/src/trash-empty.c:107
+#, c-format
+msgid "Removing: %s"
+msgstr "Poistetaan: %s"
+
+#: ../trashapplet/src/trash-empty.c:330
+msgid "Empty all of the items from the trash?"
+msgstr "Poista kaikki roskakorissa olevat tiedostot?"
+
+#: ../trashapplet/src/trash-empty.c:337
+msgid ""
+"If you choose to empty the trash, all items in it will be permanently lost. "
+"Please note that you can also delete them separately."
+msgstr "Jos tyhjennät roskakorin, tuhotaan kaikki siellä olevat tiedostot pysyvästi. Huomaa että voit poistaa roskakorista tiedostoja myös yksitellen."
+
+#: ../trashapplet/trashapplet-empty-progress.ui.h:1
+msgid "Emptying the Trash"
+msgstr "Tyhjennetään roskakoria"
+
+#: ../trashapplet/trashapplet-empty-progress.ui.h:2
+msgid "From:"
+msgstr "Lähteestä:"

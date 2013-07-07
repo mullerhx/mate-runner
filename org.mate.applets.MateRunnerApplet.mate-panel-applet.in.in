@@ -1,0 +1,16 @@
+[Applet Factory]
+Id=MateRunnerAppletFactory
+Location=@BINDIR@/mate-runner-applet
+_Name=Mate Runner Applet Factory
+_Description=Factory For Mate Runner
+
+[MateRunnerApplet]
+_Name=Mate Runner
+_Description=Execute local commands
+Icon=media-floppy
+MateComponentId=MateRunnerApplet
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-applets
+X-MATE-Bugzilla-Component=MateRunner
+X-MATE-Bugzilla-Version=@VERSION@
+X-MATE-Bugzilla-OtherBinaries=mate-runner-applet
