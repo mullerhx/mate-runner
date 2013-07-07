@@ -31,7 +31,7 @@
 #include <mate-panel-applet.h>
 
 
-void mate_runner_keypress_cb (GtkWidget *widget, gpointer data);
+// void mate_runner_keypress_cb (GtkWidget *widget, gpointer data);
 
 static const char factory_iid[] = "MateRunnerAppletFactory";
 static const char applet_iid[] = "MateRunnerApplet";
@@ -46,7 +46,7 @@ static gboolean applet_factory (MatePanelApplet *applet, const char *iid, gpoint
 
 	gboolean retval = FALSE;
 
-	if (strcmp (iid, applet_iid)) {
+	if (!strcmp (iid, applet_iid)) {
 		retval = mate_runner_applet_fill (applet); 
     }
 	if (retval == FALSE) {
@@ -76,7 +76,7 @@ mate_runner_applet_fill(MatePanelApplet *applet) {
 	gtk_entry_set_editable(GTK_ENTRY(cmdline), TRUE);
 	gtk_entry_set_text(GTK_ENTRY(cmdline), "MateRunner Applet"); 
 	
-	g_signal_connect (cmdline, "key-press-event", G_CALLBACK (mate_runner_keypress_cb), NULL);
+//	g_signal_connect (cmdline, "key-press-event", G_CALLBACK (mate_runner_keypress_cb), NULL);
 	 
 	gtk_entry_set_max_length (GTK_ENTRY(cmdline), 50);
 	gtk_widget_show_all (GTK_WIDGET (applet));
@@ -87,10 +87,10 @@ mate_runner_applet_fill(MatePanelApplet *applet) {
 	return TRUE;
 }
 
-void mate_runner_keypress_cb (GtkWidget *widget, gpointer data) {
-
-		gtk_entry_append_text(GTK_ENTRY(widget), data);
-}
+//void mate_runner_keypress_cb (GtkWidget *widget, gpointer data) {
+//
+//		gtk_entry_append_text(GTK_ENTRY(widget), data);
+//}
 
 MATE_PANEL_APPLET_OUT_PROCESS_FACTORY (factory_iid,
 				  PANEL_TYPE_APPLET,
