@@ -31,7 +31,6 @@
 
 
 void mate_runner_activate_cb(GtkWidget *widget, gpointer data);
-void mate_runner_insert_text_handler_cb(GtkEntry *entry, const gchar *text, gint length, gint position, gpointer data);
 
 static const char factory_iid[] = "MateRunnerAppletFactory";
 static const char applet_iid[] = "MateRunnerApplet";
@@ -89,14 +88,13 @@ void mate_runner_activate_cb(GtkWidget *widget, gpointer data) {
   const gchar* cmd = gtk_entry_get_text(GTK_ENTRY(widget));
   gboolean result = g_spawn_command_line_async(cmd,err);
   if(!result) {
-	GtkMessageDialog* dlg = gtk_message_dialog_new(NULL, GTK_DIALOG_MODAL, GTK_MESSAGE_ERROR, GTK_BUTTONS_OK,  "Error executing command !");
+	GtkMessageDialog* dlg = gtk_message_dialog_new(NULL, GTK_DIALOG_MODAL, GTK_MESSAGE_ERROR, 
+												   GTK_BUTTONS_OK,  "Error executing command !");
 	
 	gtk_dialog_run(GTK_DIALOG(dlg));
 	gtk_widget_destroy (GTK_WIDGET(dlg));
   }
 }
 
-MATE_PANEL_APPLET_OUT_PROCESS_FACTORY (factory_iid,
-				  PANEL_TYPE_APPLET,
-				  "MateRunnerApplet",
-				  (MatePanelAppletFactoryCallback)applet_factory, NULL)
+MATE_PANEL_APPLET_OUT_PROCESS_FACTORY (factory_iid, PANEL_TYPE_APPLET, "MateRunnerApplet",
+									   (MatePanelAppletFactoryCallback)applet_factory, NULL)
