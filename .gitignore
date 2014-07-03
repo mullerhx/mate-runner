@@ -1,0 +1,12 @@
+.deps
+COPYING
+INSTALL
+Makefile
+autom4te.cache*
+config.status
+depcomp
+install-sh
+missing
+po/.intltool-merge-cache
+README
+
