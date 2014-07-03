@@ -2,7 +2,8 @@
 COPYING
 INSTALL
 Makefile
-autom4te.cache*
+autom4te.cache
+autom4te.cache/*
 config.status
 depcomp
 install-sh
