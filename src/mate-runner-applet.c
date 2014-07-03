@@ -39,54 +39,61 @@ static const char applet_iid[] = "MateRunnerApplet";
 static gboolean already_running = FALSE;
 
 static void response_cb (GtkWidget *dialog, gint arg1, gpointer user_data) {
-	gtk_widget_destroy (dialog);
+  
+  gtk_widget_destroy (dialog);
 }
 
 static gboolean applet_factory (MatePanelApplet *applet, const char *iid, gpointer user_data) {
-
-	gboolean retval = FALSE;
-
-	if (!strcmp (iid, applet_iid)) {
-		retval = mate_runner_applet_fill (applet); 
-    }
-	if (retval == FALSE) {
-		exit (-1);
-	}
-
-	return retval;
+  
+  gboolean retval = FALSE;
+  
+  if (!strcmp (iid, applet_iid)) {
+	retval = mate_runner_applet_fill (applet); 
+  }
+  
+  return retval;
 }
 
-mate_runner_applet_fill(MatePanelApplet *applet) {
-	
-	char *applet_list;
-	GtkWidget *dialog;
-	GtkWidget* cmdline;
-	GtkWidget* event_box;
-	
-	if (already_running) {
-	    return FALSE;
-	}
-	
-	cmdline = gtk_entry_new();
-	event_box = gtk_hbox_new(FALSE,1);
-	gtk_container_add (GTK_CONTAINER(applet), GTK_HBOX(event_box));
-	gtk_container_add (GTK_CONTAINER(event_box), GTK_ENTRY(cmdline));
-
-	gtk_entry_set_editable(GTK_ENTRY(cmdline), TRUE);
-	gtk_entry_set_text(GTK_ENTRY(cmdline), ""); 
-	
-	g_signal_connect(G_OBJECT(cmdline), "activate",G_CALLBACK(mate_runner_activate_cb),NULL); 
-		     
-	gtk_entry_set_max_length (GTK_ENTRY(cmdline), 50);
-	gtk_widget_show_all (GTK_WIDGET (applet));
-	
-	already_running = TRUE;
-		
-	return TRUE;
+gboolean mate_runner_applet_fill(MatePanelApplet *applet) {
+  
+  char *applet_list;
+  GtkWidget *dialog;
+  GtkWidget* cmdline;
+  GtkWidget* event_box;
+  
+  if (already_running) {
+	return FALSE;
+  }
+  
+  cmdline = gtk_entry_new();
+  event_box = gtk_hbox_new(FALSE,1);
+  gtk_container_add (GTK_CONTAINER(applet), GTK_WIDGET(event_box));
+  gtk_container_add (GTK_CONTAINER(event_box), GTK_WIDGET(cmdline));
+  
+  gtk_entry_set_editable(GTK_ENTRY(cmdline), TRUE);
+  gtk_entry_set_text(GTK_ENTRY(cmdline), ""); 
+  
+  g_signal_connect(G_OBJECT(cmdline), "activate",G_CALLBACK(mate_runner_activate_cb),NULL); 
+  
+  gtk_entry_set_max_length (GTK_ENTRY(cmdline), 50);
+  gtk_widget_show_all (GTK_WIDGET(applet));
+  
+  already_running = TRUE;
+  
+  return TRUE;
 }
 
 void mate_runner_activate_cb(GtkWidget *widget, gpointer data) {
+  
+  GError** err;
+  const gchar* cmd = gtk_entry_get_text(GTK_ENTRY(widget));
+  gboolean result = g_spawn_command_line_async(cmd,err);
+  if(!result) {
+	GtkMessageDialog* dlg = gtk_message_dialog_new(NULL, GTK_DIALOG_MODAL, GTK_MESSAGE_ERROR, GTK_BUTTONS_OK,  "Error executing command !");
 	
+	gtk_dialog_run(GTK_DIALOG(dlg));
+	gtk_widget_destroy (GTK_WIDGET(dlg));
+  }
 }
 
 MATE_PANEL_APPLET_OUT_PROCESS_FACTORY (factory_iid,
