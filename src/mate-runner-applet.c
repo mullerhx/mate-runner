@@ -87,7 +87,7 @@ void mate_runner_activate_cb(GtkWidget *widget, gpointer data) {
   GError** err;
   const gchar* cmd = gtk_entry_get_text(GTK_ENTRY(widget));
   gboolean result = g_spawn_command_line_async(cmd,err);
-  gtk_entry_set_text(GTK_ENTRY(widget), ""); 
+  gtk_entry_set_text(GTK_ENTRY(widget), "");
   if(!result) {
 	GtkMessageDialog* dlg = gtk_message_dialog_new(NULL, GTK_DIALOG_MODAL, GTK_MESSAGE_ERROR, 
 												   GTK_BUTTONS_OK,  "Error executing command !");
